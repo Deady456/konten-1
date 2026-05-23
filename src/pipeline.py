@@ -77,6 +77,12 @@ def main():
     args = p.parse_args()
     run_once(publish_at=args.publish_at, upload_to_youtube=not args.no_upload)
 
+    print("\n" + "-" * 60)
+    print("Done. If FreeFaceless saved you time:")
+    print("  Star it:     https://github.com/nils44344/FreeFaceless")
+    print("  Niche packs: https://nilaykabariya.gumroad.com/l/wkgohx")
+    print("-" * 60)
+
 
 if __name__ == "__main__":
     main()
