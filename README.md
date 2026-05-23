@@ -112,8 +112,7 @@ upload:
 ## Get more out of it
 
 - ⭐ **Star the repo** if it saved you a subscription.
-- 💛 **[Sponsor on GitHub](#)** to support maintenance.
-- 📦 **Premium niche pack** *(coming soon)* — ready-to-run config bundles for high-retention niches, extra caption presets, and a video walkthrough of the full setup.
+- 📦 **[Premium Niche Pack](https://nilaykabariya.gumroad.com/l/wkgohx)** — 6 ready-to-run niche presets, 60+ topic ideas, hook formulas, and caption styles. Pay what you want.
 
 ---
 
