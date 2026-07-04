@@ -11,20 +11,26 @@ SCOPES = [
     "https://www.googleapis.com/auth/youtube.force-ssl",
 ]
 CLIENT_SECRET = ROOT / "client_secret.json"
-TOKEN = ROOT / "token.json"
+
+
+def _token_path() -> Path:
+    """Return token file path based on channel config."""
+    channel = CONFIG.get("upload", {}).get("channel", "default")
+    return ROOT / f"token_{channel}.json"
 
 
 def get_service():
+    token_path = _token_path()
     creds = None
-    if TOKEN.exists():
-        creds = Credentials.from_authorized_user_file(str(TOKEN), SCOPES)
+    if token_path.exists():
+        creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(str(CLIENT_SECRET), SCOPES)
             creds = flow.run_local_server(port=0)
-        TOKEN.write_text(creds.to_json(), encoding="utf-8")
+        token_path.write_text(creds.to_json(), encoding="utf-8")
     return gbuild("youtube", "v3", credentials=creds)
 
 

@@ -1,3 +1,4 @@
+import time
 from pathlib import Path
 from faster_whisper import WhisperModel
 from .config import CONFIG
@@ -15,11 +16,14 @@ def _get_model() -> WhisperModel:
 
 def transcribe_words(audio_path: Path) -> list[dict]:
     model = _get_model()
-    segments, _ = model.transcribe(str(audio_path), word_timestamps=True)
+    print(f"    model loaded, transcribing {audio_path.name}...")
+    t0 = time.time()
+    segments, info = model.transcribe(str(audio_path), word_timestamps=True)
     words = []
     for seg in segments:
         for w in (seg.words or []):
             words.append({"word": w.word, "start": float(w.start), "end": float(w.end)})
+    print(f"    done in {time.time()-t0:.1f}s")
     return words
 
 

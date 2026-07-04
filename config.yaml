@@ -1,15 +1,15 @@
-niche: "fascinating educational facts (science, history, nature, space, human body)"
-audience: "curious adults who love learning surprising facts"
-language: en
+niche: "fakta sains dan pengetahuan umum yang mengejutkan (alam semesta, tubuh manusia, sejarah, hewan, teknologi)"
+audience: "orang dewasa Indonesia yang penasaran dan suka belajar hal baru"
+language: id
 
 script:
   model: llama-3.3-70b-versatile
-  target_seconds: 55
+  target_seconds: 65
   words_per_second: 2.5
 
 voice:
   provider: edge
-  voice: en-US-ChristopherNeural
+  voice: id-ID-ArdiNeural
   rate: "-12%"
   pitch: "+0Hz"
 
@@ -32,7 +32,8 @@ upload:
   privacy: "public"
   category_id: "27"
   made_for_kids: false
-  default_tags: ["shorts", "facts", "didyouknow", "education", "learn"]
+  channel: "default"   # ganti nama buat channel lain (misal: "channel2", "gaming", dll)
+  default_tags: ["shorts", "fakta", "edukasi", "menarik", "pengetahuan"]
 
 comments:
   model: llama-3.1-8b-instant

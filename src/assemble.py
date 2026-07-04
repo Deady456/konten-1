@@ -4,7 +4,9 @@ from pathlib import Path
 from .config import CONFIG, ROOT
 
 
-def _run(cmd: list[str]):
+def _run(cmd: list[str], desc: str = ""):
+    if desc:
+        print(f"    ffmpeg: {desc}")
     p = subprocess.run(cmd, capture_output=True, text=True, errors="replace")
     if p.returncode != 0:
         tail = (p.stderr or "")[-4000:]
@@ -62,6 +64,63 @@ def _prep_scene_clip(src: Path, target_dur: float, out_path: Path, w: int, h: in
         ])
 
 
+def _assemble_with_transitions(prepped: list[Path], durations: list[float],
+                                out_path: Path, w: int, h: int, fps: int,
+                                trans_dur: float = 0.3, fade_dur: float = 0.4):
+    """Concatenate clips with xfade transitions + fade in/out."""
+    n = len(prepped)
+    if n == 1:
+        out_start = max(0, durations[0] - fade_dur)
+        vf = f"fade=t=in:st=0:d={fade_dur},fade=t=out:st={out_start:.3f}:d={fade_dur}"
+        _run([
+            "ffmpeg", "-y", "-i", str(prepped[0]),
+            "-vf", vf,
+            "-c:v", "libx264", "-preset", "fast", "-crf", "20",
+            "-pix_fmt", "yuv420p",
+            str(out_path),
+        ], "fade in/out (single clip)")
+        return
+
+    # Build xfade filtergraph
+    trans_type = "fade"
+    cum = [sum(durations[:i+1]) for i in range(n)]
+    total_out = cum[-1] - trans_dur * (n - 1)
+
+    parts = []
+    # setpts for each input
+    for i in range(n):
+        parts.append(f"[{i}:v]settb=AVTB,setpts=PTS-STARTPTS[v{i}]")
+
+    # chain xfade transitions
+    prev = None
+    for i in range(n - 1):
+        offset = cum[i] - trans_dur * (i + 1)
+        if prev is None:
+            parts.append(f"[v{i}][v{i+1}]xfade=transition={trans_type}:duration={trans_dur:.3f}:offset={offset:.3f}[t{i}]")
+            prev = f"t{i}"
+        else:
+            parts.append(f"[{prev}][v{i+1}]xfade=transition={trans_type}:duration={trans_dur:.3f}:offset={offset:.3f}[t{i}]")
+            prev = f"t{i}"
+
+    # fade in/out on the final composed stream
+    out_start = max(0, total_out - fade_dur)
+    parts.append(f"[{prev}]fade=t=in:st=0:d={fade_dur},fade=t=out:st={out_start:.3f}:d={fade_dur}[out]")
+
+    filter_complex = ";".join(parts)
+
+    cmd = ["ffmpeg", "-y"]
+    for p in prepped:
+        cmd.extend(["-i", str(p)])
+    cmd.extend([
+        "-filter_complex", filter_complex,
+        "-map", "[out]",
+        "-c:v", "libx264", "-preset", "fast", "-crf", "20",
+        "-pix_fmt", "yuv420p",
+        str(out_path),
+    ])
+    _run(cmd, f"xfade transitions ({trans_type}, {trans_dur}s) + fade in/out")
+
+
 def build(
     scene_videos: list[Path],
     voice_audio: Path,
@@ -70,29 +129,53 @@ def build(
     scenes: list[dict],
     out_path: Path,
     work_dir: Path,
+    videos_per_scene: int = 1,
 ) -> Path:
     v = CONFIG["video"]
     w, h, fps = v["width"], v["height"], v["fps"]
     work_dir.mkdir(parents=True, exist_ok=True)
 
     durations = _scene_durations(words, scenes)
+
+    # Expand durations when multiple clips per scene
+    if videos_per_scene > 1:
+        expanded = []
+        for d in durations:
+            part = d / videos_per_scene
+            expanded.extend([part] * videos_per_scene)
+        durations = expanded
+
+    # Ensure total video covers full audio (Whisper timestamps may undershoot)
+    audio_dur = probe_duration(voice_audio)
+    total_video = sum(durations)
+    if total_video < audio_dur:
+        extra = audio_dur - total_video + 1.0
+        durations[-1] += extra
+        print(f"    last scene extended +{extra:.1f}s to match audio")
+
     prepped = []
     for i, (src, dur) in enumerate(zip(scene_videos, durations)):
         out = work_dir / f"prep_{i:02d}.mp4"
         _prep_scene_clip(src, dur, out, w, h, fps)
         prepped.append(out)
 
-    concat_list = work_dir / "concat.txt"
-    concat_list.write_text(
-        "\n".join(f"file '{p.as_posix()}'" for p in prepped),
-        encoding="utf-8",
-    )
-
     silent = work_dir / "silent.mp4"
-    _run([
-        "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_list),
-        "-c", "copy", str(silent),
-    ])
+    _assemble_with_transitions(prepped, durations, silent, w, h, fps)
+
+    video_dur = probe_duration(silent)
+    print(f"    video={video_dur:.1f}s audio={audio_dur:.1f}s")
+
+    if video_dur < audio_dur + 0.5:
+        pad = work_dir / "padded.mp4"
+        extra = audio_dur - video_dur + 1.5
+        print(f"    padding video +{extra:.1f}s (audio breather)")
+        _run([
+            "ffmpeg", "-y", "-i", str(silent),
+            "-vf", f"tpad=stop_mode=clone:stop_duration={extra:.3f}",
+            "-c:v", "libx264", "-preset", "fast", "-crf", "20",
+            "-pix_fmt", "yuv420p", str(pad),
+        ], "pad last frame")
+        silent = pad
 
     ass_arg = str(captions_ass).replace("\\", "/").replace(":", "\\:")
     fonts_arg = str(ROOT / "assets" / "fonts").replace("\\", "/").replace(":", "\\:")
@@ -101,7 +184,7 @@ def build(
         "-vf", f"subtitles='{ass_arg}':fontsdir='{fonts_arg}'",
         "-c:v", "libx264", "-preset", "medium", "-crf", "20",
         "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p",
-        "-shortest", "-movflags", "+faststart",
+        "-movflags", "+faststart",
         str(out_path),
-    ])
+    ], "final render (video+audio+captions)")
     return out_path
