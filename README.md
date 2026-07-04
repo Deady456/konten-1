@@ -25,8 +25,6 @@ Output: a 1080×1920, 30fps, ~55-second Short, captioned and uploaded — start 
 | **Monthly cost** | **₹0 / $0** | **$75–100+/mo** |
 | Your data & keys | stay on your machine | spread across vendors |
 
-> **Honest note:** this is a *production* tool, not a get-rich scheme. It automates making and posting videos. Views and revenue depend entirely on your niche, content quality, and YouTube's algorithm — no tool can promise those.
-
 ---
 
 ## Quickstart (Windows)
@@ -34,9 +32,6 @@ Output: a 1080×1920, 30fps, ~55-second Short, captioned and uploaded — start 
 You need: **Python 3.11+**, **ffmpeg**, and a **Google account with a YouTube channel**.
 
 ```powershell
-git clone https://github.com/nils44344/FreeFaceless.git
-cd FreeFaceless
-
 # 1. Add your free API keys
 Copy-Item .env.example .env      # then edit .env (Groq + Pexels keys)
 
@@ -53,8 +48,6 @@ Copy-Item .env.example .env      # then edit .env (Groq + Pexels keys)
 # 5. Real run — builds AND uploads
 .\.venv\Scripts\python -m src.pipeline
 ```
-
-Full step-by-step (including the Google Cloud setup) is in **[docs/SETUP.md](docs/SETUP.md)**.
 
 ---
 
@@ -109,16 +102,8 @@ upload:
 
 ---
 
-## Get more out of it
+## License
 
-- ⭐ **Star the repo** if it saved you a subscription.
-- 📦 **[Premium Niche Pack](https://nilaykabariya.gumroad.com/l/wkgohx)** — 6 ready-to-run niche presets, 60+ topic ideas, hook formulas, and caption styles. Pay what you want.
-
----
-
-## Credits & license
-
-- Code: **MIT** — see [LICENSE](LICENSE). Use it, fork it, even sell what you make with it.
-- Caption font: **[Anton](https://fonts.google.com/specimen/Anton)**, SIL Open Font License — see `assets/fonts/Anton-OFL.txt`.
+**MIT** — see [LICENSE](LICENSE).
 
 FreeFaceless is not affiliated with YouTube, Google, Groq, or Pexels. Follow each service's Terms of Service and YouTube's policies on automated/AI content.
