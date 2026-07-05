@@ -2,7 +2,7 @@ import argparse
 import re
 import time
 from datetime import datetime
-from . import script, voice, captions, visuals, assemble, thumbnail, upload, state
+from . import script, voice, captions, visuals, assemble, upload, state
 from .config import OUTPUT_DIR
 
 
@@ -70,11 +70,6 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True) -> d
             publish_at=publish_at,
         )
         _log(f"    uploaded: https://youtube.com/shorts/{video_id}")
-        try:
-            thumb = thumbnail.generate(data["title"], work / "thumbnail.jpg")
-            thumbnail.upload(upload.get_service(), video_id, thumb)
-        except Exception as e:
-            _log(f"    thumbnail failed (non-fatal): {e}")
 
     state.add_topic(data["topic"])
     state.add_published({
