@@ -45,7 +45,7 @@ def _add_decorations(draw, w, h):
 def _generate_fallback(prompt: str, out_path: Path, width=1080, height=1920):
     colors = random.choice(COLORS)
     img = _gradient(width, height, colors)
-    draw = ImageDraw(img)
+    draw = ImageDraw.Draw(img)
     _add_decorations(draw, width, height)
 
     try:
