@@ -33,7 +33,7 @@ upload:
   category_id: "27"
   made_for_kids: false
   channel: "default"   # ganti nama buat channel lain (misal: "channel2", "gaming", dll)
-  default_tags: ["shorts", "fakta", "edukasi", "menarik", "pengetahuan"]
+  default_tags: ["fakta unik", "pengetahuan", "edukasi", "fakta sains", "alam liar", "hewan unik", "fakta menarik", "sains viral", "fakta"]
 
 comments:
   model: llama-3.1-8b-instant
