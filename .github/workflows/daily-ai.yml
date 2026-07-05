@@ -1,12 +1,10 @@
-name: Daily Pexels Video
+name: Daily AI Video
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 08:00 WIB — Pexels
+    - cron: '0 7 * * *'  # 14:00 WIB — AI #1
+    - cron: '0 13 * * *' # 20:00 WIB — AI #2
   workflow_dispatch:
-
-env:
-  PIPELINE: pexels
 
 jobs:
   generate:
@@ -30,11 +28,11 @@ jobs:
           echo "${{ secrets.CLIENT_SECRET_B64 }}" | base64 -d > client_secret.json
           echo "${{ secrets.TOKEN_B64 }}" | base64 -d > token_default.json
 
-      - name: Run Pexels pipeline (1/3)
+      - name: Run AI pipeline (Pollinations)
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-        run: python -m src.pipeline
+        run: python -m src.pipeline_ai
 
       - name: Commit refreshed token (if changed)
         run: |
