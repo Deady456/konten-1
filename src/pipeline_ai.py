@@ -1,6 +1,6 @@
 import argparse, re, time
 from datetime import datetime
-from . import script, voice, captions, visuals_ai, assemble_ai, upload, state
+from . import script, voice, captions, visuals_ai, assemble_ai, thumbnail, upload, state
 from .config import CONFIG, OUTPUT_DIR
 
 def slug(s: str) -> str:
@@ -73,6 +73,11 @@ def run_once(publish_at: str | None = None,
             publish_at=publish_at,
         )
         _log(f"    uploaded: https://youtube.com/shorts/{video_id}")
+        try:
+            thumb = thumbnail.generate(data["title"], work / "thumbnail.jpg", bg_path=image_paths[0] if image_paths else None)
+            thumbnail.upload(upload.get_service(), video_id, thumb)
+        except Exception as e:
+            _log(f"    thumbnail failed (non-fatal): {e}")
 
     state.add_topic(data["topic"])
     state.add_published({
