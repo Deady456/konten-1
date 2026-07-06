@@ -10,6 +10,10 @@ from .config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, CONFIG, ROOT
 SCOPES = ["https://www.googleapis.com/auth/blogger"]
 CLIENT_SECRET = ROOT / "client_secret.json"
 BLOG_ID = os.environ.get("BLOG_ID", "")
+try:
+    BLOG_ID = str(int(float(BLOG_ID)))
+except (ValueError, TypeError):
+    pass
 
 
 def _token_path() -> Path:
