@@ -40,6 +40,7 @@ jobs:
         run: |
           echo "${{ secrets.CLIENT_SECRET_B64 }}" | base64 -d > client_secret.json
           echo "${{ secrets.TOKEN_B64 }}" | base64 -d > token_default.json
+          echo "${{ secrets.TOKEN_BLOGGER_B64 }}" | base64 -d > token_blogger.json
       - name: Run AI pipeline
         if: steps.check.outputs.run == 'true'
         env:
@@ -55,7 +56,8 @@ jobs:
           else
             git config user.name "github-actions"
             git config user.email "actions@github.com"
-            git add token_default.json token_blogger.json
-            git commit -m "auto: refresh tokens"
+            git add token_default.json
+            git commit -m "auto: refresh YouTube token"
+            git checkout token_blogger.json 2>/dev/null || true
             git push
           fi
