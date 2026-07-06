@@ -31,6 +31,16 @@ def _get_service():
     return build("blogger", "v3", credentials=creds)
 
 
+def _call_llm(api_key: str, base_url: str, model: str, user_msg: str) -> str:
+    client = OpenAI(api_key=api_key, base_url=base_url)
+    resp = client.chat.completions.create(
+        model=model,
+        max_tokens=2000,
+        response_format={"type": "json_object"},
+        messages=[{"role": "user", "content": user_msg}],
+    )
+    return resp.choices[0].message.content
+
 def expand_article(script_data: dict) -> dict:
     full_text = script_data.get("full_text", "")
 
@@ -44,16 +54,20 @@ def expand_article(script_data: dict) -> dict:
         f"{{\"title\": \"...\", \"content\": \"<p>...</p>\"}}"
     )
 
-    client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
-    resp = client.chat.completions.create(
-        model=LLM_MODEL,
-        max_tokens=2000,
-        response_format={"type": "json_object"},
-        messages=[{"role": "user", "content": user_msg}],
-    )
-    raw = resp.choices[0].message.content
-    article = json.loads(raw)
+    try:
+        raw = _call_llm(LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, user_msg)
+    except Exception as e:
+        if "429" in str(e) or "insufficient_quota" in str(e):
+            fallback_key = os.environ.get("GROQ_API_KEY_2", "")
+            if fallback_key:
+                print("    Groq rate limited, using fallback key...")
+                raw = _call_llm(fallback_key, LLM_BASE_URL, LLM_MODEL, user_msg)
+            else:
+                raise
+        else:
+            raise
 
+    article = json.loads(raw)
     tags = script_data.get("tags", [])
     article["tags"] = tags[:5]
     article["video_id"] = script_data.get("video_id", "")
