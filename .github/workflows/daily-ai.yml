@@ -2,8 +2,7 @@ name: Daily AI Video
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # 14:00 WIT - AI #1
-    - cron: '0 11 * * *' # 20:00 WIT - AI #2
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,30 +10,40 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+      - name: Check upload hour
+        id: check
+        shell: bash
+        run: |
+          HOUR=$(date -u +%H)
+          if echo "5 11" | grep -qw "$HOUR"; then
+            echo "run=true" >> $GITHUB_OUTPUT
+          else
+            echo "run=false" >> $GITHUB_OUTPUT
+          fi
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.run == 'true'
         with:
           python-version: '3.10'
           cache: 'pip'
-
       - name: Install FFmpeg
+        if: steps.check.outputs.run == 'true'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-
       - name: Install Python dependencies
+        if: steps.check.outputs.run == 'true'
         run: pip install -r requirements.txt
-
       - name: Decode YouTube credentials
+        if: steps.check.outputs.run == 'true'
         run: |
           echo "${{ secrets.CLIENT_SECRET_B64 }}" | base64 -d > client_secret.json
           echo "${{ secrets.TOKEN_B64 }}" | base64 -d > token_default.json
-
-      - name: Run AI pipeline (Pollinations)
+      - name: Run AI pipeline
+        if: steps.check.outputs.run == 'true'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python -m src.pipeline_ai
-
       - name: Commit refreshed token (if changed)
+        if: steps.check.outputs.run == 'true'
         run: |
           if git diff --quiet token_default.json 2>/dev/null; then
             echo "Token unchanged"
