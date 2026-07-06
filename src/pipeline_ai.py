@@ -1,6 +1,6 @@
-import argparse, re, time, os
+import argparse, re, time
 from datetime import datetime
-from . import script, voice, captions, visuals_ai, assemble_ai, upload, state, blogger
+from . import script, voice, captions, visuals_ai, assemble_ai, upload, state
 from .config import CONFIG, OUTPUT_DIR
 
 def slug(s: str) -> str:
@@ -83,13 +83,6 @@ def run_once(publish_at: str | None = None,
         "video_id": video_id,
         "publish_at": publish_at,
     })
-
-    if os.environ.get("BLOG_ID"):
-        data["video_id"] = video_id
-        try:
-            blogger.publish(data)
-        except Exception as e:
-            _log(f"    blog post error: {e}")
 
     return {"video_id": video_id, "path": str(final), "topic": data["topic"]}
 
