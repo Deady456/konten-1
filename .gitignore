@@ -1,6 +1,6 @@
 .env
 output/
-state.json
+# state.json tracked via git add -f in CI
 last_upload_date.txt
 logs/
 client_secret.json
