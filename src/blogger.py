@@ -10,10 +10,6 @@ from .config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, CONFIG, ROOT
 SCOPES = ["https://www.googleapis.com/auth/blogger"]
 CLIENT_SECRET = ROOT / "client_secret.json"
 BLOG_ID = os.environ.get("BLOG_ID", "")
-try:
-    BLOG_ID = str(int(float(BLOG_ID)))
-except (ValueError, TypeError):
-    pass
 
 
 def _token_path() -> Path:
@@ -81,11 +77,16 @@ def post(article: dict) -> str | None:
         )
         content = yt_embed + content
 
+    vid = article.get("video_id", "")
+    labels = article.get("tags", [])[:5]
+    if vid:
+        labels.append("vid_" + vid)
+
     body = {
         "kind": "blogger#post",
         "title": article["title"],
         "content": content,
-        "labels": article.get("tags", []),
+        "labels": labels,
     }
 
     for attempt in range(3):
@@ -103,6 +104,17 @@ def post(article: dict) -> str | None:
 
 
 def publish(script_data: dict) -> str | None:
+    vid = script_data.get("video_id", "")
+    if vid:
+        try:
+            service = _get_service()
+            existing = service.posts().list(blogId=BLOG_ID, labels=f"vid_{vid}", maxResults=1).execute()
+            if existing.get("items"):
+                url = existing["items"][0].get("url", "")
+                print(f"  Already posted: {url}")
+                return url
+        except Exception:
+            pass
     print("  Expanding script to blog article...")
     article = expand_article(script_data)
     print(f"    title: {article['title']}")
