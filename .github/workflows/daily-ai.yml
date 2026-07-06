@@ -46,7 +46,7 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          BLOG_ID: 7364215243667063602
+          BLOG_ID: '7364215243667063602'
         run: python -m src.pipeline_ai
       - name: Commit refreshed token (if changed)
         if: steps.check.outputs.run == 'true'
