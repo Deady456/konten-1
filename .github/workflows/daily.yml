@@ -17,11 +17,15 @@ jobs:
         id: check
         shell: bash
         run: |
-          HOUR=$(date -u +%H)
-          if echo "23" | grep -qw "$HOUR"; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "run=true" >> $GITHUB_OUTPUT
           else
-            echo "run=false" >> $GITHUB_OUTPUT
+            HOUR=$(date -u +%H)
+            if echo "23" | grep -qw "$HOUR"; then
+              echo "run=true" >> $GITHUB_OUTPUT
+            else
+              echo "run=false" >> $GITHUB_OUTPUT
+            fi
           fi
       - uses: actions/setup-python@v5
         if: steps.check.outputs.run == 'true'
