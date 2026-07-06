@@ -2,7 +2,7 @@ name: Daily Pexels Video
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 08:00 WIB — Pexels
+    - cron: '0 23 * * *'  # 08:00 WIT - Pexels
   workflow_dispatch:
 
 env:
