@@ -1,27 +1,38 @@
 import json, os, time
 from pathlib import Path
-from google.oauth2 import service_account
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from openai import OpenAI
-from .config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, CONFIG
+from .config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, CONFIG, ROOT
 
 SCOPES = ["https://www.googleapis.com/auth/blogger"]
+CLIENT_SECRET = ROOT / "client_secret.json"
 BLOG_ID = os.environ.get("BLOG_ID", "")
 
+
+def _token_path() -> Path:
+    return ROOT / "token_blogger.json"
+
+
 def _get_service():
-    creds_json = os.environ.get("BLOGGER_CREDENTIALS")
-    if not creds_json:
-        raise RuntimeError("BLOGGER_CREDENTIALS env var not set")
-    creds = service_account.Credentials.from_service_account_info(
-        json.loads(creds_json), scopes=SCOPES
-    )
+    token_path = _token_path()
+    creds = None
+    if token_path.exists():
+        creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(str(CLIENT_SECRET), SCOPES)
+            creds = flow.run_local_server(port=0)
+        token_path.write_text(creds.to_json(), encoding="utf-8")
     return build("blogger", "v3", credentials=creds)
 
 
 def expand_article(script_data: dict) -> dict:
-    scenes = script_data.get("scenes", [])
     full_text = script_data.get("full_text", "")
-    lang = CONFIG.get("language", "en")
 
     user_msg = (
         f"Teks video pendek berikut:\n\n{full_text}\n\n"
@@ -29,7 +40,8 @@ def expand_article(script_data: dict) -> dict:
         f"Tulis artikel blog 500-700 kata dalam bahasa Indonesia berdasarkan teks di atas. "
         f"Kembangkan dengan penjelasan tambahan yang relevan, fakta pendukung, dan kesimpulan. "
         f"Gunakan format HTML paragraf (<p>). Beri judul artikel yang engaging (>40 karakter). "
-        f"Jangan tambahkan informasi palsu. Kembalikan ONLY valid JSON: {{\"title\": \"...\", \"content\": \"<p>...</p>\"}}"
+        f"Jangan tambahkan informasi palsu. Kembalikan ONLY valid JSON: "
+        f"{{\"title\": \"...\", \"content\": \"<p>...</p>\"}}"
     )
 
     client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
@@ -48,16 +60,21 @@ def expand_article(script_data: dict) -> dict:
     return article
 
 
-def post(article: dict, script_data: dict | None = None) -> str | None:
+def post(article: dict) -> str | None:
     if not BLOG_ID:
         print("    BLOG_ID not set, skipping")
         return None
 
     service = _get_service()
-    
+
     content = article["content"]
     if article.get("video_id"):
-        yt_embed = f'<div style="text-align:center;margin:20px 0;"><iframe width="560" height="315" src="https://www.youtube.com/embed/{article["video_id"]}" frameborder="0" allowfullscreen></iframe></div>'
+        yt_embed = (
+            '<div style="text-align:center;margin:20px 0;">'
+            '<iframe width="560" height="315" '
+            f'src="https://www.youtube.com/embed/{article["video_id"]}" '
+            'frameborder="0" allowfullscreen></iframe></div>'
+        )
         content = yt_embed + content
 
     body = {
@@ -85,5 +102,4 @@ def publish(script_data: dict) -> str | None:
     print("  Expanding script to blog article...")
     article = expand_article(script_data)
     print(f"    title: {article['title']}")
-    print(f"    tags: {article.get('tags', [])}")
-    return post(article, script_data)
+    return post(article)
