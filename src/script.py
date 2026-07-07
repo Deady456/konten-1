@@ -115,4 +115,32 @@ def generate():
             s["visual_query"] = fallback
 
     data["full_text"] = " ... ".join(s["text"] for s in data["scenes"])
+
+    s_cfg = CONFIG["script"]
+    target_words = int(s_cfg["target_seconds"] * s_cfg["words_per_second"])
+    min_words = int(target_words * 0.75)
+    wc = len(data["full_text"].split())
+    if wc < min_words:
+        print(f"    WARNING: script too short ({wc} words, need {min_words}), retrying...")
+        print(f"    calling {LLM_PROVIDER}/{LLM_MODEL}...")
+        t0 = time.time()
+        resp = _call_llm(
+            model=LLM_MODEL,
+            max_tokens=2000,
+            response_format={"type": "json_object"},
+            messages=[
+                {"role": "system", "content": _system_prompt()},
+                {"role": "user", "content": user_msg},
+            ],
+        )
+        raw = resp.choices[0].message.content
+        print(f"    LLM responded in {time.time()-t0:.1f}s ({len(raw)} chars)")
+        data = _extract_json(raw)
+        for i, s in enumerate(data["scenes"]):
+            if "visual_query" not in s or not s["visual_query"]:
+                words = re.findall(r"[a-zA-Z]{3,}", s.get("text", ""))
+                fallback = " ".join(words[-3:]) if len(words) >= 3 else "abstract background"
+                s["visual_query"] = fallback
+        data["full_text"] = " ... ".join(s["text"] for s in data["scenes"])
+    
     return data
