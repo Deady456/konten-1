@@ -2,24 +2,38 @@ import json
 import re
 import time
 from datetime import datetime
-from openai import OpenAI
-from .config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, LLM_PROVIDER, CONFIG
+from openai import OpenAI, RateLimitError
+from .config import LLM_API_KEYS, LLM_BASE_URL, LLM_MODEL, LLM_PROVIDER, CONFIG
 from . import state
 
-client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
+_key_idx = 0
+_client = OpenAI(api_key=LLM_API_KEYS[_key_idx], base_url=LLM_BASE_URL)
 
 def _call_llm(model, max_tokens, response_format, messages, retries=5):
+    global _key_idx, _client
     for attempt in range(retries):
         try:
-            return client.chat.completions.create(
+            return _client.chat.completions.create(
                 model=model, max_tokens=max_tokens,
                 response_format=response_format, messages=messages,
             )
+        except RateLimitError as e:
+            if _key_idx < len(LLM_API_KEYS) - 1:
+                _key_idx += 1
+                _client = OpenAI(api_key=LLM_API_KEYS[_key_idx], base_url=LLM_BASE_URL)
+                print(f"  Rate limited, switching to key {_key_idx+1}/{len(LLM_API_KEYS)}")
+                continue
+            if attempt < retries - 1:
+                _wait = 2 ** attempt
+                print(f"  Rate limited (retry {attempt+1}/{retries} in {_wait}s): {e}")
+                time.sleep(_wait)
+            else:
+                raise
         except Exception as e:
             if attempt < retries - 1:
-                wait = 2 ** attempt
-                print(f"  LLM error (retry {attempt+1}/{retries} in {wait}s): {e}")
-                time.sleep(wait)
+                _wait = 2 ** attempt
+                print(f"  LLM error (retry {attempt+1}/{retries} in {_wait}s): {e}")
+                time.sleep(_wait)
             else:
                 raise
 
