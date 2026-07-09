@@ -10,7 +10,8 @@
     "fakta-alam-semesta",
     "fakta-mengejutkan-alam-semesta",
     "fakta-tentang-alam-semesta",
-    "fakta-alam-semesta"
+    "fakta-alam-semesta",
+    "fakta-menarik-tentang-tumbuhan-karnivora"
   ],
   "published": [
     {
@@ -171,6 +172,14 @@
       "title": "Bintang Terdekat #shorts",
       "path": "C:\\Users\\Administrator\\Desktop\\FreeFaceless\\output\\20260705_162148_fakta-alam-semesta\\final.mp4",
       "video_id": null,
+      "publish_at": null
+    },
+    {
+      "ts": "20260709_220201",
+      "topic": "fakta-menarik-tentang-tumbuhan-karnivora",
+      "title": "Tumbuhan Pemakan Daging: Fakta Menarik tentang Tumbuhan Karnivora",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260709_220201_fakta-menarik-tentang-tumbuhan-karnivora/final.mp4",
+      "video_id": "qU4f29hUpzM",
       "publish_at": null
     }
   ]
