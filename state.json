@@ -11,7 +11,8 @@
     "fakta-mengejutkan-alam-semesta",
     "fakta-tentang-alam-semesta",
     "fakta-alam-semesta",
-    "fakta-menarik-tentang-tumbuhan-karnivora"
+    "fakta-menarik-tentang-tumbuhan-karnivora",
+    "fakta-tentang-hidrotermal"
   ],
   "published": [
     {
@@ -180,6 +181,14 @@
       "title": "Tumbuhan Pemakan Daging: Fakta Menarik tentang Tumbuhan Karnivora",
       "path": "/home/runner/work/konten-1/konten-1/output/20260709_220201_fakta-menarik-tentang-tumbuhan-karnivora/final.mp4",
       "video_id": "qU4f29hUpzM",
+      "publish_at": null
+    },
+    {
+      "ts": "20260710_030222",
+      "topic": "fakta-tentang-hidrotermal",
+      "title": "Sumber Kehidupan di Dasar Laut: Fakta Hidrotermal",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260710_030222_fakta-tentang-hidrotermal/final.mp4",
+      "video_id": "t43itrbBlpc",
       "publish_at": null
     }
   ]
