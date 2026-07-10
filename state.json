@@ -13,7 +13,8 @@
     "fakta-alam-semesta",
     "fakta-menarik-tentang-tumbuhan-karnivora",
     "fakta-tentang-hidrotermal",
-    "fakta-tentang-biomimikri"
+    "fakta-tentang-biomimikri",
+    "fakta-tentang-mikroorganisme"
   ],
   "published": [
     {
@@ -198,6 +199,14 @@
       "title": "5 Teknologi Canggih yang Terinspirasi dari Alam",
       "path": "/home/runner/work/konten-1/konten-1/output/20260710_070253_fakta-tentang-biomimikri/final.mp4",
       "video_id": "cZzy_rnHK74",
+      "publish_at": null
+    },
+    {
+      "ts": "20260710_100300",
+      "topic": "fakta-tentang-mikroorganisme",
+      "title": "Mikroorganisme Paling Kuat Di Dunia",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260710_100300_fakta-tentang-mikroorganisme/final.mp4",
+      "video_id": "pa1xm-QjfKI",
       "publish_at": null
     }
   ]
