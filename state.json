@@ -12,7 +12,8 @@
     "fakta-tentang-alam-semesta",
     "fakta-alam-semesta",
     "fakta-menarik-tentang-tumbuhan-karnivora",
-    "fakta-tentang-hidrotermal"
+    "fakta-tentang-hidrotermal",
+    "fakta-tentang-biomimikri"
   ],
   "published": [
     {
@@ -189,6 +190,14 @@
       "title": "Sumber Kehidupan di Dasar Laut: Fakta Hidrotermal",
       "path": "/home/runner/work/konten-1/konten-1/output/20260710_030222_fakta-tentang-hidrotermal/final.mp4",
       "video_id": "t43itrbBlpc",
+      "publish_at": null
+    },
+    {
+      "ts": "20260710_070253",
+      "topic": "fakta-tentang-biomimikri",
+      "title": "5 Teknologi Canggih yang Terinspirasi dari Alam",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260710_070253_fakta-tentang-biomimikri/final.mp4",
+      "video_id": "cZzy_rnHK74",
       "publish_at": null
     }
   ]
