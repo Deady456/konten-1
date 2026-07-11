@@ -202,29 +202,34 @@ def add_comment_box(video_path: Path, output_path: Path) -> Path:
     c1e = _esc(c1)
     c2e = _esc(c2)
 
+    box_h = 190
+    box_top_from_bottom = int(1920 * 0.35)
+    line_spacing = 42
+    pad_top = 15
+
     vf = (
-        f"drawbox=x=20:y=ih-{margin * 2 + 120}:w=iw-40:h=120:"
+        f"drawbox=x=20:y=ih-{box_top_from_bottom}:w=iw-40:h={box_h}:"
         f"color={box_color}:t=fill:"
         f"enable='gte(t,{delay})',"
         f"drawtext=fontfile='{font_ff}':"
         f"text='{u1e}':"
         f"fontcolor=gray:fontsize={font_size - 2}:"
-        f"x=40:y=h-{margin * 2 + 105}:"
+        f"x=40:y=h-{box_top_from_bottom - pad_top}:"
         f"enable='gte(t,{delay})',"
         f"drawtext=fontfile='{font_ff}':"
         f"text='{c1e}':"
         f"fontcolor={font_color}:fontsize={font_size}:"
-        f"x=40:y=h-{margin * 2 + 72}:"
+        f"x=40:y=h-{box_top_from_bottom - pad_top - line_spacing}:"
         f"enable='gte(t,{delay})',"
         f"drawtext=fontfile='{font_ff}':"
         f"text='{u2e}':"
         f"fontcolor=gray:fontsize={font_size - 2}:"
-        f"x=40:y=h-{margin * 2 + 38}:"
+        f"x=40:y=h-{box_top_from_bottom - pad_top - line_spacing * 2}:"
         f"enable='gte(t,{delay})',"
         f"drawtext=fontfile='{font_ff}':"
         f"text='{c2e}':"
         f"fontcolor={font_color}:fontsize={font_size}:"
-        f"x=40:y=h-{margin * 2 + 5}:"
+        f"x=40:y=h-{box_top_from_bottom - pad_top - line_spacing * 3}:"
         f"enable='gte(t,{delay})'"
     )
 
