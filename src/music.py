@@ -104,9 +104,11 @@ def mix_with_voice(voice_path: Path, output_path: Path, video_duration: float,
     fade_out_start = max(0, video_duration - fade_out)
 
     filter_complex = (
-        f"[1:a]volume={volume},afade=t=in:st=0:d={fade_in},"
+        f"[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[voice];"
+        f"[1:a]volume={volume},aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,"
+        f"afade=t=in:st=0:d={fade_in},"
         f"afade=t=out:st={fade_out_start:.3f}:d={fade_out}[music];"
-        f"[0:a][music]amix=inputs=2:duration=first:dropout_transition=3[out]"
+        f"[voice][music]amix=inputs=2:duration=first:dropout_transition=3[out]"
     )
 
     cmd = [

@@ -153,21 +153,24 @@ def apply_all(video_path: Path, work_dir: Path) -> Path:
     if not cfg.get("enabled", False):
         return video_path
 
+    brand_dir = work_dir / "branding"
+    brand_dir.mkdir(parents=True, exist_ok=True)
+
     current = video_path
 
     # Intro
     if cfg.get("intro", {}).get("enabled", False):
-        out = work_dir / "with_intro.mp4"
+        out = brand_dir / "with_intro.mp4"
         current = add_intro(current, out)
 
     # Watermark
     if cfg.get("watermark", {}).get("enabled", False):
-        out = work_dir / "with_watermark.mp4"
+        out = brand_dir / "with_watermark.mp4"
         current = add_watermark(current, out)
 
     # Outro
     if cfg.get("outro", {}).get("enabled", False):
-        out = work_dir / "with_outro.mp4"
+        out = brand_dir / "with_outro.mp4"
         cta = cfg.get("outro", {}).get("cta_text", "")
         current = add_outro(current, out, cta)
 
