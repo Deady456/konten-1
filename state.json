@@ -18,7 +18,7 @@
     "fakta-tentang-geologi",
     "fakta-tentang-kriovulkanisme",
     "fakta-tentang-penelitian-kriogenik",
-    "perbandingan-otak-manusia-dan-otak-cacing"
+    "fakta-tentang-bioluminesensi-laut"
   ],
   "published": [
     {
@@ -242,16 +242,16 @@
       "voice": "unknown"
     },
     {
-      "ts": "20260711_181055",
-      "topic": "perbandingan-otak-manusia-dan-otak-cacing",
-      "title": "Otak Manusia vs Otak Cacing: Perbedaan Mengejutkan!",
-      "path": "/home/runner/work/konten-1/konten-1/output/20260711_181055_perbandingan-otak-manusia-dan-otak-cacing/final.mp4",
-      "video_id": "0te3P74aM64",
+      "ts": "20260712_031941",
+      "topic": "fakta-tentang-bioluminesensi-laut",
+      "title": "Mengenal Bioluminesensi Laut: Mitos dan Fakta Ilmiah",
+      "path": "C:\\Users\\Administrator\\Desktop\\konten-1-dev\\output\\20260712_031941_fakta-tentang-bioluminesensi-laut\\final.mp4",
+      "video_id": null,
       "publish_at": null,
-      "format": "comparison",
+      "format": "myth_busting",
       "voice": "unknown"
     }
   ],
-  "_format_idx": 3,
-  "_voice_idx": 3
+  "_format_idx": 5,
+  "_voice_idx": 5
 }

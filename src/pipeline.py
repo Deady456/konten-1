@@ -89,7 +89,7 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     from .assemble import probe_duration
     audio_dur = probe_duration(voice_mp3)
 
-    mixed_audio = work / "voice_mixed.mp3"
+    mixed_audio = work / "voice_mixed.aac"
     music.mix_with_voice(voice_mp3, mixed_audio, audio_dur, data["scenes"])
 
     # ============================================================
