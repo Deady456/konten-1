@@ -34,11 +34,32 @@ def get_service():
     return gbuild("youtube", "v3", credentials=creds)
 
 
+def _apply_ai_disclosure(description: str) -> str:
+    """Add AI disclosure to description if enabled."""
+    cfg = CONFIG.get("ai_disclosure", {})
+    if not cfg.get("enabled", False):
+        return description
+
+    disclosure_text = cfg.get("text", "Konten ini dibuat dengan bantuan AI.")
+    position = cfg.get("position", "description_only")
+
+    # Check if disclosure already present
+    if disclosure_text.lower() in description.lower():
+        return description
+
+    # Add disclosure at the end
+    disclosure_block = f"\n\n{'='*40}\n{disclosure_text}\n{'='*40}"
+    return description + disclosure_block
+
+
 def upload_video(video_path: Path, title: str, description: str, tags: list[str],
                  publish_at: str | None = None) -> str:
     yt = get_service()
     up = CONFIG["upload"]
     all_tags = list({*tags, *up["default_tags"]})
+
+    # Apply AI disclosure to description
+    description = _apply_ai_disclosure(description)
 
     status = {"selfDeclaredMadeForKids": up["made_for_kids"]}
     if publish_at:

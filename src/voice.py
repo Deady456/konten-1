@@ -7,6 +7,57 @@ from .config import CONFIG
 from elevenlabs.client import ElevenLabs
 
 
+# ============================================================
+# Voice Variety System
+# ============================================================
+
+def _get_voice_config() -> dict:
+    """Get voice config with variety support."""
+    cfg = CONFIG.get("voice", {})
+    variety = cfg.get("variety", {})
+
+    if variety.get("enabled", False):
+        voices = variety.get("voices", [])
+        strategy = variety.get("strategy", "round_robin")
+
+        if voices:
+            voice = _select_voice(voices, strategy)
+            return {
+                **cfg,
+                "voice": voice["id"],
+                "elevenlabs_voice_id": voice.get("elevenlabs_id"),
+                "_voice_name": voice.get("name"),
+                "_voice_gender": voice.get("gender"),
+            }
+
+    return cfg
+
+
+def _select_voice(voices: list[dict], strategy: str) -> dict:
+    """Select voice based on strategy."""
+    from . import state
+
+    s = state.load()
+    voice_idx = s.get("_voice_idx", 0)
+
+    if strategy == "round_robin":
+        selected = voices[voice_idx % len(voices)]
+        state.update({"_voice_idx": voice_idx + 1})
+    elif strategy == "random":
+        import random
+        selected = random.choice(voices)
+    else:
+        selected = voices[voice_idx % len(voices)]
+        state.update({"_voice_idx": voice_idx + 1})
+
+    print(f"    voice: selected {selected.get('name', 'unknown')} ({selected.get('gender', '?')})")
+    return selected
+
+
+# ============================================================
+# TTS Synthesis
+# ============================================================
+
 def _synth_edge(text: str, out_path: Path, v: dict) -> None:
     async def _go():
         com = edge_tts.Communicate(
@@ -34,9 +85,10 @@ def _synth_elevenlabs(text: str, out_path: Path, v: dict, api_key: str) -> None:
 
 
 def synth(text: str, out_path: Path) -> Path:
-    v = CONFIG["voice"]
-    provider = v.get("provider", "elevenlabs")
-    print(f"    voice: {v['voice']}, {len(text)} chars, provider: {provider}")
+    v = _get_voice_config()
+    provider = v.get("provider", "edge-tts")
+    voice_name = v.get("_voice_name", v["voice"])
+    print(f"    voice: {voice_name}, {len(text)} chars, provider: {provider}")
 
     t0 = time.time()
 
