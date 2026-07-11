@@ -18,7 +18,8 @@
     "fakta-tentang-geologi",
     "fakta-tentang-kriovulkanisme",
     "fakta-tentang-penelitian-kriogenik",
-    "fakta-tentang-bioluminesensi-laut"
+    "fakta-tentang-bioluminesensi-laut",
+    "fakta-tentang-ekosistem-gua"
   ],
   "published": [
     {
@@ -250,8 +251,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260711_220250",
+      "topic": "fakta-tentang-ekosistem-gua",
+      "title": "Mengungkap Rahasia Dunia Bawah Tanah: Ekosistem Gua",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260711_220250_fakta-tentang-ekosistem-gua/final.mp4",
+      "video_id": "V1W0Jjw3gKM",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 5,
-  "_voice_idx": 5
+  "_format_idx": 6,
+  "_voice_idx": 6
 }
