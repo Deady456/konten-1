@@ -1,8 +1,10 @@
 """
-Branding layer: intro, outro, and watermark.
+Branding layer: intro, outro, watermark, and comment box.
 
 Adds professional branding to videos for better channel identity.
 """
+import random
+import re
 import subprocess
 from pathlib import Path
 from .config import CONFIG, ROOT
@@ -110,20 +112,24 @@ def add_watermark(video_path: Path, output_path: Path) -> Path:
     opacity = cfg.get("opacity", 0.4)
     size = cfg.get("size", 80)
 
+    import random
+    x_offset = random.randint(-200, 200)
+
     # Position mapping
     pos_map = {
         "top_right": f"main_w-{size}-20:20",
         "top_left": f"20:20",
         "bottom_right": f"main_w-{size}-20:main_h-{size}-20",
         "bottom_left": f"20:main_h-{size}-20",
+        "center": f"(main_w-{size})/2+{x_offset}:(main_h*0.20)",
     }
     overlay_pos = pos_map.get(position, pos_map["top_right"])
 
     print(f"    branding: adding watermark ({position}, {opacity*100:.0f}%)")
 
     vf = (
-        f"[1:v]scale={size}:{size},format=rgba,"
-        f"colorchannelmixer=aa={opacity}[wm];"
+        f"[1:v]scale={size}:-1:force_original_aspect_ratio=decrease,"
+        f"format=rgba,colorchannelmixer=aa={opacity}[wm];"
         f"[0:v][wm]overlay={overlay_pos}"
     )
 
@@ -142,6 +148,100 @@ def add_watermark(video_path: Path, output_path: Path) -> Path:
     p = subprocess.run(cmd, capture_output=True, text=True)
     if p.returncode != 0:
         print(f"    branding: watermark failed: {p.stderr[-300:]}")
+        return video_path
+
+    return output_path
+
+def add_comment_box(video_path: Path, output_path: Path) -> Path:
+    """Add a random comment bubble with 2 fake users and comments."""
+    cfg = _get_branding_config().get("comment_box", {})
+    if not cfg.get("enabled", False):
+        return video_path
+
+    usernames = cfg.get("usernames", [])
+    comments = cfg.get("comments", [])
+    if not usernames or not comments:
+        return video_path
+
+    u1, u2 = random.sample(usernames, 2)
+    c1, c2 = random.sample(comments, 2)
+    font = cfg.get("font", "Anton")
+    font_size = cfg.get("font_size", 26)
+    font_color = cfg.get("font_color", "black")
+    box_color = cfg.get("box_color", "white@0.9")
+    delay = cfg.get("delay_seconds", 1.5)
+    margin = cfg.get("margin", 40)
+
+    font_path = ROOT / "assets" / "fonts" / f"{font}-Regular.ttf"
+    if not font_path.exists():
+        print(f"    branding: font not found, skipping comment box")
+        return video_path
+
+    font_ff = str(font_path).replace("\\", "/").replace(":", "\\:")
+
+    def _escape(s):
+        for ch in ["\\", "'", '"', ":", "?", ";", "[", "]"]:
+            s = s.replace(ch, f"\\{ch}")
+        return s
+
+    u1e = _escape(u1)
+    u2e = _escape(u2)
+    c1e = _escape(c1)
+    c2e = _escape(c2)
+
+    print(f"    branding: adding comment box")
+
+    def _esc(s):
+        """Escape special chars for ffmpeg drawtext."""
+        for ch in ["\\", "'", '"', ":", "?", ";", "[", "]", ","]:
+            s = s.replace(ch, f"\\{ch}")
+        return s
+
+    u1e = _esc(u1)
+    u2e = _esc(u2)
+    c1e = _esc(c1)
+    c2e = _esc(c2)
+
+    vf = (
+        f"drawbox=x=20:y=ih-{margin * 2 + 120}:w=iw-40:h=120:"
+        f"color={box_color}:t=fill:"
+        f"enable='gte(t,{delay})',"
+        f"drawtext=fontfile='{font_ff}':"
+        f"text='{u1e}':"
+        f"fontcolor=gray:fontsize={font_size - 2}:"
+        f"x=40:y=h-{margin * 2 + 105}:"
+        f"enable='gte(t,{delay})',"
+        f"drawtext=fontfile='{font_ff}':"
+        f"text='{c1e}':"
+        f"fontcolor={font_color}:fontsize={font_size}:"
+        f"x=40:y=h-{margin * 2 + 72}:"
+        f"enable='gte(t,{delay})',"
+        f"drawtext=fontfile='{font_ff}':"
+        f"text='{u2e}':"
+        f"fontcolor=gray:fontsize={font_size - 2}:"
+        f"x=40:y=h-{margin * 2 + 38}:"
+        f"enable='gte(t,{delay})',"
+        f"drawtext=fontfile='{font_ff}':"
+        f"text='{c2e}':"
+        f"fontcolor={font_color}:fontsize={font_size}:"
+        f"x=40:y=h-{margin * 2 + 5}:"
+        f"enable='gte(t,{delay})'"
+    )
+
+    cmd = [
+        "ffmpeg", "-y",
+        "-i", str(video_path),
+        "-vf", vf,
+        "-c:v", "libx264", "-preset", "fast", "-crf", "20",
+        "-c:a", "copy",
+        "-pix_fmt", "yuv420p",
+        "-movflags", "+faststart",
+        str(output_path),
+    ]
+
+    p = subprocess.run(cmd, capture_output=True, text=True)
+    if p.returncode != 0:
+        print(f"    branding: comment box failed: {p.stderr[-300:]}")
         return video_path
 
     return output_path
@@ -167,6 +267,11 @@ def apply_all(video_path: Path, work_dir: Path) -> Path:
     if cfg.get("watermark", {}).get("enabled", False):
         out = brand_dir / "with_watermark.mp4"
         current = add_watermark(current, out)
+
+    # Comment Box
+    if cfg.get("comment_box", {}).get("enabled", False):
+        out = brand_dir / "with_comment.mp4"
+        current = add_comment_box(current, out)
 
     # Outro
     if cfg.get("outro", {}).get("enabled", False):
