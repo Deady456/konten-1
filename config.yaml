@@ -41,28 +41,40 @@ script:
     require_sources: false
 
 voice:
-  provider: edge-tts
-  # NEW: Voice variety - rotasi otomatis
+  provider: elevenlabs
+  elevenlabs_model: eleven_multilingual_v2
+  # Voice variety - rotasi otomatis
   variety:
     enabled: true
     voices:
-      - id: "id-ID-ArdiNeural"
-        name: "Ardi"
+      # English voices yang support Bahasa Indonesia via multilingual model
+      # Male voices
+      - edge_id: "id-ID-ArdiNeural"
+        elevenlabs_id: "21m00Tcm4TlvDq8ikWAM"
+        name: "Rachel"
         gender: "male"
-        elevenlabs_id: "nPczCjzI2devNBz1zQrb"
-      - id: "id-ID-GadisNeural"
-        name: "Gadis"
+      - edge_id: "id-ID-GadisNeural"
+        elevenlabs_id: "2EiwWnXFnvU5JabPnv8n"
+        name: "Clyde"
+        gender: "male"
+      - edge_id: "id-ID-JakaNeural"
+        elevenlabs_id: "IKne3meq5aSn9XLyUdCD"
+        name: "Charlie"
+        gender: "male"
+      # Female voices
+      - edge_id: "id-ID-GadisNeural"
+        elevenlabs_id: "EXAVITQu4vr4xnSDxMaL"
+        name: "Bella"
         gender: "female"
-        elevenlabs_id: null
-      - id: "id-ID-JakaNeural"
-        name: "Jaka"
-        gender: "male"
-        elevenlabs_id: null
+      - edge_id: "id-ID-GadisNeural"
+        elevenlabs_id: "LcfcDJNUP1GQjkzn1xUU"
+        name: "Emily"
+        gender: "female"
     # Strategy: "round_robin", "random", "topic_based"
     strategy: "round_robin"
   # Legacy (fallback kalau variety disabled)
   voice: id-ID-ArdiNeural
-  elevenlabs_voice_id: nPczCjzI2devNBz1zQrb
+  elevenlabs_voice_id: 21m00Tcm4TlvDq8ikWAM
   rate: "-12%"
   pitch: "+0Hz"
 

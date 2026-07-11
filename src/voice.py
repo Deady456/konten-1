@@ -24,7 +24,7 @@ def _get_voice_config() -> dict:
             voice = _select_voice(voices, strategy)
             return {
                 **cfg,
-                "voice": voice["id"],
+                "voice": voice.get("edge_id", cfg.get("voice")),
                 "elevenlabs_voice_id": voice.get("elevenlabs_id"),
                 "_voice_name": voice.get("name"),
                 "_voice_gender": voice.get("gender"),
@@ -72,10 +72,11 @@ def _synth_edge(text: str, out_path: Path, v: dict) -> None:
 
 def _synth_elevenlabs(text: str, out_path: Path, v: dict, api_key: str) -> None:
     client = ElevenLabs(api_key=api_key)
+    model_id = v.get("elevenlabs_model", "eleven_multilingual_v2")
     audio = client.text_to_speech.convert(
-        voice_id=v.get("elevenlabs_voice_id", "3mAVBNEqop5UbHtD8oxQ"),
+        voice_id=v.get("elevenlabs_voice_id", "21m00Tcm4TlvDq8ikWAM"),
         text=text,
-        model_id="eleven_multilingual_v2",
+        model_id=model_id,
         output_format="mp3_44100_128",
     )
     with open(out_path, "wb") as f:
@@ -86,29 +87,29 @@ def _synth_elevenlabs(text: str, out_path: Path, v: dict, api_key: str) -> None:
 
 def synth(text: str, out_path: Path) -> Path:
     v = _get_voice_config()
-    provider = v.get("provider", "edge-tts")
     voice_name = v.get("_voice_name", v["voice"])
-    print(f"    voice: {voice_name}, {len(text)} chars, provider: {provider}")
+    print(f"    voice: {voice_name}, {len(text)} chars")
 
     t0 = time.time()
 
-    if provider == "elevenlabs":
-        keys_str = os.environ.get("ELEVENLABS_API_KEYS", "")
-        keys = [k.strip() for k in keys_str.split(",") if k.strip()]
+    keys_str = os.environ.get("ELEVENLABS_API_KEYS", "")
+    keys = [k.strip() for k in keys_str.split(",") if k.strip()]
 
-        if keys:
-            for i, api_key in enumerate(keys):
-                try:
-                    _synth_elevenlabs(text, out_path, v, api_key)
-                    print(f"    done in {time.time()-t0:.1f}s (elevenlabs key[{i}])")
-                    return out_path
-                except Exception as e:
-                    print(f"    key[{i}] failed: {e}, trying next")
-                    continue
-            print(f"    all elevenlabs keys failed, falling back to edge-tts")
-        else:
-            print(f"    no elevenlabs keys set, falling back to edge-tts")
+    if keys:
+        for i, api_key in enumerate(keys):
+            try:
+                _synth_elevenlabs(text, out_path, v, api_key)
+                print(f"    done in {time.time()-t0:.1f}s (elevenlabs key[{i}])")
+                return out_path
+            except Exception as e:
+                err_msg = str(e).lower()
+                if "rate" in err_msg or "limit" in err_msg or "429" in err_msg:
+                    print(f"    key[{i}] rate limited, trying next")
+                else:
+                    print(f"    key[{i}] error: {e}, trying next")
+                continue
+        print(f"    all {len(keys)} elevenlabs keys exhausted, falling back to edge-tts")
 
     _synth_edge(text, out_path, v)
-    print(f"    done in {time.time()-t0:.1f}s (edge-tts)")
+    print(f"    done in {time.time()-t0:.1f}s (edge-tts fallback)")
     return out_path
