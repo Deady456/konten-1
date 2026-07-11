@@ -1,6 +1,11 @@
 name: Daily Video Upload
 
 on:
+  schedule:
+    # 09:00 WIB (02:00 UTC)
+    - cron: '0 2 * * *'
+    # 18:00 WIB (11:00 UTC)
+    - cron: '0 11 * * *'
   workflow_dispatch:
 
 permissions:
