@@ -43,34 +43,18 @@ script:
 voice:
   provider: elevenlabs
   elevenlabs_model: eleven_multilingual_v2
-  # Voice variety - rotasi otomatis
+  # Voice variety - 2 pria saja, konsisten
   variety:
     enabled: true
     voices:
-      # English voices yang support Bahasa Indonesia via multilingual model
-      # Male voices
       - edge_id: "id-ID-ArdiNeural"
         elevenlabs_id: "21m00Tcm4TlvDq8ikWAM"
-        name: "Rachel"
-        gender: "male"
-      - edge_id: "id-ID-GadisNeural"
-        elevenlabs_id: "2EiwWnXFnvU5JabPnv8n"
-        name: "Clyde"
+        name: "Ardi"
         gender: "male"
       - edge_id: "id-ID-JakaNeural"
         elevenlabs_id: "IKne3meq5aSn9XLyUdCD"
-        name: "Charlie"
+        name: "Jaka"
         gender: "male"
-      # Female voices
-      - edge_id: "id-ID-GadisNeural"
-        elevenlabs_id: "EXAVITQu4vr4xnSDxMaL"
-        name: "Bella"
-        gender: "female"
-      - edge_id: "id-ID-GadisNeural"
-        elevenlabs_id: "LcfcDJNUP1GQjkzn1xUU"
-        name: "Emily"
-        gender: "female"
-    # Strategy: "round_robin", "random", "topic_based"
     strategy: "round_robin"
   # Legacy (fallback kalau variety disabled)
   voice: id-ID-ArdiNeural
@@ -112,9 +96,40 @@ branding:
   watermark:
     enabled: true
     path: "assets/branding/watermark.png"
-    position: "top_right"  # top_right, top_left, bottom_right, bottom_left
-    opacity: 0.4
-    size: 80
+    position: "center"
+    opacity: 0.6
+    size: 300
+
+  comment_box:
+    enabled: true
+    position: "bottom"
+    delay_seconds: 1.5
+    font: "Anton"
+    font_size: 26
+    font_color: "black"
+    box_color: "white@0.9"
+    box_radius: 20
+    margin: 40
+    usernames:
+      - "@fakta.unik.hari.ini"
+      - "@sains.cepat"
+      - "@ilmu.random"
+      - "@facts.indo"
+      - "@pengetahuan.umum"
+      - "@daily.science.id"
+      - "@sains.populer"
+      - "@trivia.indonesia"
+    comments:
+      - "Keren banget! Ga nyangka gitu"
+      - "Wajib tahu nih buat semua orang!"
+      - "Fakta yang jarang diketahui orang"
+      - "Ternyata begini ya, mantap!"
+      - "Share ke temen yang belum tau!"
+      - "Baru tau gw, ternyata begitu"
+      - "Wah, ga sangka bisa begitu!"
+      - "Beneran? Cekidot guys!"
+      - "Info penting nih, jangan skip!"
+      - "Setuju gak sama fakta ini?"
 
 captions:
   whisper_model: base
