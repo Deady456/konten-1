@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 from . import script, voice, captions, visuals, assemble, upload, state
 from . import music, branding, review
-from .config import OUTPUT_DIR
+from .config import CONFIG, OUTPUT_DIR
 
 
 def slug(s: str) -> str:
