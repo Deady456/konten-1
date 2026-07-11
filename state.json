@@ -14,7 +14,8 @@
     "fakta-menarik-tentang-tumbuhan-karnivora",
     "fakta-tentang-hidrotermal",
     "fakta-tentang-biomimikri",
-    "fakta-tentang-mikroorganisme"
+    "fakta-tentang-mikroorganisme",
+    "fakta-tentang-geologi"
   ],
   "published": [
     {
@@ -207,6 +208,14 @@
       "title": "Mikroorganisme Paling Kuat Di Dunia",
       "path": "/home/runner/work/konten-1/konten-1/output/20260710_100300_fakta-tentang-mikroorganisme/final.mp4",
       "video_id": "pa1xm-QjfKI",
+      "publish_at": null
+    },
+    {
+      "ts": "20260711_135906",
+      "topic": "fakta-tentang-geologi",
+      "title": "Ternyata Bumi Memiliki 'Jantung' yang Berdenyut",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260711_135906_fakta-tentang-geologi/final.mp4",
+      "video_id": "y05uphJ0cDw",
       "publish_at": null
     }
   ]
