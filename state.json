@@ -17,7 +17,8 @@
     "fakta-tentang-mikroorganisme",
     "fakta-tentang-geologi",
     "fakta-tentang-kriovulkanisme",
-    "fakta-tentang-penelitian-kriogenik"
+    "fakta-tentang-penelitian-kriogenik",
+    "perbandingan-otak-manusia-dan-otak-cacing"
   ],
   "published": [
     {
@@ -239,8 +240,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260711_181055",
+      "topic": "perbandingan-otak-manusia-dan-otak-cacing",
+      "title": "Otak Manusia vs Otak Cacing: Perbedaan Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260711_181055_perbandingan-otak-manusia-dan-otak-cacing/final.mp4",
+      "video_id": "0te3P74aM64",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 2,
-  "_voice_idx": 2
+  "_format_idx": 3,
+  "_voice_idx": 3
 }
