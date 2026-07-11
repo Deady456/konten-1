@@ -68,7 +68,7 @@ music:
   source: "local"
   local_dir: "assets/music"
   # Volume: 0.0 - 1.0 (semakin kecil semakin pelan)
-  volume: 0.15
+  volume: 0.03
   # Fade in/out dalam detik
   fade_in: 2.0
   fade_out: 3.0
