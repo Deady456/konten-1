@@ -91,25 +91,40 @@ def synth(text: str, out_path: Path) -> Path:
     print(f"    voice: {voice_name}, {len(text)} chars")
 
     t0 = time.time()
+    provider = CONFIG.get("voice", {}).get("provider", "elevenlabs")
 
-    keys_str = os.environ.get("ELEVENLABS_API_KEYS", "")
-    keys = [k.strip() for k in keys_str.split(",") if k.strip()]
+    # ElevenLabs is PRIMARY - try all keys with retry
+    if provider == "elevenlabs":
+        keys_str = os.environ.get("ELEVENLABS_API_KEYS", "")
+        keys = [k.strip() for k in keys_str.split(",") if k.strip()]
 
-    if keys:
-        for i, api_key in enumerate(keys):
-            try:
-                _synth_elevenlabs(text, out_path, v, api_key)
-                print(f"    done in {time.time()-t0:.1f}s (elevenlabs key[{i}])")
-                return out_path
-            except Exception as e:
-                err_msg = str(e).lower()
-                if "rate" in err_msg or "limit" in err_msg or "429" in err_msg:
-                    print(f"    key[{i}] rate limited, trying next")
-                else:
-                    print(f"    key[{i}] error: {e}, trying next")
-                continue
-        print(f"    all {len(keys)} elevenlabs keys exhausted, falling back to edge-tts")
+        if keys:
+            for i, api_key in enumerate(keys):
+                for attempt in range(2):
+                    try:
+                        _synth_elevenlabs(text, out_path, v, api_key)
+                        print(f"    done in {time.time()-t0:.1f}s (elevenlabs key[{i}], attempt {attempt+1})")
+                        return out_path
+                    except Exception as e:
+                        err_msg = str(e).lower()
+                        if "rate" in err_msg or "limit" in err_msg or "429" in err_msg:
+                            print(f"    key[{i}] rate limited (attempt {attempt+1}), trying next")
+                            break
+                        elif "paid_plan_required" in err_msg or "402" in err_msg:
+                            print(f"    key[{i}] needs paid plan, trying next")
+                            break
+                        else:
+                            print(f"    key[{i}] error (attempt {attempt+1}): {e}")
+                            if attempt == 0:
+                                import time as _time
+                                _time.sleep(1)
+                            continue
+            print(f"    all {len(keys)} elevenlabs keys exhausted")
+        else:
+            print(f"    no elevenlabs keys found")
 
+    # Edge-TTS is LAST RESORT fallback only
+    print(f"    falling back to edge-tts (last resort)")
     _synth_edge(text, out_path, v)
     print(f"    done in {time.time()-t0:.1f}s (edge-tts fallback)")
     return out_path
