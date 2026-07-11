@@ -52,18 +52,19 @@ def _select_music_file(mood: str) -> Path | None:
     if not music_dir.exists():
         return None
 
-    # Look for mood-specific files first, then generic
-    patterns = [f"*{mood}*", "*.mp3", "*.wav", "*.m4a"]
-    candidates = []
-    for pat in patterns:
-        candidates.extend(music_dir.glob(pat))
-        if candidates:
-            break
-
-    # Fallback: any audio file
-    if not candidates:
+    # Look in mood-specific subdirectory first
+    mood_dir = music_dir / mood
+    if mood_dir.exists():
+        candidates = []
         for ext in ["*.mp3", "*.wav", "*.m4a", "*.ogg"]:
-            candidates.extend(music_dir.glob(ext))
+            candidates.extend(mood_dir.glob(ext))
+        if candidates:
+            return random.choice(candidates)
+
+    # Fallback: any audio file in root or subdirs
+    candidates = []
+    for ext in ["*.mp3", "*.wav", "*.m4a", "*.ogg"]:
+        candidates.extend(music_dir.rglob(ext))
 
     return random.choice(candidates) if candidates else None
 
@@ -121,7 +122,7 @@ def mix_with_voice(voice_path: Path, output_path: Path, video_duration: float,
 
     p = subprocess.run(cmd, capture_output=True, text=True)
     if p.returncode != 0:
-        print(f"    music: mix failed, using voice only")
+        print(f"    music: mix failed: {p.stderr[-300:]}")
         output_path.write_bytes(voice_path.read_bytes())
         return output_path
 

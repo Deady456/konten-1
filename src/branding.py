@@ -141,7 +141,7 @@ def add_watermark(video_path: Path, output_path: Path) -> Path:
 
     p = subprocess.run(cmd, capture_output=True, text=True)
     if p.returncode != 0:
-        print(f"    branding: watermark failed, using original")
+        print(f"    branding: watermark failed: {p.stderr[-300:]}")
         return video_path
 
     return output_path
