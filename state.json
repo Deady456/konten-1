@@ -16,7 +16,8 @@
     "fakta-tentang-biomimikri",
     "fakta-tentang-mikroorganisme",
     "fakta-tentang-geologi",
-    "fakta-tentang-kriovulkanisme"
+    "fakta-tentang-kriovulkanisme",
+    "fakta-tentang-penelitian-kriogenik"
   ],
   "published": [
     {
@@ -228,8 +229,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260711_180454",
+      "topic": "fakta-tentang-penelitian-kriogenik",
+      "title": "Mengungkap Rahasia Kriogenik: Petualangan Menciptakan Kehidupan Abadi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260711_180454_fakta-tentang-penelitian-kriogenik/final.mp4",
+      "video_id": "WsHq_ngPH94",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 1,
-  "_voice_idx": 1
+  "_format_idx": 2,
+  "_voice_idx": 2
 }
