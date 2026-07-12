@@ -19,7 +19,8 @@
     "fakta-tentang-kriovulkanisme",
     "fakta-tentang-penelitian-kriogenik",
     "fakta-tentang-bioluminesensi-laut",
-    "fakta-tentang-ekosistem-gua"
+    "fakta-tentang-ekosistem-gua",
+    "fakta-tentang-paleomagnetisme"
   ],
   "published": [
     {
@@ -261,8 +262,16 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260712_092935",
+      "topic": "fakta-tentang-paleomagnetisme",
+      "title": "Mengenal Paleomagnetisme: Kunci Menulis Sejarah Bumi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260712_092935_fakta-tentang-paleomagnetisme/final.mp4",
+      "video_id": "VXC_uvEyhso",
+      "publish_at": null
     }
   ],
-  "_format_idx": 6,
-  "_voice_idx": 6
+  "_format_idx": 7,
+  "_voice_idx": 7
 }
