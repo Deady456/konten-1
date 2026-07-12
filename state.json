@@ -20,7 +20,8 @@
     "fakta-tentang-penelitian-kriogenik",
     "fakta-tentang-bioluminesensi-laut",
     "fakta-tentang-ekosistem-gua",
-    "fakta-tentang-paleomagnetisme"
+    "fakta-tentang-paleomagnetisme",
+    "fakta-tentang-sinesthesia"
   ],
   "published": [
     {
@@ -270,8 +271,18 @@
       "path": "/home/runner/work/konten-1/konten-1/output/20260712_092935_fakta-tentang-paleomagnetisme/final.mp4",
       "video_id": "VXC_uvEyhso",
       "publish_at": null
+    },
+    {
+      "ts": "20260712_220219",
+      "topic": "fakta-tentang-sinesthesia",
+      "title": "Mitos Sinestesia: Mengapa Beberapa Orang Bisa Merasakan Warna dari Suara?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260712_220219_fakta-tentang-sinesthesia/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 7,
-  "_voice_idx": 7
+  "_format_idx": 8,
+  "_voice_idx": 8
 }
