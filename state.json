@@ -22,7 +22,8 @@
     "fakta-tentang-ekosistem-gua",
     "fakta-tentang-paleomagnetisme",
     "fakta-tentang-sinesthesia",
-    "fakta-teknologi-masa-depan"
+    "fakta-teknologi-masa-depan",
+    "fakta-tentang-megalit"
   ],
   "published": [
     {
@@ -292,8 +293,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260713_220323",
+      "topic": "fakta-tentang-megalit",
+      "title": "Mengungkap Rahasia Batu Megalit: Misteri yang Terkubur Selama Berabad-Abad",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260713_220323_fakta-tentang-megalit/final.mp4",
+      "video_id": "omObdRvl_DU",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 9,
-  "_voice_idx": 9
+  "_format_idx": 10,
+  "_voice_idx": 10
 }
