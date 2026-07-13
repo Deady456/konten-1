@@ -21,7 +21,8 @@
     "fakta-tentang-bioluminesensi-laut",
     "fakta-tentang-ekosistem-gua",
     "fakta-tentang-paleomagnetisme",
-    "fakta-tentang-sinesthesia"
+    "fakta-tentang-sinesthesia",
+    "fakta-teknologi-masa-depan"
   ],
   "published": [
     {
@@ -281,8 +282,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260713_072126",
+      "topic": "fakta-teknologi-masa-depan",
+      "title": "5 Teknologi Masa Depan Yang Bakal Mengubah Dunia",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260713_072126_fakta-teknologi-masa-depan/final.mp4",
+      "video_id": "6Ctem0Q9Uxc",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 8,
-  "_voice_idx": 8
+  "_format_idx": 9,
+  "_voice_idx": 9
 }
