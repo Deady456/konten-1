@@ -23,7 +23,8 @@
     "fakta-tentang-paleomagnetisme",
     "fakta-tentang-sinesthesia",
     "fakta-teknologi-masa-depan",
-    "fakta-tentang-megalit"
+    "fakta-tentang-megalit",
+    "fakta-tentang-penglihatan-mamalia-vs-reptil"
   ],
   "published": [
     {
@@ -303,8 +304,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260714_060335",
+      "topic": "fakta-tentang-penglihatan-mamalia-vs-reptil",
+      "title": "Mamalia vs Reptil: Apa yang Membedakan Penglihatan Mereka?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260714_060335_fakta-tentang-penglihatan-mamalia-vs-reptil/final.mp4",
+      "video_id": "EiKNfIAqHb0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 10,
-  "_voice_idx": 10
+  "_format_idx": 11,
+  "_voice_idx": 11
 }
