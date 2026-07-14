@@ -24,7 +24,8 @@
     "fakta-tentang-sinesthesia",
     "fakta-teknologi-masa-depan",
     "fakta-tentang-megalit",
-    "fakta-tentang-penglihatan-mamalia-vs-reptil"
+    "fakta-tentang-penglihatan-mamalia-vs-reptil",
+    "fakta-tentang-fosil-dinamika"
   ],
   "published": [
     {
@@ -314,8 +315,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260714_220158",
+      "topic": "fakta-tentang-fosil-dinamika",
+      "title": "Mengungkap Misteri Fosil Hidup: Apakah Mereka Sungguhan?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260714_220158_fakta-tentang-fosil-dinamika/final.mp4",
+      "video_id": "0_Ht8hfDqeY",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 11,
-  "_voice_idx": 11
+  "_format_idx": 12,
+  "_voice_idx": 12
 }
