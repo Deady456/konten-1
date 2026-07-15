@@ -26,7 +26,8 @@
     "fakta-tentang-megalit",
     "fakta-tentang-penglihatan-mamalia-vs-reptil",
     "fakta-tentang-fosil-dinamika",
-    "fakta-tentang-neuroplastisitas"
+    "fakta-tentang-neuroplastisitas",
+    "fakta-tentang-bioakustik"
   ],
   "published": [
     {
@@ -336,8 +337,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260715_164847",
+      "topic": "fakta-tentang-bioakustik",
+      "title": "Mengungkap Rahasia Suara Hutan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260715_164847_fakta-tentang-bioakustik/final.mp4",
+      "video_id": "O2rYgvVzL8I",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 13,
-  "_voice_idx": 13
+  "_format_idx": 14,
+  "_voice_idx": 14
 }
