@@ -25,7 +25,8 @@
     "fakta-teknologi-masa-depan",
     "fakta-tentang-megalit",
     "fakta-tentang-penglihatan-mamalia-vs-reptil",
-    "fakta-tentang-fosil-dinamika"
+    "fakta-tentang-fosil-dinamika",
+    "fakta-tentang-neuroplastisitas"
   ],
   "published": [
     {
@@ -325,8 +326,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260715_060153",
+      "topic": "fakta-tentang-neuroplastisitas",
+      "title": "5 Fakta Mengejutkan Tentang Neuroplastisitas Otak Manusia",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260715_060153_fakta-tentang-neuroplastisitas/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 12,
-  "_voice_idx": 12
+  "_format_idx": 13,
+  "_voice_idx": 13
 }
