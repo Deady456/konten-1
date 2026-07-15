@@ -27,7 +27,8 @@
     "fakta-tentang-penglihatan-mamalia-vs-reptil",
     "fakta-tentang-fosil-dinamika",
     "fakta-tentang-neuroplastisitas",
-    "fakta-tentang-bioakustik"
+    "fakta-tentang-bioakustik",
+    "fakta-tentang-penelitian-kehidupan-abiotik"
   ],
   "published": [
     {
@@ -347,8 +348,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260715_230154",
+      "topic": "fakta-tentang-penelitian-kehidupan-abiotik",
+      "title": "Bumi Vs Mars: Perbedaan Kehidupan Abiotik Yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260715_230154_fakta-tentang-penelitian-kehidupan-abiotik/final.mp4",
+      "video_id": "CS43oAWkufo",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 14,
-  "_voice_idx": 14
+  "_format_idx": 15,
+  "_voice_idx": 15
 }
