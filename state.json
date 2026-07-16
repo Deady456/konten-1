@@ -29,7 +29,8 @@
     "fakta-tentang-neuroplastisitas",
     "fakta-tentang-bioakustik",
     "fakta-tentang-penelitian-kehidupan-abiotik",
-    "fakta-tentang-ekosistem-tersembunyi"
+    "fakta-tentang-ekosistem-tersembunyi",
+    "fakta-tentang-arkeoastronomi"
   ],
   "published": [
     {
@@ -369,8 +370,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260716_155659",
+      "topic": "fakta-tentang-arkeoastronomi",
+      "title": "Mengungkap Rahasia Alam Semesta Lewat Arkeoastronomi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260716_155659_fakta-tentang-arkeoastronomi/final.mp4",
+      "video_id": "3UISs27kmJ8",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 16,
-  "_voice_idx": 16
+  "_format_idx": 17,
+  "_voice_idx": 17
 }
