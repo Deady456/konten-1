@@ -28,7 +28,8 @@
     "fakta-tentang-fosil-dinamika",
     "fakta-tentang-neuroplastisitas",
     "fakta-tentang-bioakustik",
-    "fakta-tentang-penelitian-kehidupan-abiotik"
+    "fakta-tentang-penelitian-kehidupan-abiotik",
+    "fakta-tentang-ekosistem-tersembunyi"
   ],
   "published": [
     {
@@ -358,8 +359,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260716_070158",
+      "topic": "fakta-tentang-ekosistem-tersembunyi",
+      "title": "Mengungkap Ekosistem Tersembunyi di Bawah Tanah",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260716_070158_fakta-tentang-ekosistem-tersembunyi/final.mp4",
+      "video_id": "FLOO8L1GhkM",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 15,
-  "_voice_idx": 15
+  "_format_idx": 16,
+  "_voice_idx": 16
 }
