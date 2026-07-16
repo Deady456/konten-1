@@ -91,7 +91,6 @@ def upload_video(video_path: Path, title: str, description: str, tags: list[str]
             "-vframes", "1", "-q:v", "2", str(thumb_path)
         ], capture_output=True)
         if thumb_path.exists():
-            from googleapiclient.http import MediaFileUpload
             thumb_media = MediaFileUpload(str(thumb_path), mimetype="image/jpeg")
             yt.thumbnails().set(videoId=video_id, media_body=thumb_media).execute()
     except Exception as e:
