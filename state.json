@@ -30,7 +30,9 @@
     "fakta-tentang-bioakustik",
     "fakta-tentang-penelitian-kehidupan-abiotik",
     "fakta-tentang-ekosistem-tersembunyi",
-    "fakta-tentang-arkeoastronomi"
+    "fakta-tentang-arkeoastronomi",
+    "fakta-tentang-kristal-gelap",
+    "fakta-tentang-otak-kiri-vs-otak-kanan"
   ],
   "published": [
     {
@@ -380,8 +382,28 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260717_030926",
+      "topic": "fakta-tentang-kristal-gelap",
+      "title": "Misteri Kristal Gelap: Penemuan yang Mengguncang Ilmu Pengetahuan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260717_030926_fakta-tentang-kristal-gelap/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
+    },
+    {
+      "ts": "20260717_070314",
+      "topic": "fakta-tentang-otak-kiri-vs-otak-kanan",
+      "title": "Otak Kiri vs Otak Kanan: Perbedaan Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260717_070314_fakta-tentang-otak-kiri-vs-otak-kanan/final.mp4",
+      "video_id": "4_AP2I0Xnms",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 17,
-  "_voice_idx": 17
+  "_format_idx": 19,
+  "_voice_idx": 19
 }
