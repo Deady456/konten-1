@@ -33,7 +33,8 @@
     "fakta-tentang-arkeoastronomi",
     "fakta-tentang-kristal-gelap",
     "fakta-tentang-otak-kiri-vs-otak-kanan",
-    "fakta-tentang-efek-mandela"
+    "fakta-tentang-efek-mandela",
+    "fakta-tentang-kronobiologi"
   ],
   "published": [
     {
@@ -413,8 +414,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260717_230146",
+      "topic": "fakta-tentang-kronobiologi",
+      "title": "Mengungkap Rahasia Tubuh Manusia: 5 Fakta Kronobiologi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260717_230146_fakta-tentang-kronobiologi/final.mp4",
+      "video_id": "AUTL47GLfmQ",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 20,
-  "_voice_idx": 20
+  "_format_idx": 21,
+  "_voice_idx": 21
 }
