@@ -32,7 +32,8 @@
     "fakta-tentang-ekosistem-tersembunyi",
     "fakta-tentang-arkeoastronomi",
     "fakta-tentang-kristal-gelap",
-    "fakta-tentang-otak-kiri-vs-otak-kanan"
+    "fakta-tentang-otak-kiri-vs-otak-kanan",
+    "fakta-tentang-efek-mandela"
   ],
   "published": [
     {
@@ -402,8 +403,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260717_183446",
+      "topic": "fakta-tentang-efek-mandela",
+      "title": "Mengenal Efek Mandela: Fenomena di Otak Manusia",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260717_183446_fakta-tentang-efek-mandela/final.mp4",
+      "video_id": "_VIfFBVcp38",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 19,
-  "_voice_idx": 19
+  "_format_idx": 20,
+  "_voice_idx": 20
 }
