@@ -34,7 +34,8 @@
     "fakta-tentang-kristal-gelap",
     "fakta-tentang-otak-kiri-vs-otak-kanan",
     "fakta-tentang-efek-mandela",
-    "fakta-tentang-kronobiologi"
+    "fakta-tentang-kronobiologi",
+    "fakta-tentang-geofisika"
   ],
   "published": [
     {
@@ -424,8 +425,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_070251",
+      "topic": "fakta-tentang-geofisika",
+      "title": "Misteri Getaran Bumi yang Tersembunyi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260718_070251_fakta-tentang-geofisika/final.mp4",
+      "video_id": "95YRZzh6xIQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 21,
-  "_voice_idx": 21
+  "_format_idx": 22,
+  "_voice_idx": 22
 }
