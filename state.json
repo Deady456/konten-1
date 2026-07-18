@@ -36,7 +36,8 @@
     "fakta-tentang-efek-mandela",
     "fakta-tentang-kronobiologi",
     "fakta-tentang-geofisika",
-    "fakta-tentang-paralel-universum-vs-alam-semesta"
+    "fakta-tentang-paralel-universum-vs-alam-semesta",
+    "fakta-tentang-simbiosis-pengendalian-hama"
   ],
   "published": [
     {
@@ -446,8 +447,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_200115",
+      "topic": "fakta-tentang-simbiosis-pengendalian-hama",
+      "title": "Mitos Pengendalian Hama yang Keliru: Fakta Ilmiah Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260718_200115_fakta-tentang-simbiosis-pengendalian-hama/final.mp4",
+      "video_id": "XGJ7lA_dtmc",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 23,
-  "_voice_idx": 23
+  "_format_idx": 24,
+  "_voice_idx": 24
 }
