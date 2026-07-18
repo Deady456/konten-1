@@ -35,7 +35,8 @@
     "fakta-tentang-otak-kiri-vs-otak-kanan",
     "fakta-tentang-efek-mandela",
     "fakta-tentang-kronobiologi",
-    "fakta-tentang-geofisika"
+    "fakta-tentang-geofisika",
+    "fakta-tentang-paralel-universum-vs-alam-semesta"
   ],
   "published": [
     {
@@ -435,8 +436,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_150447",
+      "topic": "fakta-tentang-paralel-universum-vs-alam-semesta",
+      "title": "Paralel Universum vs Alam Semesta: Apa Bedanya?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260718_150447_fakta-tentang-paralel-universum-vs-alam-semesta/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 22,
-  "_voice_idx": 22
+  "_format_idx": 23,
+  "_voice_idx": 23
 }
