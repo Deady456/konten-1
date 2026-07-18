@@ -37,7 +37,8 @@
     "fakta-tentang-kronobiologi",
     "fakta-tentang-geofisika",
     "fakta-tentang-paralel-universum-vs-alam-semesta",
-    "fakta-tentang-simbiosis-pengendalian-hama"
+    "fakta-tentang-simbiosis-pengendalian-hama",
+    "fakta-penemuan-terbaru-arkeologi"
   ],
   "published": [
     {
@@ -457,8 +458,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_230347",
+      "topic": "fakta-penemuan-terbaru-arkeologi",
+      "title": "Ternyata Ini 3 Penemuan Arkeologi Terbaru yang Mengubah Sejarah!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260718_230347_fakta-penemuan-terbaru-arkeologi/final.mp4",
+      "video_id": "BgvbnpkVqYo",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 24,
-  "_voice_idx": 24
+  "_format_idx": 25,
+  "_voice_idx": 25
 }
