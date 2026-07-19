@@ -40,7 +40,8 @@
     "fakta-tentang-simbiosis-pengendalian-hama",
     "fakta-penemuan-terbaru-arkeologi",
     "fakta-tentang-hidrodinamika-pada-hewan",
-    "fakta-tentang-bakterioklorofil"
+    "fakta-tentang-bakterioklorofil",
+    "fakta-tentang-entropi"
   ],
   "published": [
     {
@@ -488,8 +489,16 @@
       "path": "/home/runner/work/konten-1/konten-1/output/20260719_150700_fakta-tentang-bakterioklorofil/final.mp4",
       "video_id": "VjZAoOU4zHU",
       "publish_at": null
+    },
+    {
+      "ts": "20260719_230646",
+      "topic": "fakta-tentang-entropi",
+      "title": "Mengenal Entropi: Konsep Dasar Alam Semesta yang Mengatur Kehidupan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260719_230646_fakta-tentang-entropi/final.mp4",
+      "video_id": "qBDPIkO8-5Q",
+      "publish_at": null
     }
   ],
-  "_format_idx": 27,
-  "_voice_idx": 28
+  "_format_idx": 28,
+  "_voice_idx": 30
 }
