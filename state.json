@@ -39,7 +39,8 @@
     "fakta-tentang-paralel-universum-vs-alam-semesta",
     "fakta-tentang-simbiosis-pengendalian-hama",
     "fakta-penemuan-terbaru-arkeologi",
-    "fakta-tentang-hidrodinamika-pada-hewan"
+    "fakta-tentang-hidrodinamika-pada-hewan",
+    "fakta-tentang-bakterioklorofil"
   ],
   "published": [
     {
@@ -479,8 +480,16 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260719_150700",
+      "topic": "fakta-tentang-bakterioklorofil",
+      "title": "Bakterioklorofil: Bagaimana Bakteri Menghasilkan Energi Dari Cahaya",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260719_150700_fakta-tentang-bakterioklorofil/final.mp4",
+      "video_id": "VjZAoOU4zHU",
+      "publish_at": null
     }
   ],
-  "_format_idx": 26,
-  "_voice_idx": 26
+  "_format_idx": 27,
+  "_voice_idx": 28
 }
