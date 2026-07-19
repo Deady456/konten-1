@@ -38,7 +38,8 @@
     "fakta-tentang-geofisika",
     "fakta-tentang-paralel-universum-vs-alam-semesta",
     "fakta-tentang-simbiosis-pengendalian-hama",
-    "fakta-penemuan-terbaru-arkeologi"
+    "fakta-penemuan-terbaru-arkeologi",
+    "fakta-tentang-hidrodinamika-pada-hewan"
   ],
   "published": [
     {
@@ -468,8 +469,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260719_070308",
+      "topic": "fakta-tentang-hidrodinamika-pada-hewan",
+      "title": "Mengungkap Rahasia Gerakan Hewan di Dalam Air",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260719_070308_fakta-tentang-hidrodinamika-pada-hewan/final.mp4",
+      "video_id": "wsEMNI3o4uU",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 25,
-  "_voice_idx": 25
+  "_format_idx": 26,
+  "_voice_idx": 26
 }
