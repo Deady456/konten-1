@@ -43,7 +43,8 @@
     "fakta-tentang-bakterioklorofil",
     "fakta-tentang-entropi",
     "fakta-tentang-fenomena-ball-lightning",
-    "fakta-tentang-sonifikasi-alam"
+    "fakta-tentang-sonifikasi-alam",
+    "fakta-tentang-memori-jangka-panjang-vs-memori-jangka-pendek"
   ],
   "published": [
     {
@@ -517,8 +518,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260720_150259",
+      "topic": "fakta-tentang-memori-jangka-panjang-vs-memori-jangka-pendek",
+      "title": "Mengungkap Perbedaan Memori Jangka Panjang dan Jangka Pendek",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260720_150259_fakta-tentang-memori-jangka-panjang-vs-memori-jangka-pendek/final.mp4",
+      "video_id": "nMybOlv3VZM",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 30,
-  "_voice_idx": 33
+  "_format_idx": 31,
+  "_voice_idx": 34
 }
