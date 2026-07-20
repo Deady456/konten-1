@@ -41,7 +41,8 @@
     "fakta-penemuan-terbaru-arkeologi",
     "fakta-tentang-hidrodinamika-pada-hewan",
     "fakta-tentang-bakterioklorofil",
-    "fakta-tentang-entropi"
+    "fakta-tentang-entropi",
+    "fakta-tentang-fenomena-ball-lightning"
   ],
   "published": [
     {
@@ -497,8 +498,16 @@
       "path": "/home/runner/work/konten-1/konten-1/output/20260719_230646_fakta-tentang-entropi/final.mp4",
       "video_id": "qBDPIkO8-5Q",
       "publish_at": null
+    },
+    {
+      "ts": "20260720_070632",
+      "topic": "fakta-tentang-fenomena-ball-lightning",
+      "title": "Mengungkap Misteri Ball Lightning: Fenomena Alam yang Masih Belum Terpecahkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260720_070632_fakta-tentang-fenomena-ball-lightning/final.mp4",
+      "video_id": "qK3JvChYtxc",
+      "publish_at": null
     }
   ],
-  "_format_idx": 28,
-  "_voice_idx": 30
+  "_format_idx": 29,
+  "_voice_idx": 32
 }
