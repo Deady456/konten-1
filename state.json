@@ -42,7 +42,8 @@
     "fakta-tentang-hidrodinamika-pada-hewan",
     "fakta-tentang-bakterioklorofil",
     "fakta-tentang-entropi",
-    "fakta-tentang-fenomena-ball-lightning"
+    "fakta-tentang-fenomena-ball-lightning",
+    "fakta-tentang-sonifikasi-alam"
   ],
   "published": [
     {
@@ -506,8 +507,18 @@
       "path": "/home/runner/work/konten-1/konten-1/output/20260720_070632_fakta-tentang-fenomena-ball-lightning/final.mp4",
       "video_id": "qK3JvChYtxc",
       "publish_at": null
+    },
+    {
+      "ts": "20260720_094547",
+      "topic": "fakta-tentang-sonifikasi-alam",
+      "title": "Mendengarkan Suara Alam Semesta",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260720_094547_fakta-tentang-sonifikasi-alam/final.mp4",
+      "video_id": "0R3VFqf7J6I",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 29,
-  "_voice_idx": 32
+  "_format_idx": 30,
+  "_voice_idx": 33
 }
