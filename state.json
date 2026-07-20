@@ -44,7 +44,8 @@
     "fakta-tentang-entropi",
     "fakta-tentang-fenomena-ball-lightning",
     "fakta-tentang-sonifikasi-alam",
-    "fakta-tentang-memori-jangka-panjang-vs-memori-jangka-pendek"
+    "fakta-tentang-memori-jangka-panjang-vs-memori-jangka-pendek",
+    "fakta-tentang-kriptobiosis"
   ],
   "published": [
     {
@@ -528,8 +529,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260720_230434",
+      "topic": "fakta-tentang-kriptobiosis",
+      "title": "Mitos Kematian Sel: Apa yang Terjadi Pada Makhluk Hidup di Alam Beku?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260720_230434_fakta-tentang-kriptobiosis/final.mp4",
+      "video_id": "ECkcejIYBUA",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 31,
-  "_voice_idx": 34
+  "_format_idx": 32,
+  "_voice_idx": 35
 }
