@@ -45,7 +45,8 @@
     "fakta-tentang-fenomena-ball-lightning",
     "fakta-tentang-sonifikasi-alam",
     "fakta-tentang-memori-jangka-panjang-vs-memori-jangka-pendek",
-    "fakta-tentang-kriptobiosis"
+    "fakta-tentang-kriptobiosis",
+    "fakta-tentang-gelombang-gravitasi"
   ],
   "published": [
     {
@@ -539,8 +540,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_070340",
+      "topic": "fakta-tentang-gelombang-gravitasi",
+      "title": "Mengungkap Rahasia Gelombang Gravitasi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260721_070340_fakta-tentang-gelombang-gravitasi/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 32,
-  "_voice_idx": 35
+  "_format_idx": 33,
+  "_voice_idx": 36
 }
