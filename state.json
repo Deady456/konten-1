@@ -46,7 +46,8 @@
     "fakta-tentang-sonifikasi-alam",
     "fakta-tentang-memori-jangka-panjang-vs-memori-jangka-pendek",
     "fakta-tentang-kriptobiosis",
-    "fakta-tentang-gelombang-gravitasi"
+    "fakta-tentang-gelombang-gravitasi",
+    "fakta-tentang-penelitian-pengaruh-medan-magnet-terhadap-tumbuhan"
   ],
   "published": [
     {
@@ -550,8 +551,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_150310",
+      "topic": "fakta-tentang-penelitian-pengaruh-medan-magnet-terhadap-tumbuhan",
+      "title": "Mengungkap Rahasia Alam: Bagaimana Medan Magnet Mempengaruhi Tumbuhan?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260721_150310_fakta-tentang-penelitian-pengaruh-medan-magnet-terhadap-tumb/final.mp4",
+      "video_id": "00NfeAY-9RQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 33,
-  "_voice_idx": 36
+  "_format_idx": 34,
+  "_voice_idx": 37
 }
