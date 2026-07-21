@@ -47,7 +47,8 @@
     "fakta-tentang-memori-jangka-panjang-vs-memori-jangka-pendek",
     "fakta-tentang-kriptobiosis",
     "fakta-tentang-gelombang-gravitasi",
-    "fakta-tentang-penelitian-pengaruh-medan-magnet-terhadap-tumbuhan"
+    "fakta-tentang-penelitian-pengaruh-medan-magnet-terhadap-tumbuhan",
+    "fakta-tentang-perbandingan-sistem-kekebalan-tumbuhan-dan-hewan"
   ],
   "published": [
     {
@@ -561,8 +562,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_230316",
+      "topic": "fakta-tentang-perbandingan-sistem-kekebalan-tumbuhan-dan-hewan",
+      "title": "Sistem Kekebalan Tumbuhan vs Hewan: Perbedaan yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260721_230316_fakta-tentang-perbandingan-sistem-kekebalan-tumbuhan-dan-hew/final.mp4",
+      "video_id": "XeZBaOqhz1A",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 34,
-  "_voice_idx": 37
+  "_format_idx": 35,
+  "_voice_idx": 38
 }
