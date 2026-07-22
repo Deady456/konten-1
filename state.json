@@ -48,7 +48,8 @@
     "fakta-tentang-kriptobiosis",
     "fakta-tentang-gelombang-gravitasi",
     "fakta-tentang-penelitian-pengaruh-medan-magnet-terhadap-tumbuhan",
-    "fakta-tentang-perbandingan-sistem-kekebalan-tumbuhan-dan-hewan"
+    "fakta-tentang-perbandingan-sistem-kekebalan-tumbuhan-dan-hewan",
+    "fakta-tentang-lapisan-ozon"
   ],
   "published": [
     {
@@ -572,8 +573,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260722_070150",
+      "topic": "fakta-tentang-lapisan-ozon",
+      "title": "Mengungkap Mitos Lapisan Ozon: Apakah Benar Hanya Di Atmosfer?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260722_070150_fakta-tentang-lapisan-ozon/final.mp4",
+      "video_id": "3G9c2tFVjUE",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 35,
-  "_voice_idx": 38
+  "_format_idx": 36,
+  "_voice_idx": 39
 }
