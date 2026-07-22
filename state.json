@@ -49,7 +49,8 @@
     "fakta-tentang-gelombang-gravitasi",
     "fakta-tentang-penelitian-pengaruh-medan-magnet-terhadap-tumbuhan",
     "fakta-tentang-perbandingan-sistem-kekebalan-tumbuhan-dan-hewan",
-    "fakta-tentang-lapisan-ozon"
+    "fakta-tentang-lapisan-ozon",
+    "fakta-tentang-biomimikri"
   ],
   "published": [
     {
@@ -583,8 +584,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260722_150335",
+      "topic": "fakta-tentang-biomimikri",
+      "title": "5 Teknologi Canggih yang Terinspirasi Dari Alam",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260722_150335_fakta-tentang-biomimikri/final.mp4",
+      "video_id": "37q-b_bgXHQ",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 36,
-  "_voice_idx": 39
+  "_format_idx": 37,
+  "_voice_idx": 40
 }
