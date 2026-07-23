@@ -54,7 +54,8 @@
     "fakta-tentang-speleologi",
     "fakta-tentang-geomorfologi",
     "fakta-tentang-geologi-vulkanik",
-    "fakta-tentang-astrobiologi"
+    "fakta-tentang-astrobiologi",
+    "fakta-tentang-paleoklimatologi"
   ],
   "published": [
     {
@@ -634,8 +635,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260723_230351",
+      "topic": "fakta-tentang-paleoklimatologi",
+      "title": "Mengungkap Rahasia Iklim Purba: Petualangan di Zaman Es",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260723_230351_fakta-tentang-paleoklimatologi/final.mp4",
+      "video_id": "8AxzqXtf3_o",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 41,
-  "_voice_idx": 46
+  "_format_idx": 42,
+  "_voice_idx": 47
 }
