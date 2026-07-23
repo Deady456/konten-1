@@ -53,7 +53,8 @@
     "fakta-tentang-biomimikri",
     "fakta-tentang-speleologi",
     "fakta-tentang-geomorfologi",
-    "fakta-tentang-geologi-vulkanik"
+    "fakta-tentang-geologi-vulkanik",
+    "fakta-tentang-astrobiologi"
   ],
   "published": [
     {
@@ -623,8 +624,18 @@
       "path": "/home/runner/work/konten-1/konten-1/output/20260723_070733_fakta-tentang-geologi-vulkanik/final.mp4",
       "video_id": "ugdqCh50UuQ",
       "publish_at": null
+    },
+    {
+      "ts": "20260723_150608",
+      "topic": "fakta-tentang-astrobiologi",
+      "title": "7 Fakta Mengagumkan Tentang Kehidupan di Luar Angkasa",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260723_150608_fakta-tentang-astrobiologi/final.mp4",
+      "video_id": "64dyP6wjpGc",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 40,
-  "_voice_idx": 45
+  "_format_idx": 41,
+  "_voice_idx": 46
 }
