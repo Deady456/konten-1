@@ -52,7 +52,8 @@
     "fakta-tentang-lapisan-ozon",
     "fakta-tentang-biomimikri",
     "fakta-tentang-speleologi",
-    "fakta-tentang-geomorfologi"
+    "fakta-tentang-geomorfologi",
+    "fakta-tentang-geologi-vulkanik"
   ],
   "published": [
     {
@@ -614,8 +615,16 @@
       "path": "/home/runner/work/konten-1/konten-1/output/20260723_004230_fakta-tentang-geomorfologi/final.mp4",
       "video_id": "KlmXGiImadg",
       "publish_at": null
+    },
+    {
+      "ts": "20260723_070733",
+      "topic": "fakta-tentang-geologi-vulkanik",
+      "title": "Mengintip Rahasia Vulkanisme Bawah Laut",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260723_070733_fakta-tentang-geologi-vulkanik/final.mp4",
+      "video_id": "ugdqCh50UuQ",
+      "publish_at": null
     }
   ],
-  "_format_idx": 39,
-  "_voice_idx": 43
+  "_format_idx": 40,
+  "_voice_idx": 45
 }
