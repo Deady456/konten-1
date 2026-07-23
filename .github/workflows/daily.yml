@@ -62,9 +62,9 @@ jobs:
           secrets = json.loads(os.environ['ALL_SECRETS'])
           with open('.env', 'w') as f:
               for k, v in secrets.items():
-                  if k.startswith('GROQ_API_KEY') or k.startswith('GEMINI_API_KEY') or k.startswith('PEXELS_API_KEY') or k in ['ELEVENLABS_API_KEYS', 'CLOUDFLARE_ACCOUNT_ID', 'CLOUDFLARE_API_TOKEN']:
+                  if k.startswith('GROQ_API_KEY') or k.startswith('GEMINI_API_KEY') or k.startswith('PEXELS_API_KEY') or k in ['ELEVENLABS_API_KEYS', 'CLOUDFLARE_ACCOUNT_ID', 'CLOUDFLARE_API_TOKEN[...]
                       v_escaped = v.replace('\n', '\\n')
-                      f.write(f'{k}=\"{v_escaped}\"\n')
+                      f.write(f'{k}="{v_escaped}"\n')
           "
 
       - name: Run pipeline
@@ -74,6 +74,13 @@ jobs:
           ELEVENLABS_API_KEYS: ${{ secrets.ELEVENLABS_API_KEYS }}
         run: |
           python -m src.pipeline || python -m src.pipeline_ai
+
+      - name: Upload pending videos
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          ELEVENLABS_API_KEYS: ${{ secrets.ELEVENLABS_API_KEYS }}
+        run: python -m src.upload_all
 
       - name: Commit state.json
         run: |
