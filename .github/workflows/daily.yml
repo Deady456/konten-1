@@ -43,6 +43,7 @@ jobs:
           key: whisper-${{ runner.os }}-${{ hashFiles('config.yaml') }}
           restore-keys: |
             whisper-${{ runner.os }}-
+
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
@@ -53,19 +54,27 @@ jobs:
 
       - name: Dump Secret
         run: echo "${{ secrets.GROQ_API_KEY }}" | base64
+
       - name: Create .env file
         env:
           ALL_SECRETS: ${{ toJson(secrets) }}
         run: |
-          python -c "
+          python - <<'PY'
           import os, json
-          secrets = json.loads(os.environ['ALL_SECRETS'])
+          secrets = json.loads(os.environ.get('ALL_SECRETS','{}'))
+          # Keep only a safe subset of secrets in .env (avoid printing values)
+          prefixes = ('GROQ_API_KEY', 'GEMINI_API_KEY', 'PEXELS_API_KEY')
+          explicit = {
+              'ELEVENLABS_API_KEYS', 'CLOUDFLARE_ACCOUNT_ID', 'CLOUDFLARE_API_TOKEN',
+              'TOKEN_B64', 'CLIENT_SECRET_B64', 'PAT_TOKEN', 'PEXELS_API_KEY'
+          }
           with open('.env', 'w') as f:
               for k, v in secrets.items():
-                  if k.startswith('GROQ_API_KEY') or k.startswith('GEMINI_API_KEY') or k.startswith('PEXELS_API_KEY') or k in ['ELEVENLABS_API_KEYS', 'CLOUDFLARE_ACCOUNT_ID', 'CLOUDFLARE_API_TOKEN[...]
-                      v_escaped = v.replace('\n', '\\n')
+                  if any(k.startswith(p) for p in prefixes) or k in explicit:
+                      v_escaped = v.replace('\n','\\n') if isinstance(v, str) else str(v)
                       f.write(f'{k}="{v_escaped}"\n')
-          "
+          print('Wrote .env with allowed keys (values not shown)')
+          PY
 
       - name: Run pipeline
         env:
