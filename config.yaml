@@ -20,7 +20,7 @@ content_variation:
 
 review:
   # Mode: "auto" (langsung upload), "draft" (simpan draft dulu), "hybrid" (draft tiap 5 video)
-  mode: "hybrid"
+  mode: "auto"
   draft_dir: "drafts"
   # Auto approve kalau score >= threshold
   auto_approve_score: 7
