@@ -57,7 +57,8 @@
     "fakta-tentang-astrobiologi",
     "fakta-tentang-paleoklimatologi",
     "fakta-tentang-perbandingan-makhluk-hidup-darat-dan-laut-dalam",
-    "fakta-tentang-neuroplasticitas"
+    "fakta-tentang-neuroplasticitas",
+    "fakta-tentang-metamorfosis-hewan"
   ],
   "published": [
     {
@@ -667,8 +668,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_230435",
+      "topic": "fakta-tentang-metamorfosis-hewan",
+      "title": "5 Fakta Metamorfosis Hewan Paling Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260724_230435_fakta-tentang-metamorfosis-hewan/final.mp4",
+      "video_id": "-oQrKYe9T8k",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 44,
-  "_voice_idx": 49
+  "_format_idx": 45,
+  "_voice_idx": 50
 }
