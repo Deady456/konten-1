@@ -56,7 +56,8 @@
     "fakta-tentang-geologi-vulkanik",
     "fakta-tentang-astrobiologi",
     "fakta-tentang-paleoklimatologi",
-    "fakta-tentang-perbandingan-makhluk-hidup-darat-dan-laut-dalam"
+    "fakta-tentang-perbandingan-makhluk-hidup-darat-dan-laut-dalam",
+    "fakta-tentang-neuroplasticitas"
   ],
   "published": [
     {
@@ -656,8 +657,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_193352",
+      "topic": "fakta-tentang-neuroplasticitas",
+      "title": "Mengenal Neuroplasticitas: Membongkar Mitos Otak Tidak Bisa Berubah",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260724_193352_fakta-tentang-neuroplasticitas/final.mp4",
+      "video_id": "zN_KSd9Ex6A",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 43,
-  "_voice_idx": 48
+  "_format_idx": 44,
+  "_voice_idx": 49
 }
