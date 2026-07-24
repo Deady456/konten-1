@@ -55,7 +55,8 @@
     "fakta-tentang-geomorfologi",
     "fakta-tentang-geologi-vulkanik",
     "fakta-tentang-astrobiologi",
-    "fakta-tentang-paleoklimatologi"
+    "fakta-tentang-paleoklimatologi",
+    "fakta-tentang-perbandingan-makhluk-hidup-darat-dan-laut-dalam"
   ],
   "published": [
     {
@@ -645,8 +646,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_070444",
+      "topic": "fakta-tentang-perbandingan-makhluk-hidup-darat-dan-laut-dalam",
+      "title": "Makhluk Laut Dalam vs Darat: Perbedaan Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260724_070444_fakta-tentang-perbandingan-makhluk-hidup-darat-dan-laut-dala/final.mp4",
+      "video_id": "SCF76474BxY",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 42,
-  "_voice_idx": 47
+  "_format_idx": 43,
+  "_voice_idx": 48
 }
