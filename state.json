@@ -59,7 +59,8 @@
     "fakta-tentang-perbandingan-makhluk-hidup-darat-dan-laut-dalam",
     "fakta-tentang-neuroplasticitas",
     "fakta-tentang-metamorfosis-hewan",
-    "fakta-tentang-bioluminesensi-laut-dalam"
+    "fakta-tentang-bioluminesensi-laut-dalam",
+    "fakta-tentang-perbandingan-bumi-mars"
   ],
   "published": [
     {
@@ -689,8 +690,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260725_150446",
+      "topic": "fakta-tentang-perbandingan-bumi-mars",
+      "title": "Bumi vs Mars: 5 Perbedaan Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260725_150446_fakta-tentang-perbandingan-bumi-mars/final.mp4",
+      "video_id": "t94WL8ukiK0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 46,
-  "_voice_idx": 51
+  "_format_idx": 47,
+  "_voice_idx": 52
 }
