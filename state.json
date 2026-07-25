@@ -58,7 +58,8 @@
     "fakta-tentang-paleoklimatologi",
     "fakta-tentang-perbandingan-makhluk-hidup-darat-dan-laut-dalam",
     "fakta-tentang-neuroplasticitas",
-    "fakta-tentang-metamorfosis-hewan"
+    "fakta-tentang-metamorfosis-hewan",
+    "fakta-tentang-bioluminesensi-laut-dalam"
   ],
   "published": [
     {
@@ -678,8 +679,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260725_070403",
+      "topic": "fakta-tentang-bioluminesensi-laut-dalam",
+      "title": "Misteri Cahaya di Kedalaman Laut",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260725_070403_fakta-tentang-bioluminesensi-laut-dalam/final.mp4",
+      "video_id": "0Ogu3nYYAcs",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 45,
-  "_voice_idx": 50
+  "_format_idx": 46,
+  "_voice_idx": 51
 }
