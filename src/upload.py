@@ -31,12 +31,13 @@ def get_service():
             except Exception as e:
                 print(f"    [Warn] Token refresh failed: {e}")
                 creds = None
-        else:
+        
+        if not creds:
             # No valid creds and no refresh token — cannot auth in headless CI
             import os
             if os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS"):
                 raise RuntimeError(
-                    "YouTube token expired and no refresh_token available. "
+                    "YouTube token expired and no refresh_token available (or refresh failed). "
                     "Cannot open browser in CI. Regenerate TOKEN_B64 locally "
                     "and update the GitHub secret."
                 )

