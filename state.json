@@ -61,7 +61,8 @@
     "fakta-tentang-metamorfosis-hewan",
     "fakta-tentang-bioluminesensi-laut-dalam",
     "fakta-tentang-perbandingan-bumi-mars",
-    "fakta-tentang-biosemiotik"
+    "fakta-tentang-biosemiotik",
+    "fakta-tentang-ekologi-psikologis"
   ],
   "published": [
     {
@@ -711,8 +712,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260726_121224",
+      "topic": "fakta-tentang-ekologi-psikologis",
+      "title": "Mengenal Ekologi Psikologis: 5 Fakta Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260726_121224_fakta-tentang-ekologi-psikologis/final.mp4",
+      "video_id": "uB-jyCJ--GU",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 48,
-  "_voice_idx": 53
+  "_format_idx": 49,
+  "_voice_idx": 54
 }
