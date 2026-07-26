@@ -26,8 +26,20 @@ def get_service():
         creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
+            try:
+                creds.refresh(Request())
+            except Exception as e:
+                print(f"    [Warn] Token refresh failed: {e}")
+                creds = None
         else:
+            # No valid creds and no refresh token — cannot auth in headless CI
+            import os
+            if os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS"):
+                raise RuntimeError(
+                    "YouTube token expired and no refresh_token available. "
+                    "Cannot open browser in CI. Regenerate TOKEN_B64 locally "
+                    "and update the GitHub secret."
+                )
             flow = InstalledAppFlow.from_client_secrets_file(str(CLIENT_SECRET), SCOPES)
             creds = flow.run_local_server(port=0)
         token_path.write_text(creds.to_json(), encoding="utf-8")

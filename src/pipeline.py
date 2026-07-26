@@ -84,9 +84,12 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     # so captions stay synced to the audio. The video plays the thumbnail for
     # thumb_dur seconds, then content scenes begin at the same audio position
     # where these captions start -> perfect sync, no double offset.
-    _hook_cfg = CFG.get("hook_text", {})
-    hook_word_count = len(data["scenes"][0]["text"].split()) if data.get("scenes") else 0
-    captions_words = []
+    hook_cfg = CFG.get("hook_text", {})
+    hook_enabled = hook_cfg.get("enabled", False)
+    hook_word_count = 0
+    if hook_enabled and data.get("scenes"):
+        hook_word_count = len(data["scenes"][0]["text"].split())
+    captions_words = words[hook_word_count:] if hook_word_count < len(words) else words
     ass_path = captions.write_ass(captions_words, work / "captions.ass",
                                   CFG["video"]["width"], CFG["video"]["height"], offset=-0.3)
 

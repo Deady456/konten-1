@@ -296,7 +296,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
         hook_ass_arg = str(hook_ass).replace("\\", "/").replace(":", "\\:")
         vf_parts.append(f"subtitles='{hook_ass_arg}':fontsdir='{fonts_arg}'")
-    # vf_parts.append(f"subtitles='{ass_arg}':fontsdir='{fonts_arg}'")
+    vf_parts.append(f"subtitles='{ass_arg}':fontsdir='{fonts_arg}'")
     vf_chain = ",".join(vf_parts)
 
     bg_music = ROOT / "assets" / "bg.mp3"
@@ -318,7 +318,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         "-movflags", "+faststart",
         str(out_path),
     ])
-    _run(cmd, "final render (video+audio+no_captions)")
+    _run(cmd, "final render (video+audio+captions)")
     return out_path
 
 

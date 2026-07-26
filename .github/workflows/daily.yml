@@ -29,7 +29,7 @@ jobs:
             /usr/lib/x86_64-linux-gnu/libav*
             /usr/lib/x86_64-linux-gnu/libsw*
             /usr/lib/x86_64-linux-gnu/libpostproc*
-          key: ffmpeg-${{ runner.os }}-v1
+          key: ffmpeg-${{ runner.os }}-v2
 
       - name: Install FFmpeg
         if: steps.cache-ffmpeg.outputs.cache-hit != 'true'
@@ -82,7 +82,26 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           ELEVENLABS_API_KEYS: ${{ secrets.ELEVENLABS_API_KEYS }}
         run: |
-          python -m src.pipeline || python -m src.pipeline_ai
+          MAX_ATTEMPTS=3
+          for attempt in $(seq 1 $MAX_ATTEMPTS); do
+            echo "=== Pipeline attempt $attempt/$MAX_ATTEMPTS ==="
+            if python -m src.pipeline; then
+              echo "Pipeline succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "Pipeline failed on attempt $attempt, trying AI fallback..."
+            if python -m src.pipeline_ai; then
+              echo "AI pipeline succeeded on attempt $attempt"
+              exit 0
+            fi
+            if [ "$attempt" -lt "$MAX_ATTEMPTS" ]; then
+              WAIT=$((attempt * 30))
+              echo "All pipelines failed. Waiting ${WAIT}s before retry..."
+              sleep $WAIT
+            fi
+          done
+          echo "All $MAX_ATTEMPTS attempts failed"
+          exit 1
 
       - name: Upload pending videos
         env:
@@ -106,7 +125,9 @@ jobs:
 
       - name: Commit refreshed token (if changed)
         run: |
-          if git diff --quiet token_default.json 2>/dev/null; then
+          if [ ! -f token_default.json ]; then
+            echo "Token file not found, skipping"
+          elif git diff --quiet token_default.json 2>/dev/null; then
             echo "Token unchanged"
           else
             git add token_default.json
