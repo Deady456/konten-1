@@ -60,7 +60,8 @@
     "fakta-tentang-neuroplasticitas",
     "fakta-tentang-metamorfosis-hewan",
     "fakta-tentang-bioluminesensi-laut-dalam",
-    "fakta-tentang-perbandingan-bumi-mars"
+    "fakta-tentang-perbandingan-bumi-mars",
+    "fakta-tentang-biosemiotik"
   ],
   "published": [
     {
@@ -700,8 +701,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260726_110131",
+      "topic": "fakta-tentang-biosemiotik",
+      "title": "Mengenal Bahasa Alam: Fakta Mengagetkan Biosemiotik",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260726_110131_fakta-tentang-biosemiotik/final.mp4",
+      "video_id": "KdzwY7Lut44",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 47,
-  "_voice_idx": 52
+  "_format_idx": 48,
+  "_voice_idx": 53
 }
