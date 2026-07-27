@@ -66,7 +66,8 @@
     "fakta-tentang-biosignature",
     "fakta-tentang-perbandingan-otak-kiri-dan-otak-kanan",
     "fakta-tentang-penelitian-neurofisiologi-dan-keterhubungannya-dengan-musik",
-    "fakta-tentang-kristal-biologis"
+    "fakta-tentang-kristal-biologis",
+    "fakta-tentang-geofisika-bawah-laut"
   ],
   "published": [
     {
@@ -766,8 +767,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_230443",
+      "topic": "fakta-tentang-geofisika-bawah-laut",
+      "title": "Mengungkap Rahasia Bawah Laut: Fakta Geofisika yang Mengubah Pandangan Kita",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260727_230443_fakta-tentang-geofisika-bawah-laut/final.mp4",
+      "video_id": "q2zPo9MQzo0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 53,
-  "_voice_idx": 58
+  "_format_idx": 54,
+  "_voice_idx": 59
 }
