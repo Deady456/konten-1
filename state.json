@@ -65,7 +65,8 @@
     "fakta-tentang-ekologi-psikologis",
     "fakta-tentang-biosignature",
     "fakta-tentang-perbandingan-otak-kiri-dan-otak-kanan",
-    "fakta-tentang-penelitian-neurofisiologi-dan-keterhubungannya-dengan-musik"
+    "fakta-tentang-penelitian-neurofisiologi-dan-keterhubungannya-dengan-musik",
+    "fakta-tentang-kristal-biologis"
   ],
   "published": [
     {
@@ -755,8 +756,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_150341",
+      "topic": "fakta-tentang-kristal-biologis",
+      "title": "7 Fakta Menarik tentang Kristal Biologis",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260727_150341_fakta-tentang-kristal-biologis/final.mp4",
+      "video_id": "lMc0dLYqv4I",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 52,
-  "_voice_idx": 57
+  "_format_idx": 53,
+  "_voice_idx": 58
 }
