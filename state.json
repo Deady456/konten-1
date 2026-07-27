@@ -64,7 +64,8 @@
     "fakta-tentang-biosemiotik",
     "fakta-tentang-ekologi-psikologis",
     "fakta-tentang-biosignature",
-    "fakta-tentang-perbandingan-otak-kiri-dan-otak-kanan"
+    "fakta-tentang-perbandingan-otak-kiri-dan-otak-kanan",
+    "fakta-tentang-penelitian-neurofisiologi-dan-keterhubungannya-dengan-musik"
   ],
   "published": [
     {
@@ -744,8 +745,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_070449",
+      "topic": "fakta-tentang-penelitian-neurofisiologi-dan-keterhubungannya-dengan-musik",
+      "title": "Mitos Musik di Otak: Fakta Ilmiah yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260727_070449_fakta-tentang-penelitian-neurofisiologi-dan-keterhubungannya/final.mp4",
+      "video_id": "3Y_7iG3OYhE",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 51,
-  "_voice_idx": 56
+  "_format_idx": 52,
+  "_voice_idx": 57
 }
