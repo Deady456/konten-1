@@ -68,7 +68,8 @@
     "fakta-tentang-penelitian-neurofisiologi-dan-keterhubungannya-dengan-musik",
     "fakta-tentang-kristal-biologis",
     "fakta-tentang-geofisika-bawah-laut",
-    "fakta-tentang-perbandingan-gempa-bumi-dan-gempa-laut"
+    "fakta-tentang-perbandingan-gempa-bumi-dan-gempa-laut",
+    "fakta-tentang-simbiosis-mutualisme-pada-ekosistem-karst"
   ],
   "published": [
     {
@@ -788,8 +789,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260728_230500",
+      "topic": "fakta-tentang-simbiosis-mutualisme-pada-ekosistem-karst",
+      "title": "Mitos Keliru: Ekosistem Karst Hanya Berisi Batu dan Kehampaan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260728_230500_fakta-tentang-simbiosis-mutualisme-pada-ekosistem-karst/final.mp4",
+      "video_id": "arfWGO0zUAc",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 55,
-  "_voice_idx": 60
+  "_format_idx": 56,
+  "_voice_idx": 61
 }
