@@ -67,7 +67,8 @@
     "fakta-tentang-perbandingan-otak-kiri-dan-otak-kanan",
     "fakta-tentang-penelitian-neurofisiologi-dan-keterhubungannya-dengan-musik",
     "fakta-tentang-kristal-biologis",
-    "fakta-tentang-geofisika-bawah-laut"
+    "fakta-tentang-geofisika-bawah-laut",
+    "fakta-tentang-perbandingan-gempa-bumi-dan-gempa-laut"
   ],
   "published": [
     {
@@ -777,8 +778,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260728_070355",
+      "topic": "fakta-tentang-perbandingan-gempa-bumi-dan-gempa-laut",
+      "title": "Gempa Bumi vs Gempa Laut: Apa Perbedaan Mengerikan?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260728_070355_fakta-tentang-perbandingan-gempa-bumi-dan-gempa-laut/final.mp4",
+      "video_id": "qJB_8pynjl4",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 54,
-  "_voice_idx": 59
+  "_format_idx": 55,
+  "_voice_idx": 60
 }
