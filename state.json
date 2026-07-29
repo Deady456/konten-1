@@ -69,7 +69,8 @@
     "fakta-tentang-kristal-biologis",
     "fakta-tentang-geofisika-bawah-laut",
     "fakta-tentang-perbandingan-gempa-bumi-dan-gempa-laut",
-    "fakta-tentang-simbiosis-mutualisme-pada-ekosistem-karst"
+    "fakta-tentang-simbiosis-mutualisme-pada-ekosistem-karst",
+    "fakta-tentang-ekosistem-mikroba-tanah"
   ],
   "published": [
     {
@@ -799,8 +800,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_070347",
+      "topic": "fakta-tentang-ekosistem-mikroba-tanah",
+      "title": "Ternyata Tanah Mengandung Lebih Banyak Hidupan Liar Daripada Yang Kita Bayangkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260729_070347_fakta-tentang-ekosistem-mikroba-tanah/final.mp4",
+      "video_id": "KLnBA39pK24",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 56,
-  "_voice_idx": 61
+  "_format_idx": 57,
+  "_voice_idx": 62
 }
