@@ -70,7 +70,8 @@
     "fakta-tentang-geofisika-bawah-laut",
     "fakta-tentang-perbandingan-gempa-bumi-dan-gempa-laut",
     "fakta-tentang-simbiosis-mutualisme-pada-ekosistem-karst",
-    "fakta-tentang-ekosistem-mikroba-tanah"
+    "fakta-tentang-ekosistem-mikroba-tanah",
+    "fakta-tentang-ekologi-satelit"
   ],
   "published": [
     {
@@ -810,8 +811,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_150249",
+      "topic": "fakta-tentang-ekologi-satelit",
+      "title": "Mengungkap Misteri Ekosistem di Balik Satelit Alam",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260729_150249_fakta-tentang-ekologi-satelit/final.mp4",
+      "video_id": "pdEhGPcYB8w",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 57,
-  "_voice_idx": 62
+  "_format_idx": 58,
+  "_voice_idx": 63
 }
