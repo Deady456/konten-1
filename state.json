@@ -71,7 +71,8 @@
     "fakta-tentang-perbandingan-gempa-bumi-dan-gempa-laut",
     "fakta-tentang-simbiosis-mutualisme-pada-ekosistem-karst",
     "fakta-tentang-ekosistem-mikroba-tanah",
-    "fakta-tentang-ekologi-satelit"
+    "fakta-tentang-ekologi-satelit",
+    "fakta-tentang-perbandingan-penglihatan-malam-manusia-dan-hewan"
   ],
   "published": [
     {
@@ -821,8 +822,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_230537",
+      "topic": "fakta-tentang-perbandingan-penglihatan-malam-manusia-dan-hewan",
+      "title": "Manusia vs Hewan: Fakta Mengejutkan Penglihatan Malam",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260729_230537_fakta-tentang-perbandingan-penglihatan-malam-manusia-dan-hew/final.mp4",
+      "video_id": "K0ftbxM6JNo",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 58,
-  "_voice_idx": 63
+  "_format_idx": 59,
+  "_voice_idx": 64
 }
