@@ -74,7 +74,8 @@
     "fakta-tentang-ekologi-satelit",
     "fakta-tentang-perbandingan-penglihatan-malam-manusia-dan-hewan",
     "fakta-tentang-foresia-efek-lambat",
-    "fakta-tentang-penelitian-sonikasi-dan-pengaruhnya-terhadap-tanaman"
+    "fakta-tentang-penelitian-sonikasi-dan-pengaruhnya-terhadap-tanaman",
+    "fakta-tentang-fenomena-schumann"
   ],
   "published": [
     {
@@ -854,8 +855,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260730_230317",
+      "topic": "fakta-tentang-fenomena-schumann",
+      "title": "Fakta: Mengungkap Misteri Getaran Bumi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260730_230317_fakta-tentang-fenomena-schumann/final.mp4",
+      "video_id": "z7uYYVGYLao",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 61,
-  "_voice_idx": 66
+  "_format_idx": 62,
+  "_voice_idx": 67
 }
