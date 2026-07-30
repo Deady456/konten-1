@@ -73,7 +73,8 @@
     "fakta-tentang-ekosistem-mikroba-tanah",
     "fakta-tentang-ekologi-satelit",
     "fakta-tentang-perbandingan-penglihatan-malam-manusia-dan-hewan",
-    "fakta-tentang-foresia-efek-lambat"
+    "fakta-tentang-foresia-efek-lambat",
+    "fakta-tentang-penelitian-sonikasi-dan-pengaruhnya-terhadap-tanaman"
   ],
   "published": [
     {
@@ -843,8 +844,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260730_150406",
+      "topic": "fakta-tentang-penelitian-sonikasi-dan-pengaruhnya-terhadap-tanaman",
+      "title": "Penelitian Sonikasi: Bagaimana Suara Mengubah Dunia Tanaman?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260730_150406_fakta-tentang-penelitian-sonikasi-dan-pengaruhnya-terhadap-t/final.mp4",
+      "video_id": "PUEkezCC-WY",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 60,
-  "_voice_idx": 65
+  "_format_idx": 61,
+  "_voice_idx": 66
 }
