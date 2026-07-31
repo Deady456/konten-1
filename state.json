@@ -76,7 +76,8 @@
     "fakta-tentang-foresia-efek-lambat",
     "fakta-tentang-penelitian-sonikasi-dan-pengaruhnya-terhadap-tanaman",
     "fakta-tentang-fenomena-schumann",
-    "fakta-tentang-perbandingan-kehidupan-dasar-laut-dalam-dan-gua-dalam"
+    "fakta-tentang-perbandingan-kehidupan-dasar-laut-dalam-dan-gua-dalam",
+    "fakta-tentang-entomologi-forensik"
   ],
   "published": [
     {
@@ -876,8 +877,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260731_150321",
+      "topic": "fakta-tentang-entomologi-forensik",
+      "title": "Mitos Serangga Hanya Menghancurkan, Ternyata Mereka Bisa Bantu Penyelidikan Kriminal",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260731_150321_fakta-tentang-entomologi-forensik/final.mp4",
+      "video_id": "q3lZjmU8He4",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 63,
-  "_voice_idx": 68
+  "_format_idx": 64,
+  "_voice_idx": 69
 }
