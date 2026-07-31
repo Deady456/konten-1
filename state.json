@@ -77,7 +77,8 @@
     "fakta-tentang-penelitian-sonikasi-dan-pengaruhnya-terhadap-tanaman",
     "fakta-tentang-fenomena-schumann",
     "fakta-tentang-perbandingan-kehidupan-dasar-laut-dalam-dan-gua-dalam",
-    "fakta-tentang-entomologi-forensik"
+    "fakta-tentang-entomologi-forensik",
+    "fakta-tentang-kriobiologi"
   ],
   "published": [
     {
@@ -887,8 +888,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260731_230421",
+      "topic": "fakta-tentang-kriobiologi",
+      "title": "Mengungkap Rahasia Kehidupan di Balik Suhu Ekstrem",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260731_230421_fakta-tentang-kriobiologi/final.mp4",
+      "video_id": "AGcsag9DsOk",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 64,
-  "_voice_idx": 69
+  "_format_idx": 65,
+  "_voice_idx": 70
 }
