@@ -80,7 +80,8 @@
     "fakta-tentang-entomologi-forensik",
     "fakta-tentang-kriobiologi",
     "fakta-tentang-kryptobiosis",
-    "fakta-tentang-perbandingan-robotika-dan-ornitologi"
+    "fakta-tentang-perbandingan-robotika-dan-ornitologi",
+    "fakta-tentang-bioelektrik"
   ],
   "published": [
     {
@@ -920,8 +921,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_150311",
+      "topic": "fakta-tentang-bioelektrik",
+      "title": "Mitos Listrik Tubuh Manusia: Benarkah Kita Bisa Menghasilkan Listrik?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260801_150311_fakta-tentang-bioelektrik/final.mp4",
+      "video_id": "IPZLx0ZyYy4",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 67,
-  "_voice_idx": 72
+  "_format_idx": 68,
+  "_voice_idx": 73
 }
