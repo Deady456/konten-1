@@ -81,7 +81,8 @@
     "fakta-tentang-kriobiologi",
     "fakta-tentang-kryptobiosis",
     "fakta-tentang-perbandingan-robotika-dan-ornitologi",
-    "fakta-tentang-bioelektrik"
+    "fakta-tentang-bioelektrik",
+    "fakta-tentang-aerobiologi"
   ],
   "published": [
     {
@@ -931,8 +932,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_230443",
+      "topic": "fakta-tentang-aerobiologi",
+      "title": "Mengungkap Dunia Mikroorganisme di Udara",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260801_230443_fakta-tentang-aerobiologi/final.mp4",
+      "video_id": "upiMT_dBtDA",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 68,
-  "_voice_idx": 73
+  "_format_idx": 69,
+  "_voice_idx": 74
 }
