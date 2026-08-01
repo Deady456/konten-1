@@ -78,7 +78,8 @@
     "fakta-tentang-fenomena-schumann",
     "fakta-tentang-perbandingan-kehidupan-dasar-laut-dalam-dan-gua-dalam",
     "fakta-tentang-entomologi-forensik",
-    "fakta-tentang-kriobiologi"
+    "fakta-tentang-kriobiologi",
+    "fakta-tentang-kryptobiosis"
   ],
   "published": [
     {
@@ -898,8 +899,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_070131",
+      "topic": "fakta-tentang-kryptobiosis",
+      "title": "Mengungkap Rahasia Hidup Abadi: Kryptobiosis, Fenomena Alam Yang Mengagumkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260801_070131_fakta-tentang-kryptobiosis/final.mp4",
+      "video_id": "Mgb0UIy38tA",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 65,
-  "_voice_idx": 70
+  "_format_idx": 66,
+  "_voice_idx": 71
 }
