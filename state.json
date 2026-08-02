@@ -83,7 +83,8 @@
     "fakta-tentang-perbandingan-robotika-dan-ornitologi",
     "fakta-tentang-bioelektrik",
     "fakta-tentang-aerobiologi",
-    "fakta-tentang-gelombang-gravitasi"
+    "fakta-tentang-gelombang-gravitasi",
+    "fakta-tentang-perbandingan-gangguan-penurunan-kemampuan-penglihatan-pada-manusia-dan-hewan"
   ],
   "published": [
     {
@@ -953,8 +954,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260802_150350",
+      "topic": "fakta-tentang-perbandingan-gangguan-penurunan-kemampuan-penglihatan-pada-manusia-dan-hewan",
+      "title": "Mengapa Hewan Lebih Tahan Terhadap Keguguran Penglihatan?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260802_150350_fakta-tentang-perbandingan-gangguan-penurunan-kemampuan-peng/final.mp4",
+      "video_id": "cJhpegy0i50",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 70,
-  "_voice_idx": 75
+  "_format_idx": 71,
+  "_voice_idx": 76
 }
