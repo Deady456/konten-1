@@ -82,7 +82,8 @@
     "fakta-tentang-kryptobiosis",
     "fakta-tentang-perbandingan-robotika-dan-ornitologi",
     "fakta-tentang-bioelektrik",
-    "fakta-tentang-aerobiologi"
+    "fakta-tentang-aerobiologi",
+    "fakta-tentang-gelombang-gravitasi"
   ],
   "published": [
     {
@@ -942,8 +943,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260802_070332",
+      "topic": "fakta-tentang-gelombang-gravitasi",
+      "title": "Menjelajahi Misteri Gelombang Gravitasi di Alam Semesta",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260802_070332_fakta-tentang-gelombang-gravitasi/final.mp4",
+      "video_id": "RPWYSQqN8t4",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 69,
-  "_voice_idx": 74
+  "_format_idx": 70,
+  "_voice_idx": 75
 }
