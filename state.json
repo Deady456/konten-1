@@ -85,7 +85,8 @@
     "fakta-tentang-aerobiologi",
     "fakta-tentang-gelombang-gravitasi",
     "fakta-tentang-perbandingan-gangguan-penurunan-kemampuan-penglihatan-pada-manusia-dan-hewan",
-    "fakta-tentang-pengaruh-magnetisme-terhadap-tumbuhan"
+    "fakta-tentang-pengaruh-magnetisme-terhadap-tumbuhan",
+    "fakta-tentang-fenomena-ball-lighning"
   ],
   "published": [
     {
@@ -975,8 +976,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260803_070232",
+      "topic": "fakta-tentang-fenomena-ball-lighning",
+      "title": "Apa Yang Terjadi Saat Petir Berbentuk Bola?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260803_070232_fakta-tentang-fenomena-ball-lighning/final.mp4",
+      "video_id": "N2rVxrtBMx8",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 72,
-  "_voice_idx": 77
+  "_format_idx": 73,
+  "_voice_idx": 78
 }
