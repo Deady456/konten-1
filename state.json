@@ -86,7 +86,8 @@
     "fakta-tentang-gelombang-gravitasi",
     "fakta-tentang-perbandingan-gangguan-penurunan-kemampuan-penglihatan-pada-manusia-dan-hewan",
     "fakta-tentang-pengaruh-magnetisme-terhadap-tumbuhan",
-    "fakta-tentang-fenomena-ball-lighning"
+    "fakta-tentang-fenomena-ball-lighning",
+    "fakta-tentang-hidroakustik"
   ],
   "published": [
     {
@@ -986,8 +987,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260804_045226",
+      "topic": "fakta-tentang-hidroakustik",
+      "title": "Mengungkap Rahasia Suara Bawah Laut",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260804_045226_fakta-tentang-hidroakustik/final.mp4",
+      "video_id": "IIFutTzqabM",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 73,
-  "_voice_idx": 78
+  "_format_idx": 74,
+  "_voice_idx": 79
 }
