@@ -87,7 +87,8 @@
     "fakta-tentang-perbandingan-gangguan-penurunan-kemampuan-penglihatan-pada-manusia-dan-hewan",
     "fakta-tentang-pengaruh-magnetisme-terhadap-tumbuhan",
     "fakta-tentang-fenomena-ball-lighning",
-    "fakta-tentang-hidroakustik"
+    "fakta-tentang-hidroakustik",
+    "fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusia"
   ],
   "published": [
     {
@@ -997,8 +998,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260805_001217",
+      "topic": "fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusia",
+      "title": "Mata Burung Hantu vs Mata Manusia: Apa yang Membuat Mereka Berbeda?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260805_001217_fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusi/final.mp4",
+      "video_id": "76o33cfF5-g",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 74,
-  "_voice_idx": 79
+  "_format_idx": 75,
+  "_voice_idx": 80
 }
