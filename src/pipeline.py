@@ -2,7 +2,7 @@ import argparse
 import re
 import time
 from datetime import datetime
-from . import script, voice, captions, visuals, assemble, upload, upload_tiktok, state, visuals_ai
+from . import script, voice, captions, visuals, assemble, assemble_vanta, upload, upload_tiktok, state, visuals_ai
 from . import branding, review
 from .config import CONFIG, OUTPUT_DIR
 
@@ -65,7 +65,7 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     _log("3/8 Transcribing for word-level captions (Faster-Whisper)")
     _log("    loading model (first run downloads)...")
     t0 = time.time()
-    words = captions.transcribe_words(voice_mp3, original_text=data["full_text"])
+    words = captions.transcribe_words(voice_mp3)
     _log(f"    {len(words)} words in {time.time()-t0:.1f}s")
 
     # ============================================================
@@ -102,10 +102,10 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     # ============================================================
     # Step 6: Assemble video
     # ============================================================
-    _log("6/8 Assembling final video with ffmpeg")
-    _log("    processing scenes (scale/crop/loop)...")
+    _log("6/8 Assembling final video with Vanta (Remotion)")
+    _log("    processing scenes and running React render...")
     t0 = time.time()
-    final = assemble.build(
+    final = assemble_vanta.build(
         scene_videos=scene_videos,
         voice_audio=voice_mp3,
         captions_ass=ass_path,
