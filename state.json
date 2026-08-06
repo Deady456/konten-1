@@ -88,7 +88,8 @@
     "fakta-tentang-pengaruh-magnetisme-terhadap-tumbuhan",
     "fakta-tentang-fenomena-ball-lighning",
     "fakta-tentang-hidroakustik",
-    "fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusia"
+    "fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusia",
+    "fakta-tentang-superkristal"
   ],
   "published": [
     {
@@ -1008,8 +1009,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260806_063018",
+      "topic": "fakta-tentang-superkristal",
+      "title": "Mengenal Superkristal: Benda Paling Kuat di Alam Semesta?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260806_063018_fakta-tentang-superkristal/final.mp4",
+      "video_id": "gyAZHUa_6tw",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 75,
-  "_voice_idx": 80
+  "_format_idx": 76,
+  "_voice_idx": 81
 }
