@@ -89,7 +89,8 @@
     "fakta-tentang-fenomena-ball-lighning",
     "fakta-tentang-hidroakustik",
     "fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusia",
-    "fakta-tentang-superkristal"
+    "fakta-tentang-superkristal",
+    "fakta-tentang-geomorfologi-pulau-vulkanik"
   ],
   "published": [
     {
@@ -1019,8 +1020,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260808_103139",
+      "topic": "fakta-tentang-geomorfologi-pulau-vulkanik",
+      "title": "7 Fakta Menarik tentang Pulau Vulkanik yang Belum Kamu Ketahui",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260808_103139_fakta-tentang-geomorfologi-pulau-vulkanik/final.mp4",
+      "video_id": "tldU8qnWqXg",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 76,
-  "_voice_idx": 81
+  "_format_idx": 77,
+  "_voice_idx": 82
 }
