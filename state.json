@@ -91,7 +91,8 @@
     "fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusia",
     "fakta-tentang-superkristal",
     "fakta-tentang-geomorfologi-pulau-vulkanik",
-    "fakta-tentang-fast-radio-bursts"
+    "fakta-tentang-fast-radio-bursts",
+    "fakta-tentang-perbandingan-sistem-imun-tumbuhan-dan-hewan"
   ],
   "published": [
     {
@@ -1039,8 +1040,18 @@
       "path": "/home/runner/work/konten-1/konten-1/output/20260809_081258_fakta-tentang-fast-radio-bursts/final.mp4",
       "video_id": "q5jBJsWYmV8",
       "publish_at": null
+    },
+    {
+      "ts": "20260809_225043",
+      "topic": "fakta-tentang-perbandingan-sistem-imun-tumbuhan-dan-hewan",
+      "title": "Tumbuhan vs Hewan: Sistem Imun yang Berbeda",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260809_225043_fakta-tentang-perbandingan-sistem-imun-tumbuhan-dan-hewan/final.mp4",
+      "video_id": "_HsvK6l5zIo",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 78,
-  "_voice_idx": 83
+  "_format_idx": 79,
+  "_voice_idx": 84
 }
