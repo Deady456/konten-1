@@ -90,7 +90,8 @@
     "fakta-tentang-hidroakustik",
     "fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusia",
     "fakta-tentang-superkristal",
-    "fakta-tentang-geomorfologi-pulau-vulkanik"
+    "fakta-tentang-geomorfologi-pulau-vulkanik",
+    "fakta-tentang-fast-radio-bursts"
   ],
   "published": [
     {
@@ -1030,8 +1031,16 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260809_081258",
+      "topic": "fakta-tentang-fast-radio-bursts",
+      "title": "Eksplorasi Sinyal Kilat: Fakta Menakjubkan tentang Fast Radio Bursts yang Menggelitik Otak",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260809_081258_fakta-tentang-fast-radio-bursts/final.mp4",
+      "video_id": "q5jBJsWYmV8",
+      "publish_at": null
     }
   ],
-  "_format_idx": 77,
-  "_voice_idx": 82
+  "_format_idx": 78,
+  "_voice_idx": 83
 }
