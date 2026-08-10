@@ -92,7 +92,8 @@
     "fakta-tentang-superkristal",
     "fakta-tentang-geomorfologi-pulau-vulkanik",
     "fakta-tentang-fast-radio-bursts",
-    "fakta-tentang-perbandingan-sistem-imun-tumbuhan-dan-hewan"
+    "fakta-tentang-perbandingan-sistem-imun-tumbuhan-dan-hewan",
+    "fakta-tentang-efek-mandela"
   ],
   "published": [
     {
@@ -1050,8 +1051,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260810_223257",
+      "topic": "fakta-tentang-efek-mandela",
+      "title": "Mengungkap Mitos Efek Mandela: Apakah Memori Kolektif Bisa Berbohong?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260810_223257_fakta-tentang-efek-mandela/final.mp4",
+      "video_id": "jG0gTYOxX2o",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 79,
-  "_voice_idx": 84
+  "_format_idx": 80,
+  "_voice_idx": 85
 }
