@@ -94,7 +94,8 @@
     "fakta-tentang-fast-radio-bursts",
     "fakta-tentang-perbandingan-sistem-imun-tumbuhan-dan-hewan",
     "fakta-tentang-efek-mandela",
-    "fakta-tentang-penelitian-pengaruh-sinestesia-terhadap-kesadaran"
+    "fakta-tentang-penelitian-pengaruh-sinestesia-terhadap-kesadaran",
+    "fakta-tentang-penelitian-kristal-liquide"
   ],
   "published": [
     {
@@ -1072,8 +1073,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260811_124855",
+      "topic": "fakta-tentang-penelitian-kristal-liquide",
+      "title": "Mengungkap Rahasia Kristal Liquide: Bahan Ajaib di Alam",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260811_124855_fakta-tentang-penelitian-kristal-liquide/final.mp4",
+      "video_id": "z-ShmUBA0cc",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 81,
-  "_voice_idx": 86
+  "_format_idx": 82,
+  "_voice_idx": 87
 }
