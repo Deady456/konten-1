@@ -93,7 +93,8 @@
     "fakta-tentang-geomorfologi-pulau-vulkanik",
     "fakta-tentang-fast-radio-bursts",
     "fakta-tentang-perbandingan-sistem-imun-tumbuhan-dan-hewan",
-    "fakta-tentang-efek-mandela"
+    "fakta-tentang-efek-mandela",
+    "fakta-tentang-penelitian-pengaruh-sinestesia-terhadap-kesadaran"
   ],
   "published": [
     {
@@ -1061,8 +1062,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260811_070528",
+      "topic": "fakta-tentang-penelitian-pengaruh-sinestesia-terhadap-kesadaran",
+      "title": "Mengenal Sinestesia: Fenomena Alam Bawah Sadar yang Mengubah Kehidupan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260811_070528_fakta-tentang-penelitian-pengaruh-sinestesia-terhadap-kesada/final.mp4",
+      "video_id": "fziwxsuUgGM",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 80,
-  "_voice_idx": 85
+  "_format_idx": 81,
+  "_voice_idx": 86
 }
