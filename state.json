@@ -95,7 +95,8 @@
     "fakta-tentang-perbandingan-sistem-imun-tumbuhan-dan-hewan",
     "fakta-tentang-efek-mandela",
     "fakta-tentang-penelitian-pengaruh-sinestesia-terhadap-kesadaran",
-    "fakta-tentang-penelitian-kristal-liquide"
+    "fakta-tentang-penelitian-kristal-liquide",
+    "fakta-tentang-perbandingan-otak-manusia-dan-otak-cacing-tanah"
   ],
   "published": [
     {
@@ -1083,8 +1084,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260812_011838",
+      "topic": "fakta-tentang-perbandingan-otak-manusia-dan-otak-cacing-tanah",
+      "title": "Otak Manusia vs Otak Cacing Tanah: Perbedaan Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260812_011838_fakta-tentang-perbandingan-otak-manusia-dan-otak-cacing-tana/final.mp4",
+      "video_id": "9NJ2cWCh6OI",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 82,
-  "_voice_idx": 87
+  "_format_idx": 83,
+  "_voice_idx": 88
 }
