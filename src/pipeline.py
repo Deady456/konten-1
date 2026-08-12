@@ -1,4 +1,5 @@
 import argparse
+import json
 import re
 import time
 from datetime import datetime
@@ -49,6 +50,8 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     work = OUTPUT_DIR / f"{stamp}_{slug(data['topic'])}"
     work.mkdir(parents=True, exist_ok=True)
+    with open(work / 'script.json', 'w') as f:
+        json.dump(data, f, indent=2)
 
     # ============================================================
     # Step 2: Synthesize voiceover (with variety)
@@ -65,14 +68,14 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     _log("3/8 Transcribing for word-level captions (Faster-Whisper)")
     _log("    loading model (first run downloads)...")
     t0 = time.time()
-    words = captions.transcribe_words(voice_mp3)
+    words = captions.transcribe_words(voice_mp3, original_text=data["full_text"])
     _log(f"    {len(words)} words in {time.time()-t0:.1f}s")
 
     # ============================================================
     # Step 4: Fetch B-roll footage
     # ============================================================
     _log("4/8 Fetching footage from Pexels")
-    scene_videos = visuals.fetch_for_scenes(data["scenes"], work / "broll")
+    scene_videos = visuals.fetch_all(data["scenes"], work / "broll")
     _log(f"    {len(scene_videos)} clips ready")
 
     # ============================================================
