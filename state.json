@@ -97,7 +97,8 @@
     "fakta-tentang-penelitian-pengaruh-sinestesia-terhadap-kesadaran",
     "fakta-tentang-penelitian-kristal-liquide",
     "fakta-tentang-perbandingan-otak-manusia-dan-otak-cacing-tanah",
-    "fakta-tentang-teknologi-biomimetik"
+    "fakta-tentang-teknologi-biomimetik",
+    "fakta-tentang-neuroplastisitas"
   ],
   "published": [
     {
@@ -1105,8 +1106,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260812_162147",
+      "topic": "fakta-tentang-neuroplastisitas",
+      "title": "5 Fakta Mengejutkan tentang Neuroplastisitas Otak Manusia",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260812_162147_fakta-tentang-neuroplastisitas/final.mp4",
+      "video_id": "MfwMZrZWO-0",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 84,
-  "_voice_idx": 89
+  "_format_idx": 85,
+  "_voice_idx": 90
 }
