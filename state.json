@@ -98,7 +98,8 @@
     "fakta-tentang-penelitian-kristal-liquide",
     "fakta-tentang-perbandingan-otak-manusia-dan-otak-cacing-tanah",
     "fakta-tentang-teknologi-biomimetik",
-    "fakta-tentang-neuroplastisitas"
+    "fakta-tentang-neuroplastisitas",
+    "fakta-tentang-gelombang-oceanografi"
   ],
   "published": [
     {
@@ -1116,8 +1117,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260812_230314",
+      "topic": "fakta-tentang-gelombang-oceanografi",
+      "title": "Mengungkap Rahasia Gelombang Laut Dalam",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260812_230314_fakta-tentang-gelombang-oceanografi/final.mp4",
+      "video_id": "LN-trQLMj5U",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 85,
-  "_voice_idx": 90
+  "_format_idx": 86,
+  "_voice_idx": 91
 }
