@@ -99,7 +99,8 @@
     "fakta-tentang-perbandingan-otak-manusia-dan-otak-cacing-tanah",
     "fakta-tentang-teknologi-biomimetik",
     "fakta-tentang-neuroplastisitas",
-    "fakta-tentang-gelombang-oceanografi"
+    "fakta-tentang-gelombang-oceanografi",
+    "fakta-tentang-perbandingan-kehidupan-di-atas-dan-di-bawah-es"
   ],
   "published": [
     {
@@ -1127,8 +1128,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260813_141037",
+      "topic": "fakta-tentang-perbandingan-kehidupan-di-atas-dan-di-bawah-es",
+      "title": "Menakjubkan! Perbedaan Kehidupan Di Atas & Di Bawah Es",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260813_141037_fakta-tentang-perbandingan-kehidupan-di-atas-dan-di-bawah-es/final.mp4",
+      "video_id": "7rendJJk_3k",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 86,
-  "_voice_idx": 91
+  "_format_idx": 87,
+  "_voice_idx": 92
 }
