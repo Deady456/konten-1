@@ -100,7 +100,8 @@
     "fakta-tentang-teknologi-biomimetik",
     "fakta-tentang-neuroplastisitas",
     "fakta-tentang-gelombang-oceanografi",
-    "fakta-tentang-perbandingan-kehidupan-di-atas-dan-di-bawah-es"
+    "fakta-tentang-perbandingan-kehidupan-di-atas-dan-di-bawah-es",
+    "fakta-tentang-penelitian-psikofisiologi"
   ],
   "published": [
     {
@@ -1138,8 +1139,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260813_230902",
+      "topic": "fakta-tentang-penelitian-psikofisiologi",
+      "title": "5 Fakta Mengejutkan Tentang Psikofisiologi Manusia!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260813_230902_fakta-tentang-penelitian-psikofisiologi/final.mp4",
+      "video_id": "04tiu66i0VQ",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 87,
-  "_voice_idx": 92
+  "_format_idx": 89,
+  "_voice_idx": 93
 }
