@@ -102,7 +102,8 @@
     "fakta-tentang-gelombang-oceanografi",
     "fakta-tentang-perbandingan-kehidupan-di-atas-dan-di-bawah-es",
     "fakta-tentang-penelitian-psikofisiologi",
-    "fakta-tentang-kristal-memori"
+    "fakta-tentang-kristal-memori",
+    "fakta-tentang-perbandingan-gelombang-sunami-dan-gelombang-tsunate"
   ],
   "published": [
     {
@@ -1160,8 +1161,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260814_230418",
+      "topic": "fakta-tentang-perbandingan-gelombang-sunami-dan-gelombang-tsunate",
+      "title": "Mengenal Perbedaan Sunami dan Tsunate, Apa yang Membuatnya Berbeda?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260814_230418_fakta-tentang-perbandingan-gelombang-sunami-dan-gelombang-ts/final.mp4",
+      "video_id": "IIe9v1-GPeI",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 90,
-  "_voice_idx": 94
+  "_format_idx": 91,
+  "_voice_idx": 95
 }
