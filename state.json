@@ -101,7 +101,8 @@
     "fakta-tentang-neuroplastisitas",
     "fakta-tentang-gelombang-oceanografi",
     "fakta-tentang-perbandingan-kehidupan-di-atas-dan-di-bawah-es",
-    "fakta-tentang-penelitian-psikofisiologi"
+    "fakta-tentang-penelitian-psikofisiologi",
+    "fakta-tentang-kristal-memori"
   ],
   "published": [
     {
@@ -1149,8 +1150,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260814_161912",
+      "topic": "fakta-tentang-kristal-memori",
+      "title": "Mengungkap Rahasia Kristal Memori",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260814_161912_fakta-tentang-kristal-memori/final.mp4",
+      "video_id": "iskRzUGIaL8",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 89,
-  "_voice_idx": 93
+  "_format_idx": 90,
+  "_voice_idx": 94
 }
