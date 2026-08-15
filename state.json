@@ -103,7 +103,8 @@
     "fakta-tentang-perbandingan-kehidupan-di-atas-dan-di-bawah-es",
     "fakta-tentang-penelitian-psikofisiologi",
     "fakta-tentang-kristal-memori",
-    "fakta-tentang-perbandingan-gelombang-sunami-dan-gelombang-tsunate"
+    "fakta-tentang-perbandingan-gelombang-sunami-dan-gelombang-tsunate",
+    "fakta-tentang-bioluminesensi"
   ],
   "published": [
     {
@@ -1171,8 +1172,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260815_230416",
+      "topic": "fakta-tentang-bioluminesensi",
+      "title": "7 Fakta Bioluminesensi Alam yang Memukau",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260815_230416_fakta-tentang-bioluminesensi/final.mp4",
+      "video_id": "48OjnDCJUBA",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 91,
-  "_voice_idx": 95
+  "_format_idx": 93,
+  "_voice_idx": 96
 }
