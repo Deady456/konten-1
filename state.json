@@ -104,7 +104,8 @@
     "fakta-tentang-penelitian-psikofisiologi",
     "fakta-tentang-kristal-memori",
     "fakta-tentang-perbandingan-gelombang-sunami-dan-gelombang-tsunate",
-    "fakta-tentang-bioluminesensi"
+    "fakta-tentang-bioluminesensi",
+    "fakta-tentang-aliran-air-subglacial-antarctica"
   ],
   "published": [
     {
@@ -1182,8 +1183,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260816_230245",
+      "topic": "fakta-tentang-aliran-air-subglacial-antarctica",
+      "title": "Menguak Sungai Tersembunyi di Bawah Es Antartika: Bagaimana Air Sub\u2011Glacial Memengaruhi Kena...",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260816_230245_fakta-tentang-aliran-air-subglacial-antarctica/final.mp4",
+      "video_id": "C_IG8W5PcI0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 93,
-  "_voice_idx": 96
+  "_format_idx": 94,
+  "_voice_idx": 97
 }
