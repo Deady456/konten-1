@@ -105,7 +105,8 @@
     "fakta-tentang-kristal-memori",
     "fakta-tentang-perbandingan-gelombang-sunami-dan-gelombang-tsunate",
     "fakta-tentang-bioluminesensi",
-    "fakta-tentang-aliran-air-subglacial-antarctica"
+    "fakta-tentang-aliran-air-subglacial-antarctica",
+    "perbandingan-toleransi-radiasi-manusia-dan-tardigrade"
   ],
   "published": [
     {
@@ -1193,8 +1194,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260817_110415",
+      "topic": "perbandingan-toleransi-radiasi-manusia-dan-tardigrade",
+      "title": "Manusia vs Tardigrade: Siapa Lebih Tahan Radiasi?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260817_110415_perbandingan-toleransi-radiasi-manusia-dan-tardigrade/final.mp4",
+      "video_id": "DqzXwI-hpzQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 94,
-  "_voice_idx": 97
+  "_format_idx": 95,
+  "_voice_idx": 98
 }
