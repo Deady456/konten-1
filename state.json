@@ -107,7 +107,8 @@
     "fakta-tentang-bioluminesensi",
     "fakta-tentang-aliran-air-subglacial-antarctica",
     "perbandingan-toleransi-radiasi-manusia-dan-tardigrade",
-    "fakta-tentang-mikrogravitasi-dan-tubuh-manusia"
+    "fakta-tentang-mikrogravitasi-dan-tubuh-manusia",
+    "fakta-tentang-suara-di-ruang-angkasa"
   ],
   "published": [
     {
@@ -1215,8 +1216,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260818_110351",
+      "topic": "fakta-tentang-suara-di-ruang-angkasa",
+      "title": "Mengapa Tidak Ada Suara di Luar Angkasa? 7 Fakta Mengejutkan yang Jarang Diketahui",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260818_110351_fakta-tentang-suara-di-ruang-angkasa/final.mp4",
+      "video_id": "jtmPZTyr7ow",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 96,
-  "_voice_idx": 99
+  "_format_idx": 97,
+  "_voice_idx": 100
 }
