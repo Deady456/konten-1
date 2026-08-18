@@ -113,8 +113,6 @@ upload:
     max_per_day: 2
     # Delay antar video (menit)
     delay_minutes: 120
-  tiktok:
-    enabled: true
 hook_text:
   enabled: true
   font: "Anton"
