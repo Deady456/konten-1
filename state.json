@@ -108,7 +108,8 @@
     "fakta-tentang-aliran-air-subglacial-antarctica",
     "perbandingan-toleransi-radiasi-manusia-dan-tardigrade",
     "fakta-tentang-mikrogravitasi-dan-tubuh-manusia",
-    "fakta-tentang-suara-di-ruang-angkasa"
+    "fakta-tentang-suara-di-ruang-angkasa",
+    "fakta-tentang-eksoplanet-berpotensi-hidup"
   ],
   "published": [
     {
@@ -1226,8 +1227,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260818_235718",
+      "topic": "fakta-tentang-eksoplanet-berpotensi-hidup",
+      "title": "Eksplorasi Eksoplanet Berpotensi Hidup: Rahasia Dunia di Luar Bintang",
+      "path": "C:\\Users\\Administrator\\Desktop\\patch_temp2\\konten-1\\output\\20260818_235718_fakta-tentang-eksoplanet-berpotensi-hidup\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 97,
-  "_voice_idx": 100
+  "_format_idx": 98,
+  "_voice_idx": 101
 }

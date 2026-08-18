@@ -1,5 +1,5 @@
 {
-  "title": "TOSS KOIDNG MISTERIUS",
+  "title": "EKSPLORE ALAM LAIN",
   "voice_audio": "job_temp/voice.mp3",
   "broll": [
     "job_temp/vid_0.mp4",
@@ -11,409 +11,842 @@
     "job_temp/vid_6.mp4",
     "job_temp/vid_7.mp4",
     "job_temp/vid_8.mp4",
-    "job_temp/vid_9.mp4"
+    "job_temp/vid_9.mp4",
+    "job_temp/vid_10.mp4",
+    "job_temp/vid_11.mp4",
+    "job_temp/vid_12.mp4",
+    "job_temp/vid_13.mp4",
+    "job_temp/vid_14.mp4",
+    "job_temp/vid_15.mp4",
+    "job_temp/vid_16.mp4",
+    "job_temp/vid_17.mp4",
+    "job_temp/vid_18.mp4",
+    "job_temp/vid_19.mp4",
+    "job_temp/vid_20.mp4",
+    "job_temp/vid_21.mp4",
+    "job_temp/vid_22.mp4"
   ],
   "words": [
     {
-      "word": " Toscoid",
+      "word": " explore",
       "start": 0.0,
-      "end": 0.66
+      "end": 0.58
     },
     {
-      "word": " Misterius",
-      "start": 0.66,
-      "end": 1.22
+      "word": "ALAM",
+      "start": 0.58,
+      "end": 0.94
     },
     {
-      "word": " Banyak",
-      "start": 2.0,
-      "end": 2.52
+      "word": "LAIN",
+      "start": 0.94,
+      "end": 1.24
     },
     {
-      "word": " orang",
-      "start": 2.52,
-      "end": 2.72
+      "word": "...",
+      "start": 2.26,
+      "end": 2.78
     },
     {
-      "word": " percaya",
-      "start": 2.72,
-      "end": 3.1
+      "word": "Bayangkan",
+      "start": 2.78,
+      "end": 3.0
     },
     {
-      "word": " bahwa",
-      "start": 3.1,
-      "end": 3.44
+      "word": "ada",
+      "start": 3.0,
+      "end": 3.28
     },
     {
-      "word": " gerakan",
-      "start": 3.44,
-      "end": 3.7
+      "word": "dunia",
+      "start": 3.28,
+      "end": 3.48
     },
     {
-      "word": " tangan",
-      "start": 3.7,
-      "end": 4.02
+      "word": "lain",
+      "start": 3.48,
+      "end": 3.66
     },
     {
-      "word": " bisa",
-      "start": 4.02,
-      "end": 4.3
+      "word": "yang",
+      "start": 3.66,
+      "end": 4.16
     },
     {
-      "word": " mempengaruhi",
-      "start": 4.3,
-      "end": 4.84
+      "word": "mengelilingi",
+      "start": 4.16,
+      "end": 4.42
     },
     {
-      "word": " hasil",
-      "start": 4.84,
-      "end": 5.08
+      "word": "bintang",
+      "start": 4.42,
+      "end": 4.92
     },
     {
-      "word": " Toscoid",
-      "start": 5.08,
+      "word": "terdekat,",
+      "start": 4.92,
       "end": 5.64
     },
     {
-      "word": " Fenomena",
+      "word": "menunggu",
       "start": 5.64,
-      "end": 6.36
+      "end": 5.9
     },
     {
-      "word": " ini",
-      "start": 6.36,
-      "end": 6.68
+      "word": "untuk",
+      "start": 5.9,
+      "end": 6.64
     },
     {
-      "word": " dikenal",
-      "start": 6.68,
-      "end": 7.02
+      "word": "dijelajahi.",
+      "start": 7.42,
+      "end": 7.86
     },
     {
-      "word": " sebagai",
-      "start": 7.02,
-      "end": 7.36
+      "word": "...",
+      "start": 7.86,
+      "end": 8.1
     },
     {
-      "word": " pseudokinesis",
-      "start": 7.36,
-      "end": 8.46
+      "word": " ilmuan",
+      "start": 8.1,
+      "end": 8.44
     },
     {
-      "word": " Namun,",
-      "start": 9.0,
+      "word": "kini",
+      "start": 8.44,
+      "end": 8.66
+    },
+    {
+      "word": "ilmuwan",
+      "start": 8.66,
+      "end": 9.28
+    },
+    {
+      "word": "telah",
+      "start": 9.28,
+      "end": 9.52
+    },
+    {
+      "word": "mengonfirmasi",
+      "start": 9.52,
       "end": 9.72
     },
     {
-      "word": " penelitian",
-      "start": 10.02,
-      "end": 10.52
+      "word": " 5",
+      "start": 9.72,
+      "end": 9.96
     },
     {
-      "word": " ilmiya",
-      "start": 10.52,
-      "end": 10.88
+      "word": ".000",
+      "start": 9.96,
+      "end": 10.2
     },
     {
-      "word": " menunjukkan",
-      "start": 10.88,
-      "end": 11.4
+      "word": " exoplanet",
+      "start": 10.2,
+      "end": 10.76
     },
     {
-      "word": " bahwa",
-      "start": 11.4,
-      "end": 11.72
+      "word": " menembus",
+      "start": 10.76,
+      "end": 11.48
     },
     {
-      "word": " pseudokinesi",
-      "start": 11.72,
-      "end": 12.44
+      "word": " batas",
+      "start": 11.48,
+      "end": 11.82
     },
     {
-      "word": " sebenarnya",
-      "start": 12.44,
-      "end": 12.94
+      "word": " imaginasi",
+      "start": 11.82,
+      "end": 12.52
     },
     {
-      "word": " adalah",
-      "start": 12.94,
-      "end": 13.2
+      "word": " manusia.",
+      "start": 12.52,
+      "end": 12.98
     },
     {
-      "word": " hasil",
-      "start": 13.2,
-      "end": 13.58
+      "word": " Sebagian",
+      "start": 13.9,
+      "end": 14.38
     },
     {
-      "word": " dari",
-      "start": 13.58,
-      "end": 13.76
+      "word": " besar",
+      "start": 14.38,
+      "end": 14.64
     },
     {
-      "word": " biaskognitif",
-      "start": 13.76,
-      "end": 14.56
+      "word": " ditemukan",
+      "start": 14.64,
+      "end": 15.1
     },
     {
-      "word": " dan",
-      "start": 14.56,
-      "end": 14.72
+      "word": " oleh",
+      "start": 15.1,
+      "end": 15.34
     },
     {
-      "word": " pengaruh",
-      "start": 14.72,
-      "end": 15.04
+      "word": " satellite",
+      "start": 15.34,
+      "end": 15.6
     },
     {
-      "word": " psikologis",
-      "start": 15.04,
-      "end": 15.94
+      "word": " Keplair",
+      "start": 15.6,
+      "end": 16.02
     },
     {
-      "word": " Dalam",
-      "start": 15.94,
-      "end": 17.02
+      "word": " yang",
+      "start": 16.02,
+      "end": 16.6
     },
     {
-      "word": " sebuah",
-      "start": 17.02,
-      "end": 17.26
+      "word": " mengamati",
+      "start": 16.6,
+      "end": 17.0
     },
     {
-      "word": " eksperimen,",
-      "start": 17.26,
-      "end": 17.78
+      "word": "telah",
+      "start": 17.0,
+      "end": 17.24
     },
     {
-      "word": " para",
-      "start": 18.2,
-      "end": 18.4
+      "word": "mengonfirmasi",
+      "start": 17.24,
+      "end": 17.44
     },
     {
-      "word": " peserta",
-      "start": 18.4,
-      "end": 18.66
+      "word": " 400",
+      "start": 17.44,
+      "end": 17.84
     },
     {
-      "word": " diminta",
-      "start": 18.66,
-      "end": 19.04
+      "word": ".000",
+      "start": 17.84,
+      "end": 18.18
     },
     {
-      "word": " untuk",
-      "start": 19.04,
+      "word": " bintang",
+      "start": 18.18,
+      "end": 18.58
+    },
+    {
+      "word": " selama",
+      "start": 18.58,
+      "end": 18.94
+    },
+    {
+      "word": " 4",
+      "start": 18.94,
       "end": 19.24
     },
     {
-      "word": " melakukan",
+      "word": " tahun.",
       "start": 19.24,
       "end": 19.5
     },
     {
-      "word": " Toscoid",
-      "start": 19.5,
-      "end": 20.06
+      "word": " Salah",
+      "start": 20.42,
+      "end": 20.84
+    },
+    {
+      "word": " satunya,",
+      "start": 20.84,
+      "end": 21.24
+    },
+    {
+      "word": " Proxima",
+      "start": 21.8,
+      "end": 22.2
+    },
+    {
+      "word": " Centauri",
+      "start": 22.2,
+      "end": 22.62
+    },
+    {
+      "word": " B",
+      "start": 22.62,
+      "end": 22.76
+    },
+    {
+      "word": " berjara",
+      "start": 22.76,
+      "end": 23.58
+    },
+    {
+      "word": " kempat",
+      "start": 23.58,
+      "end": 23.88
+    },
+    {
+      "word": " setengah",
+      "start": 23.88,
+      "end": 24.18
+    },
+    {
+      "word": " tahun",
+      "start": 24.18,
+      "end": 24.44
+    },
+    {
+      "word": " Cahaya",
+      "start": 24.44,
+      "end": 24.9
+    },
+    {
+      "word": " mengorbit",
+      "start": 24.9,
+      "end": 25.72
+    },
+    {
+      "word": " dalam",
+      "start": 25.72,
+      "end": 25.96
+    },
+    {
+      "word": " sonal",
+      "start": 25.96,
+      "end": 26.26
+    },
+    {
+      "word": " ayat",
+      "start": 26.26,
+      "end": 26.5
+    },
+    {
+      "word": " huni",
+      "start": 26.5,
+      "end": 26.72
+    },
+    {
+      "word": " yang",
+      "start": 26.72,
+      "end": 26.86
+    },
+    {
+      "word": " memungkinkan",
+      "start": 26.86,
+      "end": 27.36
+    },
+    {
+      "word": " air",
+      "start": 27.36,
+      "end": 27.56
+    },
+    {
+      "word": " cair.",
+      "start": 27.56,
+      "end": 27.94
+    },
+    {
+      "word": " Penelitian",
+      "start": 28.94,
+      "end": 29.38
+    },
+    {
+      "word": " terbaru",
+      "start": 29.38,
+      "end": 29.78
     },
     {
       "word": " dengan",
-      "start": 20.06,
-      "end": 20.22
+      "start": 29.78,
+      "end": 29.98
     },
     {
-      "word": " gerakan",
-      "start": 20.22,
-      "end": 20.48
+      "word": " James",
+      "start": 29.98,
+      "end": 30.26
     },
     {
-      "word": " tangan",
-      "start": 20.48,
-      "end": 20.82
+      "word": " Webb",
+      "start": 30.26,
+      "end": 30.48
     },
     {
-      "word": " yang",
-      "start": 20.82,
-      "end": 20.94
+      "word": " Space",
+      "start": 30.48,
+      "end": 30.74
     },
     {
-      "word": " berbeda",
-      "start": 20.94,
-      "end": 21.46
+      "word": " Telescope",
+      "start": 30.74,
+      "end": 31.28
     },
     {
-      "word": " Hasilnya",
-      "start": 21.46,
-      "end": 22.22
+      "word": " mengungkap",
+      "start": 31.28,
+      "end": 31.68
     },
     {
-      "word": " menunjukkan",
-      "start": 22.22,
-      "end": 22.72
+      "word": " atmosfier",
+      "start": 31.68,
+      "end": 32.22
     },
     {
-      "word": " bahwa",
-      "start": 22.72,
-      "end": 22.98
+      "word": " ke",
+      "start": 32.22,
+      "end": 32.38
     },
     {
-      "word": " pseudokinesis",
-      "start": 22.98,
-      "end": 23.74
+      "word": " 2018B",
+      "start": 32.38,
+      "end": 33.34
     },
     {
-      "word": " tidak",
-      "start": 23.74,
-      "end": 23.96
+      "word": " berjara",
+      "start": 33.34,
+      "end": 34.14
     },
     {
-      "word": " memiliki",
-      "start": 23.96,
-      "end": 24.3
+      "word": " ke",
+      "start": 34.14,
+      "end": 34.24
     },
     {
-      "word": " pengaruhnya",
-      "start": 24.3,
-      "end": 24.76
+      "word": " 110",
+      "start": 34.24,
+      "end": 34.56
     },
     {
-      "word": " tak",
-      "start": 24.76,
-      "end": 24.94
+      "word": " tahun",
+      "start": 34.56,
+      "end": 34.98
     },
     {
-      "word": " pada",
-      "start": 24.94,
-      "end": 25.16
-    },
-    {
-      "word": " hasil",
-      "start": 25.16,
-      "end": 25.5
-    },
-    {
-      "word": " Toscoid",
-      "start": 25.5,
-      "end": 26.0
-    },
-    {
-      "word": " Jadi,",
-      "start": 27.0,
-      "end": 27.38
-    },
-    {
-      "word": " apakah",
-      "start": 27.92,
-      "end": 28.22
-    },
-    {
-      "word": " handesia",
-      "start": 28.22,
-      "end": 28.6
-    },
-    {
-      "word": " untuk",
-      "start": 28.6,
-      "end": 28.84
-    },
-    {
-      "word": " membongkar",
-      "start": 28.84,
-      "end": 29.2
-    },
-    {
-      "word": " mitos",
-      "start": 29.2,
-      "end": 29.5
-    },
-    {
-      "word": " pseudokinesis",
-      "start": 29.5,
-      "end": 30.36
-    },
-    {
-      "word": " dan",
-      "start": 30.36,
-      "end": 30.54
-    },
-    {
-      "word": " memahami",
-      "start": 30.54,
-      "end": 30.98
-    },
-    {
-      "word": " apa",
-      "start": 30.98,
-      "end": 31.2
-    },
-    {
-      "word": " yang",
-      "start": 31.2,
-      "end": 31.36
-    },
-    {
-      "word": " sebenarnya",
-      "start": 31.36,
-      "end": 31.74
-    },
-    {
-      "word": " terjadi?",
-      "start": 31.74,
-      "end": 32.18
-    },
-    {
-      "word": " Ikuti",
-      "start": 33.16,
-      "end": 33.54
-    },
-    {
-      "word": " channel",
-      "start": 33.54,
-      "end": 33.8
-    },
-    {
-      "word": " kami",
-      "start": 33.8,
-      "end": 34.12
-    },
-    {
-      "word": " untuk",
-      "start": 34.12,
-      "end": 34.4
-    },
-    {
-      "word": " mendapatkan",
-      "start": 34.4,
-      "end": 34.86
-    },
-    {
-      "word": " informasi",
-      "start": 34.86,
+      "word": " Cahaya",
+      "start": 34.98,
       "end": 35.38
     },
     {
-      "word": " ilmiya",
+      "word": " mengandung",
       "start": 35.38,
-      "end": 35.78
+      "end": 36.18
+    },
+    {
+      "word": " uap",
+      "start": 36.18,
+      "end": 36.42
+    },
+    {
+      "word": " air.",
+      "start": 36.42,
+      "end": 36.76
+    },
+    {
+      "word": " Para",
+      "start": 37.64,
+      "end": 37.92
+    },
+    {
+      "word": " ilmuan",
+      "start": 37.92,
+      "end": 38.24
+    },
+    {
+      "word": " menggunakan",
+      "start": 38.24,
+      "end": 38.64
+    },
+    {
+      "word": " teknik",
+      "start": 38.64,
+      "end": 39.06
+    },
+    {
+      "word": " transit",
+      "start": 39.06,
+      "end": 39.4
+    },
+    {
+      "word": " photometri,",
+      "start": 39.4,
+      "end": 39.98
+    },
+    {
+      "word": " mengukur",
+      "start": 40.52,
+      "end": 40.84
+    },
+    {
+      "word": " penurunan",
+      "start": 40.84,
+      "end": 41.2
+    },
+    {
+      "word": " Cahaya",
+      "start": 41.2,
+      "end": 41.52
+    },
+    {
+      "word": " Bintang",
+      "start": 41.52,
+      "end": 41.88
+    },
+    {
+      "word": " saat",
+      "start": 41.88,
+      "end": 42.16
+    },
+    {
+      "word": " planet",
+      "start": 42.16,
+      "end": 42.38
+    },
+    {
+      "word": " melintas",
+      "start": 42.38,
+      "end": 42.92
+    },
+    {
+      "word": " menghasilkan",
+      "start": 42.92,
+      "end": 43.86
+    },
+    {
+      "word": " data",
+      "start": 43.86,
+      "end": 44.08
+    },
+    {
+      "word": " presisi",
+      "start": 44.08,
+      "end": 44.44
+    },
+    {
+      "word": " tinggi.",
+      "start": 44.44,
+      "end": 44.88
+    },
+    {
+      "word": " Temuan",
+      "start": 45.86,
+      "end": 46.16
+    },
+    {
+      "word": " ini",
+      "start": 46.16,
+      "end": 46.38
+    },
+    {
+      "word": " menguatkan",
+      "start": 46.38,
+      "end": 46.78
+    },
+    {
+      "word": " teori",
+      "start": 46.78,
+      "end": 47.08
+    },
+    {
+      "word": " bahwa",
+      "start": 47.08,
+      "end": 47.36
+    },
+    {
+      "word": " planet",
+      "start": 47.36,
+      "end": 47.68
+    },
+    {
+      "word": " berukuran",
+      "start": 47.68,
+      "end": 48.08
+    },
+    {
+      "word": " mirip",
+      "start": 48.08,
+      "end": 48.3
+    },
+    {
+      "word": " netunus",
+      "start": 48.3,
+      "end": 48.86
+    },
+    {
+      "word": " dapat",
+      "start": 48.86,
+      "end": 49.12
+    },
+    {
+      "word": " menyimpan",
+      "start": 49.12,
+      "end": 49.54
+    },
+    {
+      "word": " lau",
+      "start": 49.54,
+      "end": 49.8
+    },
+    {
+      "word": " tersembunyi",
+      "start": 49.8,
+      "end": 50.36
+    },
+    {
+      "word": " di",
+      "start": 50.36,
+      "end": 50.52
+    },
+    {
+      "word": " awan",
+      "start": 50.52,
+      "end": 50.76
+    },
+    {
+      "word": " atasnya.",
+      "start": 50.76,
+      "end": 51.24
+    },
+    {
+      "word": " System",
+      "start": 52.21,
+      "end": 52.56
+    },
+    {
+      "word": " terapis",
+      "start": 52.56,
+      "end": 53.0
+    },
+    {
+      "word": " satu",
+      "start": 53.0,
+      "end": 53.34
+    },
+    {
+      "word": " terutama",
+      "start": 53.34,
+      "end": 54.18
+    },
+    {
+      "word": " planet",
+      "start": 54.18,
+      "end": 54.5
+    },
+    {
+      "word": " A",
+      "start": 54.5,
+      "end": 54.76
+    },
+    {
+      "word": " berada",
+      "start": 54.76,
+      "end": 55.44
+    },
+    {
+      "word": " pada",
+      "start": 55.44,
+      "end": 55.64
+    },
+    {
+      "word": " suhu",
+      "start": 55.64,
+      "end": 55.84
     },
     {
       "word": " yang",
-      "start": 35.78,
-      "end": 35.9
+      "start": 55.84,
+      "end": 56.0
+    },
+    {
+      "word": " cocok,",
+      "start": 56.0,
+      "end": 56.36
+    },
+    {
+      "word": " meski",
+      "start": 56.84,
+      "end": 57.04
+    },
+    {
+      "word": " berjara",
+      "start": 57.04,
+      "end": 57.42
+    },
+    {
+      "word": " ke",
+      "start": 57.42,
+      "end": 57.56
+    },
+    {
+      "word": " 38",
+      "start": 57.56,
+      "end": 57.94
+    },
+    {
+      "word": " tahun",
+      "start": 57.94,
+      "end": 58.36
+    },
+    {
+      "word": " Cahaya",
+      "start": 58.36,
+      "end": 58.72
+    },
+    {
+      "word": "mengonfirmasi",
+      "start": 58.72,
+      "end": 58.92
+    },
+    {
+      "word": " bumi.",
+      "start": 58.92,
+      "end": 59.24
+    },
+    {
+      "word": " Jika",
+      "start": 60.18,
+      "end": 60.48
+    },
+    {
+      "word": " suatu",
+      "start": 60.48,
+      "end": 60.74
+    },
+    {
+      "word": "mengonfirmasi",
+      "start": 60.74,
+      "end": 60.98
+    },
+    {
+      "word": " teknologi",
+      "start": 60.98,
+      "end": 61.5
+    },
+    {
+      "word": " memungkinkan",
+      "start": 61.5,
+      "end": 62.0
+    },
+    {
+      "word": " perjalanan",
+      "start": 62.0,
+      "end": 62.46
+    },
+    {
+      "word": " dengan",
+      "start": 62.46,
+      "end": 62.64
+    },
+    {
+      "word": " Cahaya,",
+      "start": 62.64,
+      "end": 63.06
+    },
+    {
+      "word": " perjalanan",
+      "start": 63.56,
+      "end": 64.12
+    },
+    {
+      "word": " ke",
+      "start": 64.12,
+      "end": 64.18
+    },
+    {
+      "word": " Proxima",
+      "start": 64.18,
+      "end": 64.56
+    },
+    {
+      "word": " Centauri",
+      "start": 64.56,
+      "end": 65.1
+    },
+    {
+      "word": " hanya",
+      "start": 65.1,
+      "end": 65.24
+    },
+    {
+      "word": " memakan",
+      "start": 65.24,
+      "end": 65.54
+    },
+    {
+      "word": " waktu",
+      "start": 65.54,
+      "end": 65.86
+    },
+    {
+      "word": " 40",
+      "start": 65.86,
+      "end": 66.2
+    },
+    {
+      "word": " tahun",
+      "start": 66.2,
+      "end": 66.66
+    },
+    {
+      "word": " jauh",
+      "start": 66.66,
+      "end": 67.38
+    },
+    {
+      "word": "telah",
+      "start": 67.38,
+      "end": 67.54
+    },
+    {
+      "word": " cepat",
+      "start": 67.54,
+      "end": 67.84
+    },
+    {
+      "word": "mengonfirmasi",
+      "start": 67.84,
+      "end": 68.06
+    },
+    {
+      "word": " Rocket",
+      "start": 68.06,
+      "end": 68.28
+    },
+    {
+      "word": " Conventional.",
+      "start": 68.28,
+      "end": 69.12
+    },
+    {
+      "word": " Jangan",
+      "start": 70.0,
+      "end": 70.36
+    },
+    {
+      "word": " lupa",
+      "start": 70.36,
+      "end": 70.56
+    },
+    {
+      "word": " subscribe",
+      "start": 70.56,
+      "end": 71.0
+    },
+    {
+      "word": " untuk",
+      "start": 71.0,
+      "end": 71.32
+    },
+    {
+      "word": " fakta",
+      "start": 71.32,
+      "end": 71.66
     },
     {
       "word": " menarik",
-      "start": 35.9,
-      "end": 36.3
+      "start": 71.66,
+      "end": 71.96
     },
     {
-      "word": " dan",
-      "start": 36.3,
-      "end": 36.46
-    },
-    {
-      "word": " akurat",
-      "start": 36.46,
-      "end": 36.84
+      "word": " selanjutnya.",
+      "start": 71.96,
+      "end": 72.52
     }
   ],
-  "durationInSeconds": 37.84
+  "durationInSeconds": 73.52
 }
