@@ -109,7 +109,8 @@
     "perbandingan-toleransi-radiasi-manusia-dan-tardigrade",
     "fakta-tentang-mikrogravitasi-dan-tubuh-manusia",
     "fakta-tentang-suara-di-ruang-angkasa",
-    "fakta-tentang-eksoplanet-berpotensi-hidup"
+    "fakta-tentang-eksoplanet-berpotensi-hidup",
+    "fakta-tentang-perbandingan-jantung-paus-biru-dan-burung-kolibri"
   ],
   "published": [
     {
@@ -1237,8 +1238,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260819_060446",
+      "topic": "fakta-tentang-perbandingan-jantung-paus-biru-dan-burung-kolibri",
+      "title": "Perbandingan Ekstrem Jantung Paus Biru dan Burung Kolibri yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260819_060446_fakta-tentang-perbandingan-jantung-paus-biru-dan-burung-koli/final.mp4",
+      "video_id": "1DHir2OG3Ug",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 98,
-  "_voice_idx": 101
+  "_format_idx": 99,
+  "_voice_idx": 102
 }
