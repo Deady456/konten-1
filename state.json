@@ -110,7 +110,8 @@
     "fakta-tentang-mikrogravitasi-dan-tubuh-manusia",
     "fakta-tentang-suara-di-ruang-angkasa",
     "fakta-tentang-eksoplanet-berpotensi-hidup",
-    "fakta-tentang-perbandingan-jantung-paus-biru-dan-burung-kolibri"
+    "fakta-tentang-perbandingan-jantung-paus-biru-dan-burung-kolibri",
+    "fakta-tentang-sumber-oksigen-bumi-fitoplankton"
   ],
   "published": [
     {
@@ -1248,8 +1249,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260819_110228",
+      "topic": "fakta-tentang-sumber-oksigen-bumi-fitoplankton",
+      "title": "Mitos Pohon Paru-Paru Bumi! Ternyata Lautan Penyumbang Oksigen Terbesar?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260819_110228_fakta-tentang-sumber-oksigen-bumi-fitoplankton/final.mp4",
+      "video_id": "ui07F3Sn45I",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 99,
-  "_voice_idx": 102
+  "_format_idx": 100,
+  "_voice_idx": 103
 }
