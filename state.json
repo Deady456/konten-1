@@ -112,7 +112,8 @@
     "fakta-tentang-eksoplanet-berpotensi-hidup",
     "fakta-tentang-perbandingan-jantung-paus-biru-dan-burung-kolibri",
     "fakta-tentang-sumber-oksigen-bumi-fitoplankton",
-    "fakta-tentang-hiu-dan-evolusi-laut"
+    "fakta-tentang-hiu-dan-evolusi-laut",
+    "fakta-tentang-penemuan-ekosistem-ventilasi-hidrotermal"
   ],
   "published": [
     {
@@ -1270,8 +1271,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260820_110156",
+      "topic": "fakta-tentang-penemuan-ekosistem-ventilasi-hidrotermal",
+      "title": "Misteri Kehidupan di Dasar Laut Tergelap Tanpa Sinar Matahari",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260820_110156_fakta-tentang-penemuan-ekosistem-ventilasi-hidrotermal/final.mp4",
+      "video_id": "D7pSdqAG0_s",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 101,
-  "_voice_idx": 104
+  "_format_idx": 102,
+  "_voice_idx": 105
 }
