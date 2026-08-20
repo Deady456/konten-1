@@ -113,7 +113,8 @@
     "fakta-tentang-perbandingan-jantung-paus-biru-dan-burung-kolibri",
     "fakta-tentang-sumber-oksigen-bumi-fitoplankton",
     "fakta-tentang-hiu-dan-evolusi-laut",
-    "fakta-tentang-penemuan-ekosistem-ventilasi-hidrotermal"
+    "fakta-tentang-penemuan-ekosistem-ventilasi-hidrotermal",
+    "perbandingan-ketahanan-air-unta-dan-tikus-kanguru"
   ],
   "published": [
     {
@@ -1281,8 +1282,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260820_230210",
+      "topic": "perbandingan-ketahanan-air-unta-dan-tikus-kanguru",
+      "title": "Siapa Raja Gurun Sebenarnya? Unta vs Tikus Kanguru yang Tak Pernah Minum!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260820_230210_perbandingan-ketahanan-air-unta-dan-tikus-kanguru/final.mp4",
+      "video_id": "RyPGm1b20yQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 102,
-  "_voice_idx": 105
+  "_format_idx": 103,
+  "_voice_idx": 106
 }
