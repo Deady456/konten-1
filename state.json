@@ -115,7 +115,8 @@
     "fakta-tentang-hiu-dan-evolusi-laut",
     "fakta-tentang-penemuan-ekosistem-ventilasi-hidrotermal",
     "perbandingan-ketahanan-air-unta-dan-tikus-kanguru",
-    "fakta-tentang-mitos-peta-rasa-lidah"
+    "fakta-tentang-mitos-peta-rasa-lidah",
+    "fakta-tentang-kerajaan-jamur"
   ],
   "published": [
     {
@@ -1303,8 +1304,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260821_230204",
+      "topic": "fakta-tentang-kerajaan-jamur",
+      "title": "Rahasia Kerajaan Jamur yang Akan Mengubah Cara Anda Melihat Dunia!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260821_230204_fakta-tentang-kerajaan-jamur/final.mp4",
+      "video_id": "w-DQymuI3_8",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 104,
-  "_voice_idx": 107
+  "_format_idx": 105,
+  "_voice_idx": 108
 }
