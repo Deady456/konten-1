@@ -116,7 +116,8 @@
     "fakta-tentang-penemuan-ekosistem-ventilasi-hidrotermal",
     "perbandingan-ketahanan-air-unta-dan-tikus-kanguru",
     "fakta-tentang-mitos-peta-rasa-lidah",
-    "fakta-tentang-kerajaan-jamur"
+    "fakta-tentang-kerajaan-jamur",
+    "fakta-tentang-peristiwa-carrington-badai-matahari"
   ],
   "published": [
     {
@@ -1314,8 +1315,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260823_183813",
+      "topic": "fakta-tentang-peristiwa-carrington-badai-matahari",
+      "title": "Kisah Badai Matahari Paling Dahsyat yang Pernah Membakar Jaringan Listrik Bumi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260823_183813_fakta-tentang-peristiwa-carrington-badai-matahari/final.mp4",
+      "video_id": "BHnhpVFVLZw",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 105,
-  "_voice_idx": 108
+  "_format_idx": 106,
+  "_voice_idx": 109
 }
