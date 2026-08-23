@@ -117,7 +117,8 @@
     "perbandingan-ketahanan-air-unta-dan-tikus-kanguru",
     "fakta-tentang-mitos-peta-rasa-lidah",
     "fakta-tentang-kerajaan-jamur",
-    "fakta-tentang-peristiwa-carrington-badai-matahari"
+    "fakta-tentang-peristiwa-carrington-badai-matahari",
+    "fakta-tentang-perbandingan-kepadatan-bintang-neutron-dan-bumi"
   ],
   "published": [
     {
@@ -1325,8 +1326,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260823_230201",
+      "topic": "fakta-tentang-perbandingan-kepadatan-bintang-neutron-dan-bumi",
+      "title": "Bintang Neutron vs Bumi: Mana yang Lebih Padat dan Berat?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260823_230201_fakta-tentang-perbandingan-kepadatan-bintang-neutron-dan-bum/final.mp4",
+      "video_id": "Hj0U4vTjvPg",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 106,
-  "_voice_idx": 109
+  "_format_idx": 107,
+  "_voice_idx": 110
 }
