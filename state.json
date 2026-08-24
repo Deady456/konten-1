@@ -119,7 +119,8 @@
     "fakta-tentang-kerajaan-jamur",
     "fakta-tentang-peristiwa-carrington-badai-matahari",
     "fakta-tentang-perbandingan-kepadatan-bintang-neutron-dan-bumi",
-    "fakta-tentang-mekanisme-perubahan-warna-bunglon"
+    "fakta-tentang-mekanisme-perubahan-warna-bunglon",
+    "fakta-tentang-hujan-intan-di-uranus-dan-neptunus"
   ],
   "published": [
     {
@@ -1347,8 +1348,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260824_230153",
+      "topic": "fakta-tentang-hujan-intan-di-uranus-dan-neptunus",
+      "title": "Bukan Air! Planet Ini Justru Mengalami Hujan Permata Intan Murni!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260824_230153_fakta-tentang-hujan-intan-di-uranus-dan-neptunus/final.mp4",
+      "video_id": "85FQ6DWfUDI",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 108,
-  "_voice_idx": 111
+  "_format_idx": 109,
+  "_voice_idx": 112
 }
