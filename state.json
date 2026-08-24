@@ -118,7 +118,8 @@
     "fakta-tentang-mitos-peta-rasa-lidah",
     "fakta-tentang-kerajaan-jamur",
     "fakta-tentang-peristiwa-carrington-badai-matahari",
-    "fakta-tentang-perbandingan-kepadatan-bintang-neutron-dan-bumi"
+    "fakta-tentang-perbandingan-kepadatan-bintang-neutron-dan-bumi",
+    "fakta-tentang-mekanisme-perubahan-warna-bunglon"
   ],
   "published": [
     {
@@ -1336,8 +1337,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260824_110221",
+      "topic": "fakta-tentang-mekanisme-perubahan-warna-bunglon",
+      "title": "Benarkah Bunglon Berubah Warna untuk Berkamuflase? Ini Fakta Sains Sebenarnya!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260824_110221_fakta-tentang-mekanisme-perubahan-warna-bunglon/final.mp4",
+      "video_id": "fa9ub8HkYBE",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 107,
-  "_voice_idx": 110
+  "_format_idx": 108,
+  "_voice_idx": 111
 }
