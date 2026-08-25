@@ -121,7 +121,8 @@
     "fakta-tentang-perbandingan-kepadatan-bintang-neutron-dan-bumi",
     "fakta-tentang-mekanisme-perubahan-warna-bunglon",
     "fakta-tentang-hujan-intan-di-uranus-dan-neptunus",
-    "fakta-tentang-pesawat-ruang-angkasa-voyager-satu"
+    "fakta-tentang-pesawat-ruang-angkasa-voyager-satu",
+    "fakta-tentang-perbandingan-penglihatan-manusia-dan-udang-mantis"
   ],
   "published": [
     {
@@ -1369,8 +1370,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260825_230144",
+      "topic": "fakta-tentang-perbandingan-penglihatan-manusia-dan-udang-mantis",
+      "title": "Mata Manusia vs Udang Mantis: Siapa Pemilik Penglihatan Terhebat di Bumi?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260825_230144_fakta-tentang-perbandingan-penglihatan-manusia-dan-udang-man/final.mp4",
+      "video_id": "tkArujf36Ns",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 110,
-  "_voice_idx": 113
+  "_format_idx": 111,
+  "_voice_idx": 114
 }
