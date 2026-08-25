@@ -120,7 +120,8 @@
     "fakta-tentang-peristiwa-carrington-badai-matahari",
     "fakta-tentang-perbandingan-kepadatan-bintang-neutron-dan-bumi",
     "fakta-tentang-mekanisme-perubahan-warna-bunglon",
-    "fakta-tentang-hujan-intan-di-uranus-dan-neptunus"
+    "fakta-tentang-hujan-intan-di-uranus-dan-neptunus",
+    "fakta-tentang-pesawat-ruang-angkasa-voyager-satu"
   ],
   "published": [
     {
@@ -1358,8 +1359,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260825_110151",
+      "topic": "fakta-tentang-pesawat-ruang-angkasa-voyager-satu",
+      "title": "Pesan Terakhir Manusia Di Ujung Alam Semesta! Petualangan Abadi Voyager Satu",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260825_110151_fakta-tentang-pesawat-ruang-angkasa-voyager-satu/final.mp4",
+      "video_id": "TOJaZnFyheg",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 109,
-  "_voice_idx": 112
+  "_format_idx": 110,
+  "_voice_idx": 113
 }
