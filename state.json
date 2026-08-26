@@ -122,7 +122,8 @@
     "fakta-tentang-mekanisme-perubahan-warna-bunglon",
     "fakta-tentang-hujan-intan-di-uranus-dan-neptunus",
     "fakta-tentang-pesawat-ruang-angkasa-voyager-satu",
-    "fakta-tentang-perbandingan-penglihatan-manusia-dan-udang-mantis"
+    "fakta-tentang-perbandingan-penglihatan-manusia-dan-udang-mantis",
+    "fakta-tentang-mitos-warna-darah-manusia"
   ],
   "published": [
     {
@@ -1380,8 +1381,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260826_110201",
+      "topic": "fakta-tentang-mitos-warna-darah-manusia",
+      "title": "Benarkah Darah Manusia Berwarna Biru di Dalam Tubuh? Ini Fakta Ilmiahnya!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260826_110201_fakta-tentang-mitos-warna-darah-manusia/final.mp4",
+      "video_id": "kdh4-auMHA8",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 111,
-  "_voice_idx": 114
+  "_format_idx": 112,
+  "_voice_idx": 115
 }
