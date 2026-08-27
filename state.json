@@ -125,7 +125,8 @@
     "fakta-tentang-perbandingan-penglihatan-manusia-dan-udang-mantis",
     "fakta-tentang-mitos-warna-darah-manusia",
     "fakta-tentang-petir-abadi-catatumbo",
-    "fakta-tentang-ekosistem-terisolasi-gua-movile"
+    "fakta-tentang-ekosistem-terisolasi-gua-movile",
+    "perbandingan-kekuatan-tulang-manusia-dan-baja"
   ],
   "published": [
     {
@@ -1413,8 +1414,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260827_110143",
+      "topic": "perbandingan-kekuatan-tulang-manusia-dan-baja",
+      "title": "Mana Lebih Kuat? Tulang Manusia vs Baja Padat!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260827_110143_perbandingan-kekuatan-tulang-manusia-dan-baja/final.mp4",
+      "video_id": "7FlIC6MjyU0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 114,
-  "_voice_idx": 117
+  "_format_idx": 115,
+  "_voice_idx": 118
 }
