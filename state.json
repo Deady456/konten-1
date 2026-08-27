@@ -126,7 +126,8 @@
     "fakta-tentang-mitos-warna-darah-manusia",
     "fakta-tentang-petir-abadi-catatumbo",
     "fakta-tentang-ekosistem-terisolasi-gua-movile",
-    "perbandingan-kekuatan-tulang-manusia-dan-baja"
+    "perbandingan-kekuatan-tulang-manusia-dan-baja",
+    "fakta-tentang-memori-ikan-mas"
   ],
   "published": [
     {
@@ -1424,8 +1425,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260827_230145",
+      "topic": "fakta-tentang-memori-ikan-mas",
+      "title": "Mitos Memori Ikan Mas Tiga Detik: Fakta Sains yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260827_230145_fakta-tentang-memori-ikan-mas/final.mp4",
+      "video_id": "Ji2oBtS_B0s",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 115,
-  "_voice_idx": 118
+  "_format_idx": 116,
+  "_voice_idx": 119
 }
