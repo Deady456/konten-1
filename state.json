@@ -124,7 +124,8 @@
     "fakta-tentang-pesawat-ruang-angkasa-voyager-satu",
     "fakta-tentang-perbandingan-penglihatan-manusia-dan-udang-mantis",
     "fakta-tentang-mitos-warna-darah-manusia",
-    "fakta-tentang-petir-abadi-catatumbo"
+    "fakta-tentang-petir-abadi-catatumbo",
+    "fakta-tentang-ekosistem-terisolasi-gua-movile"
   ],
   "published": [
     {
@@ -1402,8 +1403,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260827_094331",
+      "topic": "fakta-tentang-ekosistem-terisolasi-gua-movile",
+      "title": "Dunia Tersembunyi di Gua Movile: Ekosistem Purba Tanpa Sinar Matahari Selama Jutaan Tahun",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260827_094331_fakta-tentang-ekosistem-terisolasi-gua-movile/final.mp4",
+      "video_id": "-U2QnM4FEAg",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 113,
-  "_voice_idx": 116
+  "_format_idx": 114,
+  "_voice_idx": 117
 }
