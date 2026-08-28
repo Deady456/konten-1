@@ -127,7 +127,8 @@
     "fakta-tentang-petir-abadi-catatumbo",
     "fakta-tentang-ekosistem-terisolasi-gua-movile",
     "perbandingan-kekuatan-tulang-manusia-dan-baja",
-    "fakta-tentang-memori-ikan-mas"
+    "fakta-tentang-memori-ikan-mas",
+    "fakta-tentang-lava-hitam-ol-doinyo-lengai"
   ],
   "published": [
     {
@@ -1435,8 +1436,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260828_110200",
+      "topic": "fakta-tentang-lava-hitam-ol-doinyo-lengai",
+      "title": "Gunung Berapi Teraneh di Bumi yang Mengeluarkan Lava Hitam Cold Lava!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260828_110200_fakta-tentang-lava-hitam-ol-doinyo-lengai/final.mp4",
+      "video_id": "BfN67TMnWuM",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 116,
-  "_voice_idx": 119
+  "_format_idx": 117,
+  "_voice_idx": 120
 }
