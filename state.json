@@ -129,7 +129,8 @@
     "perbandingan-kekuatan-tulang-manusia-dan-baja",
     "fakta-tentang-memori-ikan-mas",
     "fakta-tentang-lava-hitam-ol-doinyo-lengai",
-    "fakta-tentang-lubang-bor-superdalam-kola"
+    "fakta-tentang-lubang-bor-superdalam-kola",
+    "perbandingan-suhu-petir-dan-permukaan-matahari"
   ],
   "published": [
     {
@@ -1457,8 +1458,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260829_110204",
+      "topic": "perbandingan-suhu-petir-dan-permukaan-matahari",
+      "title": "Mana Yang Lebih Panas? Petir di Bumi Atau Permukaan Matahari!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260829_110204_perbandingan-suhu-petir-dan-permukaan-matahari/final.mp4",
+      "video_id": "CXL5MVUQDMg",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 118,
-  "_voice_idx": 121
+  "_format_idx": 119,
+  "_voice_idx": 122
 }
