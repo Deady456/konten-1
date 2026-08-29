@@ -130,7 +130,8 @@
     "fakta-tentang-memori-ikan-mas",
     "fakta-tentang-lava-hitam-ol-doinyo-lengai",
     "fakta-tentang-lubang-bor-superdalam-kola",
-    "perbandingan-suhu-petir-dan-permukaan-matahari"
+    "perbandingan-suhu-petir-dan-permukaan-matahari",
+    "fakta-tentang-mitos-kapasitas-otak-manusia"
   ],
   "published": [
     {
@@ -1468,8 +1469,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260829_230141",
+      "topic": "fakta-tentang-mitos-kapasitas-otak-manusia",
+      "title": "MITOS KAPASITAS OTAK: Apakah Benar Manusia Cuma Pakai Sepuluh Persen?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260829_230141_fakta-tentang-mitos-kapasitas-otak-manusia/final.mp4",
+      "video_id": "LcMlCRHFiYg",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 119,
-  "_voice_idx": 122
+  "_format_idx": 120,
+  "_voice_idx": 123
 }
