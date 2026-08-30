@@ -131,7 +131,8 @@
     "fakta-tentang-lava-hitam-ol-doinyo-lengai",
     "fakta-tentang-lubang-bor-superdalam-kola",
     "perbandingan-suhu-petir-dan-permukaan-matahari",
-    "fakta-tentang-mitos-kapasitas-otak-manusia"
+    "fakta-tentang-mitos-kapasitas-otak-manusia",
+    "fakta-tentang-danau-natron-pembuat-patung-batu"
   ],
   "published": [
     {
@@ -1479,8 +1480,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260830_110150",
+      "topic": "fakta-tentang-danau-natron-pembuat-patung-batu",
+      "title": "Danau Pembetung Hewan Menjadi Batu! Rahasia Ekstrem Danau Natron",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260830_110150_fakta-tentang-danau-natron-pembuat-patung-batu/final.mp4",
+      "video_id": "Ip6RQsTg71Y",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 120,
-  "_voice_idx": 123
+  "_format_idx": 121,
+  "_voice_idx": 124
 }
