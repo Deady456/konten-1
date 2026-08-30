@@ -132,7 +132,8 @@
     "fakta-tentang-lubang-bor-superdalam-kola",
     "perbandingan-suhu-petir-dan-permukaan-matahari",
     "fakta-tentang-mitos-kapasitas-otak-manusia",
-    "fakta-tentang-danau-natron-pembuat-patung-batu"
+    "fakta-tentang-danau-natron-pembuat-patung-batu",
+    "fakta-tentang-mekanisme-antikythera-komputer-kuno"
   ],
   "published": [
     {
@@ -1490,8 +1491,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260830_230155",
+      "topic": "fakta-tentang-mekanisme-antikythera-komputer-kuno",
+      "title": "Komputer Pertama di Dunia Ditemukan di Dasar Laut Yunani Kuno!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260830_230155_fakta-tentang-mekanisme-antikythera-komputer-kuno/final.mp4",
+      "video_id": "D8jNVDfBgB0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 121,
-  "_voice_idx": 124
+  "_format_idx": 122,
+  "_voice_idx": 125
 }
