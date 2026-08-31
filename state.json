@@ -133,7 +133,8 @@
     "perbandingan-suhu-petir-dan-permukaan-matahari",
     "fakta-tentang-mitos-kapasitas-otak-manusia",
     "fakta-tentang-danau-natron-pembuat-patung-batu",
-    "fakta-tentang-mekanisme-antikythera-komputer-kuno"
+    "fakta-tentang-mekanisme-antikythera-komputer-kuno",
+    "perbandingan-ukuran-olympus-mons-dan-gunung-everest"
   ],
   "published": [
     {
@@ -1501,8 +1502,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260831_110321",
+      "topic": "perbandingan-ukuran-olympus-mons-dan-gunung-everest",
+      "title": "Gunung Everest Ternyata Kerdil Dibanding Raksasa Mars Ini!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260831_110321_perbandingan-ukuran-olympus-mons-dan-gunung-everest/final.mp4",
+      "video_id": "99cOsGewizw",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 122,
-  "_voice_idx": 125
+  "_format_idx": 123,
+  "_voice_idx": 126
 }
