@@ -135,7 +135,8 @@
     "fakta-tentang-danau-natron-pembuat-patung-batu",
     "fakta-tentang-mekanisme-antikythera-komputer-kuno",
     "perbandingan-ukuran-olympus-mons-dan-gunung-everest",
-    "fakta-tentang-mitos-burung-unta-mengubur-kepala"
+    "fakta-tentang-mitos-burung-unta-mengubur-kepala",
+    "fakta-tentang-batu-berjalan-racetrack-playa"
   ],
   "published": [
     {
@@ -1523,8 +1524,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260901_110233",
+      "topic": "fakta-tentang-batu-berjalan-racetrack-playa",
+      "title": "Misteri Batu Berjalan di Lembah Kematian Akhirnya Terungkap!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260901_110233_fakta-tentang-batu-berjalan-racetrack-playa/final.mp4",
+      "video_id": "N1HvzowSbS4",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 124,
-  "_voice_idx": 127
+  "_format_idx": 125,
+  "_voice_idx": 128
 }
