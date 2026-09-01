@@ -136,7 +136,8 @@
     "fakta-tentang-mekanisme-antikythera-komputer-kuno",
     "perbandingan-ukuran-olympus-mons-dan-gunung-everest",
     "fakta-tentang-mitos-burung-unta-mengubur-kepala",
-    "fakta-tentang-batu-berjalan-racetrack-playa"
+    "fakta-tentang-batu-berjalan-racetrack-playa",
+    "fakta-tentang-katak-kayu-alaska-membeku"
   ],
   "published": [
     {
@@ -1534,8 +1535,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260901_230152",
+      "topic": "fakta-tentang-katak-kayu-alaska-membeku",
+      "title": "Katak Ini Bisa Membeku Mati dan Hidup Kembali!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260901_230152_fakta-tentang-katak-kayu-alaska-membeku/final.mp4",
+      "video_id": "buMx6YujLn4",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 125,
-  "_voice_idx": 128
+  "_format_idx": 126,
+  "_voice_idx": 129
 }
