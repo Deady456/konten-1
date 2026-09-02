@@ -137,7 +137,8 @@
     "perbandingan-ukuran-olympus-mons-dan-gunung-everest",
     "fakta-tentang-mitos-burung-unta-mengubur-kepala",
     "fakta-tentang-batu-berjalan-racetrack-playa",
-    "fakta-tentang-katak-kayu-alaska-membeku"
+    "fakta-tentang-katak-kayu-alaska-membeku",
+    "perbandingan-volume-air-europa-dan-bumi"
   ],
   "published": [
     {
@@ -1545,8 +1546,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260902_110157",
+      "topic": "perbandingan-volume-air-europa-dan-bumi",
+      "title": "Bumi Kalah Telak! Bulan Es Ini Punya Air Dua Kali Lipat Lebih Banyak!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260902_110157_perbandingan-volume-air-europa-dan-bumi/final.mp4",
+      "video_id": "M03RE3dKg4w",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 126,
-  "_voice_idx": 129
+  "_format_idx": 127,
+  "_voice_idx": 130
 }
