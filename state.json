@@ -138,7 +138,8 @@
     "fakta-tentang-mitos-burung-unta-mengubur-kepala",
     "fakta-tentang-batu-berjalan-racetrack-playa",
     "fakta-tentang-katak-kayu-alaska-membeku",
-    "perbandingan-volume-air-europa-dan-bumi"
+    "perbandingan-volume-air-europa-dan-bumi",
+    "fakta-tentang-mitos-sambaran-petir-berulang"
   ],
   "published": [
     {
@@ -1556,8 +1557,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260902_230211",
+      "topic": "fakta-tentang-mitos-sambaran-petir-berulang",
+      "title": "Mitos Petir Tidak Menyambar Tempat Sama Dua Kali Terbongkar Secara Ilmiah!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260902_230211_fakta-tentang-mitos-sambaran-petir-berulang/final.mp4",
+      "video_id": "BmTPwOa-SsE",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 127,
-  "_voice_idx": 130
+  "_format_idx": 128,
+  "_voice_idx": 131
 }
