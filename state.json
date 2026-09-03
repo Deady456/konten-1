@@ -139,7 +139,8 @@
     "fakta-tentang-batu-berjalan-racetrack-playa",
     "fakta-tentang-katak-kayu-alaska-membeku",
     "perbandingan-volume-air-europa-dan-bumi",
-    "fakta-tentang-mitos-sambaran-petir-berulang"
+    "fakta-tentang-mitos-sambaran-petir-berulang",
+    "fakta-tentang-ketahanan-ekstrem-tardigrada"
   ],
   "published": [
     {
@@ -1567,8 +1568,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260903_110221",
+      "topic": "fakta-tentang-ketahanan-ekstrem-tardigrada",
+      "title": "Fakta Mencengangkan Tardigrada, Hewan Terkuat yang Bisa Hidup di Luar Angkasa!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260903_110221_fakta-tentang-ketahanan-ekstrem-tardigrada/final.mp4",
+      "video_id": "YyQ94ai_8qg",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 128,
-  "_voice_idx": 131
+  "_format_idx": 129,
+  "_voice_idx": 132
 }
