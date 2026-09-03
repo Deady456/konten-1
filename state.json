@@ -140,7 +140,8 @@
     "fakta-tentang-katak-kayu-alaska-membeku",
     "perbandingan-volume-air-europa-dan-bumi",
     "fakta-tentang-mitos-sambaran-petir-berulang",
-    "fakta-tentang-ketahanan-ekstrem-tardigrada"
+    "fakta-tentang-ketahanan-ekstrem-tardigrada",
+    "fakta-tentang-ubur-ubur-abadi-turritopsis-dohrnii"
   ],
   "published": [
     {
@@ -1578,8 +1579,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260903_230310",
+      "topic": "fakta-tentang-ubur-ubur-abadi-turritopsis-dohrnii",
+      "title": "Makhluk Abadi Ditemukan di Laut Dalam! Rahasia Menolak Kematian",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260903_230310_fakta-tentang-ubur-ubur-abadi-turritopsis-dohrnii/final.mp4",
+      "video_id": "ToG7whX0T0g",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 129,
-  "_voice_idx": 132
+  "_format_idx": 130,
+  "_voice_idx": 133
 }
