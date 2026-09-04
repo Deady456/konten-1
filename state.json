@@ -141,7 +141,8 @@
     "perbandingan-volume-air-europa-dan-bumi",
     "fakta-tentang-mitos-sambaran-petir-berulang",
     "fakta-tentang-ketahanan-ekstrem-tardigrada",
-    "fakta-tentang-ubur-ubur-abadi-turritopsis-dohrnii"
+    "fakta-tentang-ubur-ubur-abadi-turritopsis-dohrnii",
+    "perbandingan-jumlah-pohon-bumi-dan-bintang-bima-sakti"
   ],
   "published": [
     {
@@ -1589,8 +1590,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260904_110331",
+      "topic": "perbandingan-jumlah-pohon-bumi-dan-bintang-bima-sakti",
+      "title": "Bumi vs Galaksi: Mana yang Punya Lebih Banyak Objek?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260904_110331_perbandingan-jumlah-pohon-bumi-dan-bintang-bima-sakti/final.mp4",
+      "video_id": "mXyibWYRw6Y",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 130,
-  "_voice_idx": 133
+  "_format_idx": 131,
+  "_voice_idx": 134
 }
