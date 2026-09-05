@@ -144,7 +144,8 @@
     "fakta-tentang-ubur-ubur-abadi-turritopsis-dohrnii",
     "perbandingan-jumlah-pohon-bumi-dan-bintang-bima-sakti",
     "fakta-tentang-warna-asli-matahari",
-    "fakta-tentang-bau-luar-angkasa"
+    "fakta-tentang-bau-luar-angkasa",
+    "fakta-tentang-superkoloni-semut-argentina-global"
   ],
   "published": [
     {
@@ -1622,8 +1623,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260905_230208",
+      "topic": "fakta-tentang-superkoloni-semut-argentina-global",
+      "title": "Kekaisaran Bawah Tanah Terbesar di Bumi yang Menguasai Tiga Benua!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260905_230208_fakta-tentang-superkoloni-semut-argentina-global/final.mp4",
+      "video_id": "LO5yM0HY1sQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 133,
-  "_voice_idx": 136
+  "_format_idx": 134,
+  "_voice_idx": 137
 }
