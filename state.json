@@ -143,7 +143,8 @@
     "fakta-tentang-ketahanan-ekstrem-tardigrada",
     "fakta-tentang-ubur-ubur-abadi-turritopsis-dohrnii",
     "perbandingan-jumlah-pohon-bumi-dan-bintang-bima-sakti",
-    "fakta-tentang-warna-asli-matahari"
+    "fakta-tentang-warna-asli-matahari",
+    "fakta-tentang-bau-luar-angkasa"
   ],
   "published": [
     {
@@ -1611,8 +1612,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260905_110249",
+      "topic": "fakta-tentang-bau-luar-angkasa",
+      "title": "Ternyata Luar Angkasa Punya Bau Misterius! Begini Aromanya!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260905_110249_fakta-tentang-bau-luar-angkasa/final.mp4",
+      "video_id": "q-mQGDQbC1g",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 132,
-  "_voice_idx": 135
+  "_format_idx": 133,
+  "_voice_idx": 136
 }
