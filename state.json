@@ -145,7 +145,8 @@
     "perbandingan-jumlah-pohon-bumi-dan-bintang-bima-sakti",
     "fakta-tentang-warna-asli-matahari",
     "fakta-tentang-bau-luar-angkasa",
-    "fakta-tentang-superkoloni-semut-argentina-global"
+    "fakta-tentang-superkoloni-semut-argentina-global",
+    "perbandingan-panjang-pembuluh-darah-dan-keliling-bumi"
   ],
   "published": [
     {
@@ -1633,8 +1634,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260906_110301",
+      "topic": "perbandingan-panjang-pembuluh-darah-dan-keliling-bumi",
+      "title": "Panjang Pembuluh Darah Manusia Bisa Keliling Bumi Berapa Kali?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260906_110301_perbandingan-panjang-pembuluh-darah-dan-keliling-bumi/final.mp4",
+      "video_id": "MTWCotnh8k0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 134,
-  "_voice_idx": 137
+  "_format_idx": 135,
+  "_voice_idx": 138
 }
