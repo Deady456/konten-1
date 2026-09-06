@@ -146,7 +146,8 @@
     "fakta-tentang-warna-asli-matahari",
     "fakta-tentang-bau-luar-angkasa",
     "fakta-tentang-superkoloni-semut-argentina-global",
-    "perbandingan-panjang-pembuluh-darah-dan-keliling-bumi"
+    "perbandingan-panjang-pembuluh-darah-dan-keliling-bumi",
+    "fakta-tentang-mitos-hiu-kebal-kanker"
   ],
   "published": [
     {
@@ -1644,8 +1645,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260906_230253",
+      "topic": "fakta-tentang-mitos-hiu-kebal-kanker",
+      "title": "Benarkah Hiu Tidak Bisa Kena Kanker? Fakta Sains Ini Bikin Terkejut!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260906_230253_fakta-tentang-mitos-hiu-kebal-kanker/final.mp4",
+      "video_id": "KcKy1AWIvb8",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 135,
-  "_voice_idx": 138
+  "_format_idx": 136,
+  "_voice_idx": 139
 }
