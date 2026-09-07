@@ -148,7 +148,8 @@
     "fakta-tentang-superkoloni-semut-argentina-global",
     "perbandingan-panjang-pembuluh-darah-dan-keliling-bumi",
     "fakta-tentang-mitos-hiu-kebal-kanker",
-    "fakta-tentang-organisme-terbesar-di-bumi-jamur-armillaria"
+    "fakta-tentang-organisme-terbesar-di-bumi-jamur-armillaria",
+    "fakta-tentang-gua-kristal-raksasa-naica"
   ],
   "published": [
     {
@@ -1666,8 +1667,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260907_230208",
+      "topic": "fakta-tentang-gua-kristal-raksasa-naica",
+      "title": "Misteri Gua Kristal Raksasa Mematikan di Kedalaman Bumi Meksiko",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260907_230208_fakta-tentang-gua-kristal-raksasa-naica/final.mp4",
+      "video_id": "khPltpB4l-0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 137,
-  "_voice_idx": 140
+  "_format_idx": 138,
+  "_voice_idx": 141
 }
