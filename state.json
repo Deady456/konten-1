@@ -147,7 +147,8 @@
     "fakta-tentang-bau-luar-angkasa",
     "fakta-tentang-superkoloni-semut-argentina-global",
     "perbandingan-panjang-pembuluh-darah-dan-keliling-bumi",
-    "fakta-tentang-mitos-hiu-kebal-kanker"
+    "fakta-tentang-mitos-hiu-kebal-kanker",
+    "fakta-tentang-organisme-terbesar-di-bumi-jamur-armillaria"
   ],
   "published": [
     {
@@ -1655,8 +1656,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260907_110230",
+      "topic": "fakta-tentang-organisme-terbesar-di-bumi-jamur-armillaria",
+      "title": "Bukan Paus Biru! Inilah Makhluk Hidup Terbesar dan Terberat di Bumi!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260907_110230_fakta-tentang-organisme-terbesar-di-bumi-jamur-armillaria/final.mp4",
+      "video_id": "m4Xa-ZBrNtE",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 136,
-  "_voice_idx": 139
+  "_format_idx": 137,
+  "_voice_idx": 140
 }
