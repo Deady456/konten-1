@@ -149,7 +149,8 @@
     "perbandingan-panjang-pembuluh-darah-dan-keliling-bumi",
     "fakta-tentang-mitos-hiu-kebal-kanker",
     "fakta-tentang-organisme-terbesar-di-bumi-jamur-armillaria",
-    "fakta-tentang-gua-kristal-raksasa-naica"
+    "fakta-tentang-gua-kristal-raksasa-naica",
+    "perbandingan-detak-jantung-paus-biru-dan-burung-kolibri"
   ],
   "published": [
     {
@@ -1677,8 +1678,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260908_110210",
+      "topic": "perbandingan-detak-jantung-paus-biru-dan-burung-kolibri",
+      "title": "Detak Jantung Paus Biru vs Burung Kolibri: Perbedaan Paling Ekstrem di Alam!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260908_110210_perbandingan-detak-jantung-paus-biru-dan-burung-kolibri/final.mp4",
+      "video_id": "QMPxR2sttHs",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 138,
-  "_voice_idx": 141
+  "_format_idx": 139,
+  "_voice_idx": 142
 }
