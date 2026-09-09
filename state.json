@@ -152,7 +152,8 @@
     "fakta-tentang-gua-kristal-raksasa-naica",
     "perbandingan-detak-jantung-paus-biru-dan-burung-kolibri",
     "fakta-tentang-mitos-punuk-unta-penyimpan-air",
-    "fakta-tentang-keanehan-planet-venus"
+    "fakta-tentang-keanehan-planet-venus",
+    "fakta-tentang-ledakan-tunguska-siberia"
   ],
   "published": [
     {
@@ -1710,8 +1711,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260909_230201",
+      "topic": "fakta-tentang-ledakan-tunguska-siberia",
+      "title": "Misteri Ledakan Raksasa Siberia Yang Meratakan Delapan Puluh Juta Pohon Tanpa Kawah",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260909_230201_fakta-tentang-ledakan-tunguska-siberia/final.mp4",
+      "video_id": "bc2tdhd0mSY",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 141,
-  "_voice_idx": 144
+  "_format_idx": 142,
+  "_voice_idx": 145
 }
