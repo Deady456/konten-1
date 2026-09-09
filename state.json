@@ -151,7 +151,8 @@
     "fakta-tentang-organisme-terbesar-di-bumi-jamur-armillaria",
     "fakta-tentang-gua-kristal-raksasa-naica",
     "perbandingan-detak-jantung-paus-biru-dan-burung-kolibri",
-    "fakta-tentang-mitos-punuk-unta-penyimpan-air"
+    "fakta-tentang-mitos-punuk-unta-penyimpan-air",
+    "fakta-tentang-keanehan-planet-venus"
   ],
   "published": [
     {
@@ -1699,8 +1700,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260909_110231",
+      "topic": "fakta-tentang-keanehan-planet-venus",
+      "title": "Planet Aneh Ini Memiliki Hari yang Lebih Panjang dari Tahunnya!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260909_110231_fakta-tentang-keanehan-planet-venus/final.mp4",
+      "video_id": "Jp-ycCxZLYA",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 140,
-  "_voice_idx": 143
+  "_format_idx": 141,
+  "_voice_idx": 144
 }
