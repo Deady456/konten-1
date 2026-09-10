@@ -154,7 +154,8 @@
     "fakta-tentang-mitos-punuk-unta-penyimpan-air",
     "fakta-tentang-keanehan-planet-venus",
     "fakta-tentang-ledakan-tunguska-siberia",
-    "perbandingan-kecepatan-angin-neptunus-dan-badai-bumi"
+    "perbandingan-kecepatan-angin-neptunus-dan-badai-bumi",
+    "fakta-tentang-mitos-darah-biru-dalam-tubuh"
   ],
   "published": [
     {
@@ -1732,8 +1733,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260910_230211",
+      "topic": "fakta-tentang-mitos-darah-biru-dalam-tubuh",
+      "title": "Mitos Darah Biru dalam Tubuh Manusia! Ini Fakta Ilmiah Pembiasan Cahayanya",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260910_230211_fakta-tentang-mitos-darah-biru-dalam-tubuh/final.mp4",
+      "video_id": "138CRufNGGE",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 143,
-  "_voice_idx": 146
+  "_format_idx": 144,
+  "_voice_idx": 147
 }
