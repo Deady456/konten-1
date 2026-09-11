@@ -156,7 +156,8 @@
     "fakta-tentang-ledakan-tunguska-siberia",
     "perbandingan-kecepatan-angin-neptunus-dan-badai-bumi",
     "fakta-tentang-mitos-darah-biru-dalam-tubuh",
-    "fakta-tentang-lautan-tersembunyi-di-dalam-mantel-bumi"
+    "fakta-tentang-lautan-tersembunyi-di-dalam-mantel-bumi",
+    "fakta-peristiwa-carrington-badai-matahari-terhebat"
   ],
   "published": [
     {
@@ -1754,8 +1755,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260911_230154",
+      "topic": "fakta-peristiwa-carrington-badai-matahari-terhebat",
+      "title": "Ketika Langit Terbakar dan Jaringan Listrik Dunia Meledak: Misteri Badai Matahari seribu del...",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260911_230154_fakta-peristiwa-carrington-badai-matahari-terhebat/final.mp4",
+      "video_id": "ZZqgUypMxYo",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 145,
-  "_voice_idx": 148
+  "_format_idx": 146,
+  "_voice_idx": 149
 }
