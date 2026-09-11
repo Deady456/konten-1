@@ -155,7 +155,8 @@
     "fakta-tentang-keanehan-planet-venus",
     "fakta-tentang-ledakan-tunguska-siberia",
     "perbandingan-kecepatan-angin-neptunus-dan-badai-bumi",
-    "fakta-tentang-mitos-darah-biru-dalam-tubuh"
+    "fakta-tentang-mitos-darah-biru-dalam-tubuh",
+    "fakta-tentang-lautan-tersembunyi-di-dalam-mantel-bumi"
   ],
   "published": [
     {
@@ -1743,8 +1744,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260911_110339",
+      "topic": "fakta-tentang-lautan-tersembunyi-di-dalam-mantel-bumi",
+      "title": "Misteri Terbongkar: Ada Lautan Raksasa Tersembunyi di Perut Bumi!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260911_110339_fakta-tentang-lautan-tersembunyi-di-dalam-mantel-bumi/final.mp4",
+      "video_id": "-u4N_q40vjM",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 144,
-  "_voice_idx": 147
+  "_format_idx": 145,
+  "_voice_idx": 148
 }
