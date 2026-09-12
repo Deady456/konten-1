@@ -158,7 +158,8 @@
     "fakta-tentang-mitos-darah-biru-dalam-tubuh",
     "fakta-tentang-lautan-tersembunyi-di-dalam-mantel-bumi",
     "fakta-peristiwa-carrington-badai-matahari-terhebat",
-    "perbandingan-kepadatan-bintang-neutron-dan-gunung-everest"
+    "perbandingan-kepadatan-bintang-neutron-dan-gunung-everest",
+    "fakta-tentang-mitos-daya-ingat-ikan-mas-koki"
   ],
   "published": [
     {
@@ -1776,8 +1777,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260912_230143",
+      "topic": "fakta-tentang-mitos-daya-ingat-ikan-mas-koki",
+      "title": "Benarkah Ingatan Ikan Mas Koki Cuma Tiga Detik? Ini Fakta Sainsnya!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260912_230143_fakta-tentang-mitos-daya-ingat-ikan-mas-koki/final.mp4",
+      "video_id": "jGukkX1c1bg",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 147,
-  "_voice_idx": 150
+  "_format_idx": 148,
+  "_voice_idx": 151
 }
