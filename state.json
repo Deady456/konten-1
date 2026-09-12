@@ -157,7 +157,8 @@
     "perbandingan-kecepatan-angin-neptunus-dan-badai-bumi",
     "fakta-tentang-mitos-darah-biru-dalam-tubuh",
     "fakta-tentang-lautan-tersembunyi-di-dalam-mantel-bumi",
-    "fakta-peristiwa-carrington-badai-matahari-terhebat"
+    "fakta-peristiwa-carrington-badai-matahari-terhebat",
+    "perbandingan-kepadatan-bintang-neutron-dan-gunung-everest"
   ],
   "published": [
     {
@@ -1765,8 +1766,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260912_110153",
+      "topic": "perbandingan-kepadatan-bintang-neutron-dan-gunung-everest",
+      "title": "Satu Sendok Teh Benda Ini Lebih Berat Dari Gunung Everest?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260912_110153_perbandingan-kepadatan-bintang-neutron-dan-gunung-everest/final.mp4",
+      "video_id": "sxizL9FJHD4",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 146,
-  "_voice_idx": 149
+  "_format_idx": 147,
+  "_voice_idx": 150
 }
