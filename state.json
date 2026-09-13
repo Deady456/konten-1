@@ -159,7 +159,8 @@
     "fakta-tentang-lautan-tersembunyi-di-dalam-mantel-bumi",
     "fakta-peristiwa-carrington-badai-matahari-terhebat",
     "perbandingan-kepadatan-bintang-neutron-dan-gunung-everest",
-    "fakta-tentang-mitos-daya-ingat-ikan-mas-koki"
+    "fakta-tentang-mitos-daya-ingat-ikan-mas-koki",
+    "fakta-tentang-hiu-lebih-tua-dari-pohon-dan-cincin-saturnus"
   ],
   "published": [
     {
@@ -1787,8 +1788,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260913_230204",
+      "topic": "fakta-tentang-hiu-lebih-tua-dari-pohon-dan-cincin-saturnus",
+      "title": "Fakta Sains Mencengangkan: Hiu Lebih Tua dari Pohon dan Cincin Saturnus!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260913_230204_fakta-tentang-hiu-lebih-tua-dari-pohon-dan-cincin-saturnus/final.mp4",
+      "video_id": "ZX9amz7hd-E",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 148,
-  "_voice_idx": 151
+  "_format_idx": 149,
+  "_voice_idx": 152
 }
