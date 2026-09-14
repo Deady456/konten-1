@@ -160,7 +160,8 @@
     "fakta-peristiwa-carrington-badai-matahari-terhebat",
     "perbandingan-kepadatan-bintang-neutron-dan-gunung-everest",
     "fakta-tentang-mitos-daya-ingat-ikan-mas-koki",
-    "fakta-tentang-hiu-lebih-tua-dari-pohon-dan-cincin-saturnus"
+    "fakta-tentang-hiu-lebih-tua-dari-pohon-dan-cincin-saturnus",
+    "fakta-tentang-wabah-menari-seribu-lima-ratus-delapan-belas"
   ],
   "published": [
     {
@@ -1798,8 +1799,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260914_110208",
+      "topic": "fakta-tentang-wabah-menari-seribu-lima-ratus-delapan-belas",
+      "title": "Misteri Wabah Menari seribu lima ratus delapan belas: Kenapa Ratusan Orang Menari Sampai Mati?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260914_110208_fakta-tentang-wabah-menari-seribu-lima-ratus-delapan-belas/final.mp4",
+      "video_id": "F-bcZsCQTKU",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 149,
-  "_voice_idx": 152
+  "_format_idx": 150,
+  "_voice_idx": 153
 }
