@@ -163,7 +163,8 @@
     "fakta-tentang-hiu-lebih-tua-dari-pohon-dan-cincin-saturnus",
     "fakta-tentang-wabah-menari-seribu-lima-ratus-delapan-belas",
     "perbandingan-jumlah-sel-bakteri-dan-sel-manusia",
-    "fakta-tentang-mitos-sepuluh-persen-kapasitas-otak-manusia"
+    "fakta-tentang-mitos-sepuluh-persen-kapasitas-otak-manusia",
+    "fakta-eksoplanet-paling-ekstrem-di-alam-semesta"
   ],
   "published": [
     {
@@ -1831,8 +1832,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260915_230147",
+      "topic": "fakta-eksoplanet-paling-ekstrem-di-alam-semesta",
+      "title": "Hujan Besi Hingga Planet Berlian! tiga Eksoplanet Paling Paling Mengerikan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260915_230147_fakta-eksoplanet-paling-ekstrem-di-alam-semesta/final.mp4",
+      "video_id": "hI6C8-di5lE",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 152,
-  "_voice_idx": 155
+  "_format_idx": 153,
+  "_voice_idx": 156
 }
