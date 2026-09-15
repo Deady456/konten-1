@@ -162,7 +162,8 @@
     "fakta-tentang-mitos-daya-ingat-ikan-mas-koki",
     "fakta-tentang-hiu-lebih-tua-dari-pohon-dan-cincin-saturnus",
     "fakta-tentang-wabah-menari-seribu-lima-ratus-delapan-belas",
-    "perbandingan-jumlah-sel-bakteri-dan-sel-manusia"
+    "perbandingan-jumlah-sel-bakteri-dan-sel-manusia",
+    "fakta-tentang-mitos-sepuluh-persen-kapasitas-otak-manusia"
   ],
   "published": [
     {
@@ -1820,8 +1821,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260915_110201",
+      "topic": "fakta-tentang-mitos-sepuluh-persen-kapasitas-otak-manusia",
+      "title": "Benarkah Manusia Cuma Pakai sepuluh persen Otak? Ini Mitos dan Fakta Ilmiahnya!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260915_110201_fakta-tentang-mitos-sepuluh-persen-kapasitas-otak-manusia/final.mp4",
+      "video_id": "_Lxj_gBtFcY",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 151,
-  "_voice_idx": 154
+  "_format_idx": 152,
+  "_voice_idx": 155
 }
