@@ -165,7 +165,8 @@
     "perbandingan-jumlah-sel-bakteri-dan-sel-manusia",
     "fakta-tentang-mitos-sepuluh-persen-kapasitas-otak-manusia",
     "fakta-eksoplanet-paling-ekstrem-di-alam-semesta",
-    "fakta-danau-natron-tanzania-mengubah-hewan-menjadi-batu"
+    "fakta-danau-natron-tanzania-mengubah-hewan-menjadi-batu",
+    "perbandingan-massa-semut-dan-mamalia-liar"
   ],
   "published": [
     {
@@ -1853,8 +1854,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260916_230207",
+      "topic": "perbandingan-massa-semut-dan-mamalia-liar",
+      "title": "Semut vs Mamalia Liar: Siapa Pemilik Massa Terberat di Planet Bumi?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260916_230207_perbandingan-massa-semut-dan-mamalia-liar/final.mp4",
+      "video_id": "89kzCBlr4sM",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 154,
-  "_voice_idx": 157
+  "_format_idx": 155,
+  "_voice_idx": 158
 }
