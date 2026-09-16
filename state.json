@@ -164,7 +164,8 @@
     "fakta-tentang-wabah-menari-seribu-lima-ratus-delapan-belas",
     "perbandingan-jumlah-sel-bakteri-dan-sel-manusia",
     "fakta-tentang-mitos-sepuluh-persen-kapasitas-otak-manusia",
-    "fakta-eksoplanet-paling-ekstrem-di-alam-semesta"
+    "fakta-eksoplanet-paling-ekstrem-di-alam-semesta",
+    "fakta-danau-natron-tanzania-mengubah-hewan-menjadi-batu"
   ],
   "published": [
     {
@@ -1842,8 +1843,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260916_110215",
+      "topic": "fakta-danau-natron-tanzania-mengubah-hewan-menjadi-batu",
+      "title": "Danau Medusa Nyata di Dunia! Mengubah Hewan Menjadi Batu?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260916_110215_fakta-danau-natron-tanzania-mengubah-hewan-menjadi-batu/final.mp4",
+      "video_id": "ZfqA88Mc_hQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 153,
-  "_voice_idx": 156
+  "_format_idx": 154,
+  "_voice_idx": 157
 }
