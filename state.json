@@ -167,7 +167,8 @@
     "fakta-eksoplanet-paling-ekstrem-di-alam-semesta",
     "fakta-danau-natron-tanzania-mengubah-hewan-menjadi-batu",
     "perbandingan-massa-semut-dan-mamalia-liar",
-    "fakta-mitos-banteng-marah-warna-merah"
+    "fakta-mitos-banteng-marah-warna-merah",
+    "fakta-persepsi-waktu-sejarah-yang-mengejutkan"
   ],
   "published": [
     {
@@ -1875,8 +1876,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260917_230151",
+      "topic": "fakta-persepsi-waktu-sejarah-yang-mengejutkan",
+      "title": "Fakta Persepsi Waktu Sejarah Ini Bakal Bikin Otak Kamu Pusing!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260917_230151_fakta-persepsi-waktu-sejarah-yang-mengejutkan/final.mp4",
+      "video_id": "ZF_kfu-RN-U",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 156,
-  "_voice_idx": 159
+  "_format_idx": 157,
+  "_voice_idx": 160
 }
