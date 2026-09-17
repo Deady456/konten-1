@@ -166,7 +166,8 @@
     "fakta-tentang-mitos-sepuluh-persen-kapasitas-otak-manusia",
     "fakta-eksoplanet-paling-ekstrem-di-alam-semesta",
     "fakta-danau-natron-tanzania-mengubah-hewan-menjadi-batu",
-    "perbandingan-massa-semut-dan-mamalia-liar"
+    "perbandingan-massa-semut-dan-mamalia-liar",
+    "fakta-mitos-banteng-marah-warna-merah"
   ],
   "published": [
     {
@@ -1864,8 +1865,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260917_110203",
+      "topic": "fakta-mitos-banteng-marah-warna-merah",
+      "title": "Benarkah Banteng Marah Melihat Warna Merah? Ini Fakta Ilmiahnya!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260917_110203_fakta-mitos-banteng-marah-warna-merah/final.mp4",
+      "video_id": "VpHzkWyyTpU",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 155,
-  "_voice_idx": 158
+  "_format_idx": 156,
+  "_voice_idx": 159
 }
