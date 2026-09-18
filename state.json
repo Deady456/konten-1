@@ -168,7 +168,8 @@
     "fakta-danau-natron-tanzania-mengubah-hewan-menjadi-batu",
     "perbandingan-massa-semut-dan-mamalia-liar",
     "fakta-mitos-banteng-marah-warna-merah",
-    "fakta-persepsi-waktu-sejarah-yang-mengejutkan"
+    "fakta-persepsi-waktu-sejarah-yang-mengejutkan",
+    "fakta-sinyal-wow-misteri-luar-angkasa"
   ],
   "published": [
     {
@@ -1886,8 +1887,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260918_231631",
+      "topic": "fakta-sinyal-wow-misteri-luar-angkasa",
+      "title": "Pesan Misterius Dari Luar Angkasa yang Hanya Terdengar Satu Kali!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260918_231631_fakta-sinyal-wow-misteri-luar-angkasa/final.mp4",
+      "video_id": "dAj1rWqMFYQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 157,
-  "_voice_idx": 160
+  "_format_idx": 158,
+  "_voice_idx": 161
 }
