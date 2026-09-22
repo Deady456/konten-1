@@ -169,7 +169,8 @@
     "perbandingan-massa-semut-dan-mamalia-liar",
     "fakta-mitos-banteng-marah-warna-merah",
     "fakta-persepsi-waktu-sejarah-yang-mengejutkan",
-    "fakta-sinyal-wow-misteri-luar-angkasa"
+    "fakta-sinyal-wow-misteri-luar-angkasa",
+    "perbandingan-suhu-kilat-dan-permukaan-matahari"
   ],
   "published": [
     {
@@ -1897,8 +1898,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260922_111716",
+      "topic": "perbandingan-suhu-kilat-dan-permukaan-matahari",
+      "title": "Kilat Lebih Panas dari Matahari? Perbandingan Suhu yang Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260922_111716_perbandingan-suhu-kilat-dan-permukaan-matahari/final.mp4",
+      "video_id": "6cVFVJE25Zs",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 158,
-  "_voice_idx": 161
+  "_format_idx": 159,
+  "_voice_idx": 162
 }
