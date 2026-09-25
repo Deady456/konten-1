@@ -170,7 +170,8 @@
     "fakta-mitos-banteng-marah-warna-merah",
     "fakta-persepsi-waktu-sejarah-yang-mengejutkan",
     "fakta-sinyal-wow-misteri-luar-angkasa",
-    "perbandingan-suhu-kilat-dan-permukaan-matahari"
+    "perbandingan-suhu-kilat-dan-permukaan-matahari",
+    "fakta-tentang-mitos-ikan-paus-pembunuh"
   ],
   "published": [
     {
@@ -1908,8 +1909,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260925_170817",
+      "topic": "fakta-tentang-mitos-ikan-paus-pembunuh",
+      "title": "Ikan Paus Pembunuh Tidaklah Pemakan Daging?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260925_170817_fakta-tentang-mitos-ikan-paus-pembunuh/final.mp4",
+      "video_id": "I_Q1z_Gl7pk",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 159,
-  "_voice_idx": 162
+  "_format_idx": 160,
+  "_voice_idx": 163
 }
