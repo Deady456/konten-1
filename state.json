@@ -171,7 +171,8 @@
     "fakta-persepsi-waktu-sejarah-yang-mengejutkan",
     "fakta-sinyal-wow-misteri-luar-angkasa",
     "perbandingan-suhu-kilat-dan-permukaan-matahari",
-    "fakta-tentang-mitos-ikan-paus-pembunuh"
+    "fakta-tentang-mitos-ikan-paus-pembunuh",
+    "fakta-mengejutkan-tentang-tubuh-manusia"
   ],
   "published": [
     {
@@ -1919,8 +1920,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260925_230209",
+      "topic": "fakta-mengejutkan-tentang-tubuh-manusia",
+      "title": "Tubuh Manusia: Lima Fakta Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260925_230209_fakta-mengejutkan-tentang-tubuh-manusia/final.mp4",
+      "video_id": "QC3xAtwF070",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 160,
-  "_voice_idx": 163
+  "_format_idx": 161,
+  "_voice_idx": 164
 }
