@@ -172,7 +172,8 @@
     "fakta-sinyal-wow-misteri-luar-angkasa",
     "perbandingan-suhu-kilat-dan-permukaan-matahari",
     "fakta-tentang-mitos-ikan-paus-pembunuh",
-    "fakta-mengejutkan-tentang-tubuh-manusia"
+    "fakta-mengejutkan-tentang-tubuh-manusia",
+    "gelombang-gravitasi-pertama-terdeteksi"
   ],
   "published": [
     {
@@ -1930,8 +1931,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260926_110208",
+      "topic": "gelombang-gravitasi-pertama-terdeteksi",
+      "title": "Mengungkap Bisikan Alam Semesta: Gelombang Gravitasi yang Baru Terdeteksi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260926_110208_gelombang-gravitasi-pertama-terdeteksi/final.mp4",
+      "video_id": "3P8A8gr8kkc",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 161,
-  "_voice_idx": 164
+  "_format_idx": 162,
+  "_voice_idx": 165
 }
