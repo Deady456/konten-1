@@ -173,7 +173,8 @@
     "perbandingan-suhu-kilat-dan-permukaan-matahari",
     "fakta-tentang-mitos-ikan-paus-pembunuh",
     "fakta-mengejutkan-tentang-tubuh-manusia",
-    "gelombang-gravitasi-pertama-terdeteksi"
+    "gelombang-gravitasi-pertama-terdeteksi",
+    "perbandingan-otak-manusia-dan-gurita"
   ],
   "published": [
     {
@@ -1941,8 +1942,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260926_230200",
+      "topic": "perbandingan-otak-manusia-dan-gurita",
+      "title": "Otak Manusia vs Otak Gurita: Mana yang Lebih Cerdas? Fakta Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260926_230200_perbandingan-otak-manusia-dan-gurita/final.mp4",
+      "video_id": "B4djMtf7RMY",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 162,
-  "_voice_idx": 165
+  "_format_idx": 163,
+  "_voice_idx": 166
 }
