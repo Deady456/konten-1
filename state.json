@@ -175,7 +175,8 @@
     "fakta-mengejutkan-tentang-tubuh-manusia",
     "gelombang-gravitasi-pertama-terdeteksi",
     "perbandingan-otak-manusia-dan-gurita",
-    "mitos-menelan-lalat-setiap-malam"
+    "mitos-menelan-lalat-setiap-malam",
+    "mikroplastik-di-atmosfer"
   ],
   "published": [
     {
@@ -1963,8 +1964,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260927_230211",
+      "topic": "mikroplastik-di-atmosfer",
+      "title": "Mikroplastik Menguap di Udara: Bahaya Tak Terlihat yang Mengancam Kesehatan Kita",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260927_230211_mikroplastik-di-atmosfer/final.mp4",
+      "video_id": "dBA86jWacBY",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 164,
-  "_voice_idx": 167
+  "_format_idx": 165,
+  "_voice_idx": 168
 }
