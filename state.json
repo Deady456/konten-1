@@ -177,7 +177,8 @@
     "perbandingan-otak-manusia-dan-gurita",
     "mitos-menelan-lalat-setiap-malam",
     "mikroplastik-di-atmosfer",
-    "fakta-mikroba-awan-pengaruh-cuaca"
+    "fakta-mikroba-awan-pengaruh-cuaca",
+    "gravitasi-super-earth-vs-bulan"
   ],
   "published": [
     {
@@ -1985,8 +1986,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260928_230207",
+      "topic": "gravitasi-super-earth-vs-bulan",
+      "title": "Gravitasi Super Earth vs Bulan: Perbedaan Mengejutkan yang Membuat Anda Terpana",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260928_230207_gravitasi-super-earth-vs-bulan/final.mp4",
+      "video_id": "4jU0-5Zx3mM",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 166,
-  "_voice_idx": 169
+  "_format_idx": 167,
+  "_voice_idx": 170
 }
