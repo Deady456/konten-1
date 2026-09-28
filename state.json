@@ -176,7 +176,8 @@
     "gelombang-gravitasi-pertama-terdeteksi",
     "perbandingan-otak-manusia-dan-gurita",
     "mitos-menelan-lalat-setiap-malam",
-    "mikroplastik-di-atmosfer"
+    "mikroplastik-di-atmosfer",
+    "fakta-mikroba-awan-pengaruh-cuaca"
   ],
   "published": [
     {
@@ -1974,8 +1975,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260928_110212",
+      "topic": "fakta-mikroba-awan-pengaruh-cuaca",
+      "title": "Mikroba di Awan: Bagaimana Bakteri Mengendalikan Hujan dan Badai?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260928_110212_fakta-mikroba-awan-pengaruh-cuaca/final.mp4",
+      "video_id": "CAgXm-D-yqQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 165,
-  "_voice_idx": 168
+  "_format_idx": 166,
+  "_voice_idx": 169
 }
