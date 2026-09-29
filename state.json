@@ -178,7 +178,8 @@
     "mitos-menelan-lalat-setiap-malam",
     "mikroplastik-di-atmosfer",
     "fakta-mikroba-awan-pengaruh-cuaca",
-    "gravitasi-super-earth-vs-bulan"
+    "gravitasi-super-earth-vs-bulan",
+    "mitos-kucing-sembilan-nyawa"
   ],
   "published": [
     {
@@ -1996,8 +1997,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260929_110301",
+      "topic": "mitos-kucing-sembilan-nyawa",
+      "title": "Mitos Kucing Memiliki Sembilan Nyawa: Fakta Ilmiah yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260929_110301_mitos-kucing-sembilan-nyawa/final.mp4",
+      "video_id": "ngFU4PuDKX8",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 167,
-  "_voice_idx": 170
+  "_format_idx": 168,
+  "_voice_idx": 171
 }
