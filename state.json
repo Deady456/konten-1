@@ -181,7 +181,8 @@
     "gravitasi-super-earth-vs-bulan",
     "mitos-kucing-sembilan-nyawa",
     "magnetisme-otak-manusia",
-    "fakta-magnetisme-hiu-predator"
+    "fakta-magnetisme-hiu-predator",
+    "perbandingan-deinococcus-tardigrade"
   ],
   "published": [
     {
@@ -2029,8 +2030,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260930_230209",
+      "topic": "perbandingan-deinococcus-tardigrade",
+      "title": "Bakteri Super vs Beruang Air: Siapa Lebih Tahan Radiasi Mematikan?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260930_230209_perbandingan-deinococcus-tardigrade/final.mp4",
+      "video_id": "LaqIHaP8GVw",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 170,
-  "_voice_idx": 173
+  "_format_idx": 171,
+  "_voice_idx": 174
 }
