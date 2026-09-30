@@ -180,7 +180,8 @@
     "fakta-mikroba-awan-pengaruh-cuaca",
     "gravitasi-super-earth-vs-bulan",
     "mitos-kucing-sembilan-nyawa",
-    "magnetisme-otak-manusia"
+    "magnetisme-otak-manusia",
+    "fakta-magnetisme-hiu-predator"
   ],
   "published": [
     {
@@ -2018,8 +2019,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260930_110344",
+      "topic": "fakta-magnetisme-hiu-predator",
+      "title": "Bagaimana Hiu Menggunakan Listrik untuk Memburu \u2013 Fakta Sains yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20260930_110344_fakta-magnetisme-hiu-predator/final.mp4",
+      "video_id": "TImoddxz9WY",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 169,
-  "_voice_idx": 172
+  "_format_idx": 170,
+  "_voice_idx": 173
 }
