@@ -182,7 +182,8 @@
     "mitos-kucing-sembilan-nyawa",
     "magnetisme-otak-manusia",
     "fakta-magnetisme-hiu-predator",
-    "perbandingan-deinococcus-tardigrade"
+    "perbandingan-deinococcus-tardigrade",
+    "tembok-besar-angkasa-myth-busting"
   ],
   "published": [
     {
@@ -2040,8 +2041,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261001_110252",
+      "topic": "tembok-besar-angkasa-myth-busting",
+      "title": "Mitos Tembok Besar China Terlihat dari Luar Angkasa? Fakta Ilmiah yang Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261001_110252_tembok-besar-angkasa-myth-busting/final.mp4",
+      "video_id": "HgYBljPzzFk",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 171,
-  "_voice_idx": 174
+  "_format_idx": 172,
+  "_voice_idx": 175
 }
