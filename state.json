@@ -183,7 +183,8 @@
     "magnetisme-otak-manusia",
     "fakta-magnetisme-hiu-predator",
     "perbandingan-deinococcus-tardigrade",
-    "tembok-besar-angkasa-myth-busting"
+    "tembok-besar-angkasa-myth-busting",
+    "superkonduktor-suhu-tinggi"
   ],
   "published": [
     {
@@ -2051,8 +2052,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261002_110345",
+      "topic": "superkonduktor-suhu-tinggi",
+      "title": "Superkonduktor Suhu Tinggi: Revolusi Energi Tanpa Hambatan yang Akan Mengubah Dunia",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261002_110345_superkonduktor-suhu-tinggi/final.mp4",
+      "video_id": "fIssg1o0V0k",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 172,
-  "_voice_idx": 175
+  "_format_idx": 173,
+  "_voice_idx": 176
 }
