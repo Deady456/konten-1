@@ -184,7 +184,8 @@
     "fakta-magnetisme-hiu-predator",
     "perbandingan-deinococcus-tardigrade",
     "tembok-besar-angkasa-myth-busting",
-    "superkonduktor-suhu-tinggi"
+    "superkonduktor-suhu-tinggi",
+    "suara-misteri-bumi-earth-hum"
   ],
   "published": [
     {
@@ -2062,8 +2063,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261002_230311",
+      "topic": "suara-misteri-bumi-earth-hum",
+      "title": "Suara Misterius Bumi yang Tak Pernah Mati: Mengungkap Fenomena Earth\u2019s Hum",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261002_230311_suara-misteri-bumi-earth-hum/final.mp4",
+      "video_id": "K_u7WyKxXQk",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 173,
-  "_voice_idx": 176
+  "_format_idx": 174,
+  "_voice_idx": 177
 }
