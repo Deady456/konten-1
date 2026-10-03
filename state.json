@@ -186,7 +186,8 @@
     "tembok-besar-angkasa-myth-busting",
     "superkonduktor-suhu-tinggi",
     "suara-misteri-bumi-earth-hum",
-    "perbandingan-energi-letusan-tambora-dan-bom-atom"
+    "perbandingan-energi-letusan-tambora-dan-bom-atom",
+    "mitos-headphone-bising-pendengaran"
   ],
   "published": [
     {
@@ -2084,8 +2085,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261003_230225",
+      "topic": "mitos-headphone-bising-pendengaran",
+      "title": "Mitos Headphone Bising Bikin Tuli? Fakta Ilmiah yang Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261003_230225_mitos-headphone-bising-pendengaran/final.mp4",
+      "video_id": "sOGhIPKFsag",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 175,
-  "_voice_idx": 178
+  "_format_idx": 176,
+  "_voice_idx": 179
 }
