@@ -185,7 +185,8 @@
     "perbandingan-deinococcus-tardigrade",
     "tembok-besar-angkasa-myth-busting",
     "superkonduktor-suhu-tinggi",
-    "suara-misteri-bumi-earth-hum"
+    "suara-misteri-bumi-earth-hum",
+    "perbandingan-energi-letusan-tambora-dan-bom-atom"
   ],
   "published": [
     {
@@ -2073,8 +2074,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261003_110332",
+      "topic": "perbandingan-energi-letusan-tambora-dan-bom-atom",
+      "title": "Energi Letusan Tambora vs Bom Atom Hiroshima: Mana Lebih Menghancurkan?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261003_110332_perbandingan-energi-letusan-tambora-dan-bom-atom/final.mp4",
+      "video_id": "XqdSgTaVHPY",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 174,
-  "_voice_idx": 177
+  "_format_idx": 175,
+  "_voice_idx": 178
 }
