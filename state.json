@@ -188,7 +188,8 @@
     "suara-misteri-bumi-earth-hum",
     "perbandingan-energi-letusan-tambora-dan-bom-atom",
     "mitos-headphone-bising-pendengaran",
-    "bakteri-pengurai-plastik-bensin"
+    "bakteri-pengurai-plastik-bensin",
+    "aurora-merah-di-mars"
   ],
   "published": [
     {
@@ -2106,8 +2107,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261004_230219",
+      "topic": "aurora-merah-di-mars",
+      "title": "Misteri Aurora Merah di Langit Mars: Bagaimana Cahaya Kosmik Menari di Planet Merah?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261004_230219_aurora-merah-di-mars/final.mp4",
+      "video_id": "OhahZSUfXsw",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 177,
-  "_voice_idx": 180
+  "_format_idx": 178,
+  "_voice_idx": 181
 }
