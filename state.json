@@ -187,7 +187,8 @@
     "superkonduktor-suhu-tinggi",
     "suara-misteri-bumi-earth-hum",
     "perbandingan-energi-letusan-tambora-dan-bom-atom",
-    "mitos-headphone-bising-pendengaran"
+    "mitos-headphone-bising-pendengaran",
+    "bakteri-pengurai-plastik-bensin"
   ],
   "published": [
     {
@@ -2095,8 +2096,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261004_110220",
+      "topic": "bakteri-pengurai-plastik-bensin",
+      "title": "Bakteri Ajaib Mengubah Sampah Plastik Jadi Bensin? Fakta Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261004_110220_bakteri-pengurai-plastik-bensin/final.mp4",
+      "video_id": "Zr1rlOsmAe8",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 176,
-  "_voice_idx": 179
+  "_format_idx": 177,
+  "_voice_idx": 180
 }
