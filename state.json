@@ -190,7 +190,8 @@
     "mitos-headphone-bising-pendengaran",
     "bakteri-pengurai-plastik-bensin",
     "aurora-merah-di-mars",
-    "venus-vs-bumi-suhu-perbandingan"
+    "venus-vs-bumi-suhu-perbandingan",
+    "myth-busting-kucing-mendarat-pada-kaki"
   ],
   "published": [
     {
@@ -2128,8 +2129,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261005_230218",
+      "topic": "myth-busting-kucing-mendarat-pada-kaki",
+      "title": "Mitos Kucing Selalu Mendarat Pada Kaki? Fisika Ungkap Rahasianya!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261005_230218_myth-busting-kucing-mendarat-pada-kaki/final.mp4",
+      "video_id": "_u3foeQZnRg",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 179,
-  "_voice_idx": 182
+  "_format_idx": 180,
+  "_voice_idx": 183
 }
