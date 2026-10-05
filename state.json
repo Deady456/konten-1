@@ -189,7 +189,8 @@
     "perbandingan-energi-letusan-tambora-dan-bom-atom",
     "mitos-headphone-bising-pendengaran",
     "bakteri-pengurai-plastik-bensin",
-    "aurora-merah-di-mars"
+    "aurora-merah-di-mars",
+    "venus-vs-bumi-suhu-perbandingan"
   ],
   "published": [
     {
@@ -2117,8 +2118,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261005_110228",
+      "topic": "venus-vs-bumi-suhu-perbandingan",
+      "title": "Venus vs Bumi: Mengapa Planet Ini Lebih Panas Daripada Oven Industri?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261005_110228_venus-vs-bumi-suhu-perbandingan/final.mp4",
+      "video_id": "YKRI27VK7yQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 178,
-  "_voice_idx": 181
+  "_format_idx": 179,
+  "_voice_idx": 182
 }
