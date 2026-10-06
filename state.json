@@ -192,7 +192,8 @@
     "aurora-merah-di-mars",
     "venus-vs-bumi-suhu-perbandingan",
     "myth-busting-kucing-mendarat-pada-kaki",
-    "bakteri-penghasil-listrik-tanah"
+    "bakteri-penghasil-listrik-tanah",
+    "cahaya-bioluminescent-komunikasi-laut-dalam"
   ],
   "published": [
     {
@@ -2150,8 +2151,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261006_230208",
+      "topic": "cahaya-bioluminescent-komunikasi-laut-dalam",
+      "title": "Misteri Cahaya Bioluminescent: Bagaimana Makhluk Laut Dalam Berbicara dengan Sinar",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261006_230208_cahaya-bioluminescent-komunikasi-laut-dalam/final.mp4",
+      "video_id": "jyyFJH0vbRQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 181,
-  "_voice_idx": 184
+  "_format_idx": 182,
+  "_voice_idx": 185
 }
