@@ -191,7 +191,8 @@
     "bakteri-pengurai-plastik-bensin",
     "aurora-merah-di-mars",
     "venus-vs-bumi-suhu-perbandingan",
-    "myth-busting-kucing-mendarat-pada-kaki"
+    "myth-busting-kucing-mendarat-pada-kaki",
+    "bakteri-penghasil-listrik-tanah"
   ],
   "published": [
     {
@@ -2139,8 +2140,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261006_110313",
+      "topic": "bakteri-penghasil-listrik-tanah",
+      "title": "Bakteri Penghasil Listrik di Tanah: Bio\u2011Baterai Alami yang Mengubah Energi Bumi",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261006_110313_bakteri-penghasil-listrik-tanah/final.mp4",
+      "video_id": "br4gnG4uo9Q",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 180,
-  "_voice_idx": 183
+  "_format_idx": 181,
+  "_voice_idx": 184
 }
