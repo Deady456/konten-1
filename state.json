@@ -193,7 +193,8 @@
     "venus-vs-bumi-suhu-perbandingan",
     "myth-busting-kucing-mendarat-pada-kaki",
     "bakteri-penghasil-listrik-tanah",
-    "cahaya-bioluminescent-komunikasi-laut-dalam"
+    "cahaya-bioluminescent-komunikasi-laut-dalam",
+    "perbandingan-mata-manusia-dan-mantis-shrimp"
   ],
   "published": [
     {
@@ -2161,8 +2162,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261007_110158",
+      "topic": "perbandingan-mata-manusia-dan-mantis-shrimp",
+      "title": "Mata Manusia vs Mantis Shrimp: Pertarungan Warna yang Tak Terbayangkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261007_110158_perbandingan-mata-manusia-dan-mantis-shrimp/final.mp4",
+      "video_id": "igCXnnr14FY",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 182,
-  "_voice_idx": 185
+  "_format_idx": 183,
+  "_voice_idx": 186
 }
