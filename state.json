@@ -194,7 +194,8 @@
     "myth-busting-kucing-mendarat-pada-kaki",
     "bakteri-penghasil-listrik-tanah",
     "cahaya-bioluminescent-komunikasi-laut-dalam",
-    "perbandingan-mata-manusia-dan-mantis-shrimp"
+    "perbandingan-mata-manusia-dan-mantis-shrimp",
+    "mitos-permen-karet-tujuh-tahun"
   ],
   "published": [
     {
@@ -2172,8 +2173,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261007_230242",
+      "topic": "mitos-permen-karet-tujuh-tahun",
+      "title": "Mitos Permen Karet Tahan Tujuh Tahun di Perut? Fakta Ilmiah yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261007_230242_mitos-permen-karet-tujuh-tahun/final.mp4",
+      "video_id": "CdNR8M6RQ60",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 183,
-  "_voice_idx": 186
+  "_format_idx": 184,
+  "_voice_idx": 187
 }
