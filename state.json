@@ -196,7 +196,8 @@
     "cahaya-bioluminescent-komunikasi-laut-dalam",
     "perbandingan-mata-manusia-dan-mantis-shrimp",
     "mitos-permen-karet-tujuh-tahun",
-    "fakta-neutrino-dan-alam-semesta"
+    "fakta-neutrino-dan-alam-semesta",
+    "fakta-kuantum-entanglement-teleportasi"
   ],
   "published": [
     {
@@ -2194,8 +2195,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261008_230212",
+      "topic": "fakta-kuantum-entanglement-teleportasi",
+      "title": "Misteri Entanglement Kuantum: Bagaimana Partikel Berkomunikasi Jarak Jauh?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261008_230212_fakta-kuantum-entanglement-teleportasi/final.mp4",
+      "video_id": "aEQ3wjdB8CM",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 185,
-  "_voice_idx": 188
+  "_format_idx": 186,
+  "_voice_idx": 189
 }
