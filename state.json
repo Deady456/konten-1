@@ -195,7 +195,8 @@
     "bakteri-penghasil-listrik-tanah",
     "cahaya-bioluminescent-komunikasi-laut-dalam",
     "perbandingan-mata-manusia-dan-mantis-shrimp",
-    "mitos-permen-karet-tujuh-tahun"
+    "mitos-permen-karet-tujuh-tahun",
+    "fakta-neutrino-dan-alam-semesta"
   ],
   "published": [
     {
@@ -2183,8 +2184,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261008_110232",
+      "topic": "fakta-neutrino-dan-alam-semesta",
+      "title": "Fakta Mengejutkan tentang Neutrino: Partikel Hantu yang Mengubah Cara Kita Memahami Alam Sem...",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261008_110232_fakta-neutrino-dan-alam-semesta/final.mp4",
+      "video_id": "HA3YaZmsYFA",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 184,
-  "_voice_idx": 187
+  "_format_idx": 185,
+  "_voice_idx": 188
 }
