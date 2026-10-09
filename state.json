@@ -198,7 +198,8 @@
     "mitos-permen-karet-tujuh-tahun",
     "fakta-neutrino-dan-alam-semesta",
     "fakta-kuantum-entanglement-teleportasi",
-    "perbandingan-energi-kupu-kupu-dan-kolibri"
+    "perbandingan-energi-kupu-kupu-dan-kolibri",
+    "menelan-benang-laut-mitos"
   ],
   "published": [
     {
@@ -2216,8 +2217,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261009_230211",
+      "topic": "menelan-benang-laut-mitos",
+      "title": "Mitos Benang Laut Mengapung: Fakta Ilmiah yang Mengejutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261009_230211_menelan-benang-laut-mitos/final.mp4",
+      "video_id": "GA2d5chJ5aY",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 187,
-  "_voice_idx": 190
+  "_format_idx": 188,
+  "_voice_idx": 191
 }
