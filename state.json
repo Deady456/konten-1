@@ -197,7 +197,8 @@
     "perbandingan-mata-manusia-dan-mantis-shrimp",
     "mitos-permen-karet-tujuh-tahun",
     "fakta-neutrino-dan-alam-semesta",
-    "fakta-kuantum-entanglement-teleportasi"
+    "fakta-kuantum-entanglement-teleportasi",
+    "perbandingan-energi-kupu-kupu-dan-kolibri"
   ],
   "published": [
     {
@@ -2205,8 +2206,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261009_110221",
+      "topic": "perbandingan-energi-kupu-kupu-dan-kolibri",
+      "title": "Kupu\u2011Kupu vs Kolibri: Siapa yang Lebih Efisien Energi dalam Terbang?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261009_110221_perbandingan-energi-kupu-kupu-dan-kolibri/final.mp4",
+      "video_id": "ZIXjQhgOeis",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 186,
-  "_voice_idx": 189
+  "_format_idx": 187,
+  "_voice_idx": 190
 }
