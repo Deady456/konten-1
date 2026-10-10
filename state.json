@@ -199,7 +199,8 @@
     "fakta-neutrino-dan-alam-semesta",
     "fakta-kuantum-entanglement-teleportasi",
     "perbandingan-energi-kupu-kupu-dan-kolibri",
-    "menelan-benang-laut-mitos"
+    "menelan-benang-laut-mitos",
+    "eksoplanet-pasir-berkilau"
   ],
   "published": [
     {
@@ -2227,8 +2228,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261010_110307",
+      "topic": "eksoplanet-pasir-berkilau",
+      "title": "Eksoplanet Berpasir yang Mengkilau: Fakta Mengejutkan dari Kepler-156b",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261010_110307_eksoplanet-pasir-berkilau/final.mp4",
+      "video_id": "xUQzDfGa14k",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 188,
-  "_voice_idx": 191
+  "_format_idx": 189,
+  "_voice_idx": 192
 }
