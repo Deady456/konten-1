@@ -200,7 +200,8 @@
     "fakta-kuantum-entanglement-teleportasi",
     "perbandingan-energi-kupu-kupu-dan-kolibri",
     "menelan-benang-laut-mitos",
-    "eksoplanet-pasir-berkilau"
+    "eksoplanet-pasir-berkilau",
+    "parasit-zombie-jangkrik"
   ],
   "published": [
     {
@@ -2238,8 +2239,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261010_204548",
+      "topic": "parasit-zombie-jangkrik",
+      "title": "Parasit Zombie: Bagaimana Cacing Rambut Mengendalikan Jangkrik hingga Membuatnya Menyelam",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261010_204548_parasit-zombie-jangkrik/final.mp4",
+      "video_id": "4sdktScVSD8",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 189,
-  "_voice_idx": 192
+  "_format_idx": 190,
+  "_voice_idx": 193
 }
