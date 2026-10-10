@@ -201,7 +201,8 @@
     "perbandingan-energi-kupu-kupu-dan-kolibri",
     "menelan-benang-laut-mitos",
     "eksoplanet-pasir-berkilau",
-    "parasit-zombie-jangkrik"
+    "parasit-zombie-jangkrik",
+    "perbandingan-cordyceps-batrachochytrium"
   ],
   "published": [
     {
@@ -2249,8 +2250,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261010_230159",
+      "topic": "perbandingan-cordyceps-batrachochytrium",
+      "title": "Jamur Pengendali: Cordyceps pada Semut vs Batrachochytrium pada Katak \u2013 Pertarungan Biohoror",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261010_230159_perbandingan-cordyceps-batrachochytrium/final.mp4",
+      "video_id": "-gyuOip7pIQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 190,
-  "_voice_idx": 193
+  "_format_idx": 191,
+  "_voice_idx": 194
 }
