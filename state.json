@@ -203,7 +203,8 @@
     "eksoplanet-pasir-berkilau",
     "parasit-zombie-jangkrik",
     "perbandingan-cordyceps-batrachochytrium",
-    "myth-busting-parasit-zombie-tokso"
+    "myth-busting-parasit-zombie-tokso",
+    "parasitic-wasp-zombie"
   ],
   "published": [
     {
@@ -2271,8 +2272,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261011_230335",
+      "topic": "parasitic-wasp-zombie",
+      "title": "Misteri Tawon Zombie: Bagaimana Ulat Menjadi Pembunuh Tanpa Rasa",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261011_230335_parasitic-wasp-zombie/final.mp4",
+      "video_id": "jbmnLs5JrDI",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 192,
-  "_voice_idx": 195
+  "_format_idx": 193,
+  "_voice_idx": 196
 }
