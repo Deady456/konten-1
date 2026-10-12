@@ -204,7 +204,8 @@
     "parasit-zombie-jangkrik",
     "perbandingan-cordyceps-batrachochytrium",
     "myth-busting-parasit-zombie-tokso",
-    "parasitic-wasp-zombie"
+    "parasitic-wasp-zombie",
+    "tongue-eating-louse-fakta-horror"
   ],
   "published": [
     {
@@ -2282,8 +2283,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261012_110218",
+      "topic": "tongue-eating-louse-fakta-horror",
+      "title": "Kutu Laut yang Mencuri Lidah Ikan: Fakta Parasit Zombie yang Menakutkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261012_110218_tongue-eating-louse-fakta-horror/final.mp4",
+      "video_id": "IhdBgR_bjPE",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 193,
-  "_voice_idx": 196
+  "_format_idx": 194,
+  "_voice_idx": 197
 }
