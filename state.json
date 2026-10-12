@@ -205,7 +205,8 @@
     "perbandingan-cordyceps-batrachochytrium",
     "myth-busting-parasit-zombie-tokso",
     "parasitic-wasp-zombie",
-    "tongue-eating-louse-fakta-horror"
+    "tongue-eating-louse-fakta-horror",
+    "toxoplasma-vs-ophiocordyceps-mind-control"
   ],
   "published": [
     {
@@ -2293,8 +2294,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261012_230212",
+      "topic": "toxoplasma-vs-ophiocordyceps-mind-control",
+      "title": "Toxoplasma vs Jamur Zombie: Siapa yang Lebih Mengendalikan Otak?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261012_230212_toxoplasma-vs-ophiocordyceps-mind-control/final.mp4",
+      "video_id": "CR7M_H_znZo",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 194,
-  "_voice_idx": 197
+  "_format_idx": 195,
+  "_voice_idx": 198
 }
