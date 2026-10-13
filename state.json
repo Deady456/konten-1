@@ -206,7 +206,8 @@
     "myth-busting-parasit-zombie-tokso",
     "parasitic-wasp-zombie",
     "tongue-eating-louse-fakta-horror",
-    "toxoplasma-vs-ophiocordyceps-mind-control"
+    "toxoplasma-vs-ophiocordyceps-mind-control",
+    "parasitic-hairworm-katak-berair"
   ],
   "published": [
     {
@@ -2304,8 +2305,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261013_110211",
+      "topic": "parasitic-hairworm-katak-berair",
+      "title": "Myth BUSTING: Cacing Rambut yang Memaksa Katak Melompat ke Air, Fakta Mengejutkan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261013_110211_parasitic-hairworm-katak-berair/final.mp4",
+      "video_id": "iCLxpxO6OJI",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 195,
-  "_voice_idx": 198
+  "_format_idx": 196,
+  "_voice_idx": 199
 }
