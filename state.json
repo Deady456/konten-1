@@ -207,7 +207,8 @@
     "parasitic-wasp-zombie",
     "tongue-eating-louse-fakta-horror",
     "toxoplasma-vs-ophiocordyceps-mind-control",
-    "parasitic-hairworm-katak-berair"
+    "parasitic-hairworm-katak-berair",
+    "candiru-zombie-fish"
   ],
   "published": [
     {
@@ -2315,8 +2316,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261013_230216",
+      "topic": "candiru-zombie-fish",
+      "title": "Candiru: Parasitic Zombie Fish yang Menyerang Lubang Telinga Manusia di Amazon",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261013_230216_candiru-zombie-fish/final.mp4",
+      "video_id": "4PhM5Gd-YR4",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 196,
-  "_voice_idx": 199
+  "_format_idx": 197,
+  "_voice_idx": 200
 }
