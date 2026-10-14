@@ -208,7 +208,8 @@
     "tongue-eating-louse-fakta-horror",
     "toxoplasma-vs-ophiocordyceps-mind-control",
     "parasitic-hairworm-katak-berair",
-    "candiru-zombie-fish"
+    "candiru-zombie-fish",
+    "cacing-parasit-zombie-semuts"
   ],
   "published": [
     {
@@ -2326,8 +2327,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261014_110219",
+      "topic": "cacing-parasit-zombie-semuts",
+      "title": "Parasit Cacing Zombie: Bagaimana Dicrocoelium Dendriticum Mengendalikan Semut",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261014_110219_cacing-parasit-zombie-semuts/final.mp4",
+      "video_id": "CDzlwPg--mE",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 197,
-  "_voice_idx": 200
+  "_format_idx": 198,
+  "_voice_idx": 201
 }
