@@ -211,7 +211,8 @@
     "candiru-zombie-fish",
     "cacing-parasit-zombie-semuts",
     "perbandingan-pembaruan-tubuh-manusia-dan-axolotl",
-    "insensitivitas-nyeri-manusia"
+    "insensitivitas-nyeri-manusia",
+    "parasitic-flatworm-snail-brain"
   ],
   "published": [
     {
@@ -2359,8 +2360,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261015_230209",
+      "topic": "parasitic-flatworm-snail-brain",
+      "title": "Mata Siput yang Menjadi Lampu Berdenyut: Parasit Flatworm Paling Menyeramkan di Alam",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261015_230209_parasitic-flatworm-snail-brain/final.mp4",
+      "video_id": "HCXmLJic4Ac",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 200,
-  "_voice_idx": 203
+  "_format_idx": 201,
+  "_voice_idx": 204
 }
