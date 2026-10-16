@@ -213,7 +213,8 @@
     "perbandingan-pembaruan-tubuh-manusia-dan-axolotl",
     "insensitivitas-nyeri-manusia",
     "parasitic-flatworm-snail-brain",
-    "tardigrade-irradiation-survival"
+    "tardigrade-irradiation-survival",
+    "immortal-jellyfish-vs-naked-mole-rat"
   ],
   "published": [
     {
@@ -2381,8 +2382,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261016_230200",
+      "topic": "immortal-jellyfish-vs-naked-mole-rat",
+      "title": "Mana Lebih Menakjubkan? Immortal Jellyfish vs Naked Mole\u2011Rat, Rahasia Keabadian!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261016_230200_immortal-jellyfish-vs-naked-mole-rat/final.mp4",
+      "video_id": "BxDay4dS3bQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 202,
-  "_voice_idx": 205
+  "_format_idx": 203,
+  "_voice_idx": 206
 }
