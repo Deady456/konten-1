@@ -212,7 +212,8 @@
     "cacing-parasit-zombie-semuts",
     "perbandingan-pembaruan-tubuh-manusia-dan-axolotl",
     "insensitivitas-nyeri-manusia",
-    "parasitic-flatworm-snail-brain"
+    "parasitic-flatworm-snail-brain",
+    "tardigrade-irradiation-survival"
   ],
   "published": [
     {
@@ -2370,8 +2371,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261016_110200",
+      "topic": "tardigrade-irradiation-survival",
+      "title": "Tardigrade: Makhluk Mikro yang Bertahan di Inti Reaktor Nuklir \u2013 Fakta Sains Horor",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261016_110200_tardigrade-irradiation-survival/final.mp4",
+      "video_id": "OojRIy_0GMQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 201,
-  "_voice_idx": 204
+  "_format_idx": 202,
+  "_voice_idx": 205
 }
