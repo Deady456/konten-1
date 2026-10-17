@@ -214,7 +214,8 @@
     "insensitivitas-nyeri-manusia",
     "parasitic-flatworm-snail-brain",
     "tardigrade-irradiation-survival",
-    "immortal-jellyfish-vs-naked-mole-rat"
+    "immortal-jellyfish-vs-naked-mole-rat",
+    "mitos-otak-sepuluh-persen"
   ],
   "published": [
     {
@@ -2392,8 +2393,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261017_110157",
+      "topic": "mitos-otak-sepuluh-persen",
+      "title": "Mitos Otak Sepuluh Persen Terbongkar: Fakta Ilmiah yang Mengejutkan dan Menyeramkan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261017_110157_mitos-otak-sepuluh-persen/final.mp4",
+      "video_id": "VyCotFnxicM",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 203,
-  "_voice_idx": 206
+  "_format_idx": 204,
+  "_voice_idx": 207
 }
