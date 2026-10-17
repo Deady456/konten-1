@@ -215,7 +215,8 @@
     "parasitic-flatworm-snail-brain",
     "tardigrade-irradiation-survival",
     "immortal-jellyfish-vs-naked-mole-rat",
-    "mitos-otak-sepuluh-persen"
+    "mitos-otak-sepuluh-persen",
+    "parasit-ubah-tubuh-menjadi-senjata"
   ],
   "published": [
     {
@@ -2403,8 +2404,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261017_230216",
+      "topic": "parasit-ubah-tubuh-menjadi-senjata",
+      "title": "Parasit dan Mikroba yang Mengubah Tubuh Manusia Menjadi Senjata Mematikan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261017_230216_parasit-ubah-tubuh-menjadi-senjata/final.mp4",
+      "video_id": "AHxAjWcsnXo",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 204,
-  "_voice_idx": 207
+  "_format_idx": 205,
+  "_voice_idx": 208
 }
