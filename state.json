@@ -216,7 +216,8 @@
     "tardigrade-irradiation-survival",
     "immortal-jellyfish-vs-naked-mole-rat",
     "mitos-otak-sepuluh-persen",
-    "parasit-ubah-tubuh-menjadi-senjata"
+    "parasit-ubah-tubuh-menjadi-senjata",
+    "botfly-parasitic-cerita-horror"
   ],
   "published": [
     {
@@ -2414,8 +2415,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261018_110211",
+      "topic": "botfly-parasitic-cerita-horror",
+      "title": "Botfly: Parasitosis Menghantui Kulit Manusia yang Tak Terduga",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261018_110211_botfly-parasitic-cerita-horror/final.mp4",
+      "video_id": "PK9mbOtbil8",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 205,
-  "_voice_idx": 208
+  "_format_idx": 206,
+  "_voice_idx": 209
 }
