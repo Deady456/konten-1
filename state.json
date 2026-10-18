@@ -217,7 +217,8 @@
     "immortal-jellyfish-vs-naked-mole-rat",
     "mitos-otak-sepuluh-persen",
     "parasit-ubah-tubuh-menjadi-senjata",
-    "botfly-parasitic-cerita-horror"
+    "botfly-parasitic-cerita-horror",
+    "human-heart-vs-crocodile-heart"
   ],
   "published": [
     {
@@ -2425,8 +2426,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261018_230258",
+      "topic": "human-heart-vs-crocodile-heart",
+      "title": "Hati Manusia vs Hati Buaya: Mengapa Jantung Reptil Bisa Bertahan Lebih Lama?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261018_230258_human-heart-vs-crocodile-heart/final.mp4",
+      "video_id": "_hXN1-eGK1I",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 206,
-  "_voice_idx": 209
+  "_format_idx": 207,
+  "_voice_idx": 210
 }
