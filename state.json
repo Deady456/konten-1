@@ -218,7 +218,8 @@
     "mitos-otak-sepuluh-persen",
     "parasit-ubah-tubuh-menjadi-senjata",
     "botfly-parasitic-cerita-horror",
-    "human-heart-vs-crocodile-heart"
+    "human-heart-vs-crocodile-heart",
+    "parasitic-fluke-ant-control"
   ],
   "published": [
     {
@@ -2436,8 +2437,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261019_110225",
+      "topic": "parasitic-fluke-ant-control",
+      "title": "Mitos Semut Tak Pernah Naik Daun? Fakta Mengerikan Fluke Pengendali Otak",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261019_110225_parasitic-fluke-ant-control/final.mp4",
+      "video_id": "n7HJbrQOeTM",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 207,
-  "_voice_idx": 210
+  "_format_idx": 208,
+  "_voice_idx": 211
 }
