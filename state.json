@@ -219,7 +219,8 @@
     "parasit-ubah-tubuh-menjadi-senjata",
     "botfly-parasitic-cerita-horror",
     "human-heart-vs-crocodile-heart",
-    "parasitic-fluke-ant-control"
+    "parasitic-fluke-ant-control",
+    "mikroba-ruang-angkasa-mengerikan"
   ],
   "published": [
     {
@@ -2447,8 +2448,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261019_230231",
+      "topic": "mikroba-ruang-angkasa-mengerikan",
+      "title": "Mikroba Luar Angkasa yang Menantang Batas Kehidupan Manusia \u2013 Fakta Horor Sains Ekstrem",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261019_230231_mikroba-ruang-angkasa-mengerikan/final.mp4",
+      "video_id": "ImWhrMbcGO0",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 208,
-  "_voice_idx": 211
+  "_format_idx": 209,
+  "_voice_idx": 212
 }
