@@ -221,7 +221,8 @@
     "human-heart-vs-crocodile-heart",
     "parasitic-fluke-ant-control",
     "mikroba-ruang-angkasa-mengerikan",
-    "naegleria-fowleri-horror"
+    "naegleria-fowleri-horror",
+    "human-vs-deinococcus-radiodurans"
   ],
   "published": [
     {
@@ -2469,8 +2470,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261020_230220",
+      "topic": "human-vs-deinococcus-radiodurans",
+      "title": "Manusia vs Bakteri Super: Sel Kita Hanya Tahan Lima Gray, Mereka Tahan Lima Ratus Ribu Gray!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261020_230220_human-vs-deinococcus-radiodurans/final.mp4",
+      "video_id": "YK9h58N0YGA",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 210,
-  "_voice_idx": 213
+  "_format_idx": 211,
+  "_voice_idx": 214
 }
