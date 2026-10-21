@@ -223,7 +223,8 @@
     "mikroba-ruang-angkasa-mengerikan",
     "naegleria-fowleri-horror",
     "human-vs-deinococcus-radiodurans",
-    "fatal-familial-insomnia-myth-busting"
+    "fatal-familial-insomnia-myth-busting",
+    "zombie-parasitic-behavior-mengontrol-mangsa"
   ],
   "published": [
     {
@@ -2491,8 +2492,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261021_230235",
+      "topic": "zombie-parasitic-behavior-mengontrol-mangsa",
+      "title": "enam Parasitic Horror di Alam Liar yang Mengendalikan Otak Mangsa Seperti Zombie",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261021_230235_zombie-parasitic-behavior-mengontrol-mangsa/final.mp4",
+      "video_id": "NeR9a1DazFA",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 212,
-  "_voice_idx": 215
+  "_format_idx": 213,
+  "_voice_idx": 216
 }
