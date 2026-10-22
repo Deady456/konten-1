@@ -224,7 +224,8 @@
     "naegleria-fowleri-horror",
     "human-vs-deinococcus-radiodurans",
     "fatal-familial-insomnia-myth-busting",
-    "zombie-parasitic-behavior-mengontrol-mangsa"
+    "zombie-parasitic-behavior-mengontrol-mangsa",
+    "parasitic-barnacle-mengendalikan-kepiting"
   ],
   "published": [
     {
@@ -2502,8 +2503,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261022_110219",
+      "topic": "parasitic-barnacle-mengendalikan-kepiting",
+      "title": "Kepiting Zombie: Barnakel Sacculina Carcini Mengubah Ibu Palsu di Laut",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261022_110219_parasitic-barnacle-mengendalikan-kepiting/final.mp4",
+      "video_id": "zmF2KwaFTJM",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 213,
-  "_voice_idx": 216
+  "_format_idx": 214,
+  "_voice_idx": 217
 }
