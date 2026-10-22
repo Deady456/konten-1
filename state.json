@@ -225,7 +225,8 @@
     "human-vs-deinococcus-radiodurans",
     "fatal-familial-insomnia-myth-busting",
     "zombie-parasitic-behavior-mengontrol-mangsa",
-    "parasitic-barnacle-mengendalikan-kepiting"
+    "parasitic-barnacle-mengendalikan-kepiting",
+    "perbandingan-fluke-ant-dan-fungus-zombie"
   ],
   "published": [
     {
@@ -2513,8 +2514,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261022_230235",
+      "topic": "perbandingan-fluke-ant-dan-fungus-zombie",
+      "title": "Fluke Hati vs Jamur Zombie: Pertarungan Pengendali Otak di Alam Liar",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261022_230235_perbandingan-fluke-ant-dan-fungus-zombie/final.mp4",
+      "video_id": "Q_9yVuS1f9U",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 214,
-  "_voice_idx": 217
+  "_format_idx": 215,
+  "_voice_idx": 218
 }
