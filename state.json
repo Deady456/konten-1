@@ -226,7 +226,8 @@
     "fatal-familial-insomnia-myth-busting",
     "zombie-parasitic-behavior-mengontrol-mangsa",
     "parasitic-barnacle-mengendalikan-kepiting",
-    "perbandingan-fluke-ant-dan-fungus-zombie"
+    "perbandingan-fluke-ant-dan-fungus-zombie",
+    "protein-antibeku-manusia"
   ],
   "published": [
     {
@@ -2524,8 +2525,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261023_110228",
+      "topic": "protein-antibeku-manusia",
+      "title": "Myth BUSTING: Apakah Manusia Bisa Memiliki Protein Antibeku Seperti Ikan Kutub?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261023_110228_protein-antibeku-manusia/final.mp4",
+      "video_id": "T1hbXSB44ao",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 215,
-  "_voice_idx": 218
+  "_format_idx": 216,
+  "_voice_idx": 219
 }
