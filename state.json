@@ -227,7 +227,8 @@
     "zombie-parasitic-behavior-mengontrol-mangsa",
     "parasitic-barnacle-mengendalikan-kepiting",
     "perbandingan-fluke-ant-dan-fungus-zombie",
-    "protein-antibeku-manusia"
+    "protein-antibeku-manusia",
+    "myiasis-tumbu-kulit-horror"
   ],
   "published": [
     {
@@ -2535,8 +2536,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261023_230205",
+      "topic": "myiasis-tumbu-kulit-horror",
+      "title": "Tumbu Kulit Menghantui: Bagaimana Maggot Menjadi Sarang di Kulit Manusia",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261023_230205_myiasis-tumbu-kulit-horror/final.mp4",
+      "video_id": "yMtbi93ucjg",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 216,
-  "_voice_idx": 219
+  "_format_idx": 217,
+  "_voice_idx": 220
 }
