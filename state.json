@@ -228,7 +228,8 @@
     "parasitic-barnacle-mengendalikan-kepiting",
     "perbandingan-fluke-ant-dan-fungus-zombie",
     "protein-antibeku-manusia",
-    "myiasis-tumbu-kulit-horror"
+    "myiasis-tumbu-kulit-horror",
+    "cacing-guinea-penyebaran-mengerikan"
   ],
   "published": [
     {
@@ -2546,8 +2547,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261024_110215",
+      "topic": "cacing-guinea-penyebaran-mengerikan",
+      "title": "Misteri Mengerikan Cacing Guinea: Dari Air Tawar Hingga Kulitmu",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261024_110215_cacing-guinea-penyebaran-mengerikan/final.mp4",
+      "video_id": "Pi09NOiJe08",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 217,
-  "_voice_idx": 220
+  "_format_idx": 218,
+  "_voice_idx": 221
 }
