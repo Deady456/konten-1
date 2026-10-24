@@ -229,7 +229,8 @@
     "perbandingan-fluke-ant-dan-fungus-zombie",
     "protein-antibeku-manusia",
     "myiasis-tumbu-kulit-horror",
-    "cacing-guinea-penyebaran-mengerikan"
+    "cacing-guinea-penyebaran-mengerikan",
+    "human-heart-vs-electric-eel-heart"
   ],
   "published": [
     {
@@ -2557,8 +2558,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261024_230215",
+      "topic": "human-heart-vs-electric-eel-heart",
+      "title": "Jantung Manusia vs Jantung Belut Listrik: Dari Detak Normal hingga Kilovolt Mengguncang",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261024_230215_human-heart-vs-electric-eel-heart/final.mp4",
+      "video_id": "UETIDGawyhA",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 218,
-  "_voice_idx": 221
+  "_format_idx": 219,
+  "_voice_idx": 222
 }
