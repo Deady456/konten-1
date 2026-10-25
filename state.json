@@ -230,7 +230,8 @@
     "protein-antibeku-manusia",
     "myiasis-tumbu-kulit-horror",
     "cacing-guinea-penyebaran-mengerikan",
-    "human-heart-vs-electric-eel-heart"
+    "human-heart-vs-electric-eel-heart",
+    "fungi-spider-zombie"
   ],
   "published": [
     {
@@ -2568,8 +2569,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261025_110208",
+      "topic": "fungi-spider-zombie",
+      "title": "MYTH BUSTING: Spider Zombie Fungus \u2013 Fakta Mengejutkan di Balik Jaring Mati",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261025_110208_fungi-spider-zombie/final.mp4",
+      "video_id": "ZrYUO-o3HNo",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 219,
-  "_voice_idx": 222
+  "_format_idx": 220,
+  "_voice_idx": 223
 }
