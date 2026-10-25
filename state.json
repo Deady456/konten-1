@@ -231,7 +231,8 @@
     "myiasis-tumbu-kulit-horror",
     "cacing-guinea-penyebaran-mengerikan",
     "human-heart-vs-electric-eel-heart",
-    "fungi-spider-zombie"
+    "fungi-spider-zombie",
+    "vampire-bat-saliva-horror"
   ],
   "published": [
     {
@@ -2579,8 +2580,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261025_230227",
+      "topic": "vampire-bat-saliva-horror",
+      "title": "Kelelawar Vampir: Gigitan Mematikan yang Membekukan Darah dan Menyebarkan Rabies",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261025_230227_vampire-bat-saliva-horror/final.mp4",
+      "video_id": "1hiIMzz4KCU",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 220,
-  "_voice_idx": 223
+  "_format_idx": 221,
+  "_voice_idx": 224
 }
