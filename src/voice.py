@@ -73,8 +73,8 @@ def replace_numbers_id(text: str) -> str:
 # ============================================================
 # ShellShock AWS Constants (Gemini TTS)
 # ============================================================
-SHELLSHOCK_AWS_BASE     = "http://13.214.34.200:20128"
-SHELLSHOCK_AWS_KEY      = "sk-1f7d1788ce9c1aa7-qgi726-f1cb1818"
+SHELLSHOCK_AWS_BASE     = os.environ.get("NINEROUTER_URL", "https://router.otakai.cloud").rstrip("/")
+SHELLSHOCK_AWS_KEY      = os.environ.get("NINEROUTER_KEY") or os.environ.get("SHELLSHOCK_API_KEY", "")
 SHELLSHOCK_GEMINI_MODEL = "gemini/gemini-2.5-flash-preview-tts/Orus"
 
 
@@ -150,6 +150,9 @@ def _convert_wav_to_mp3(wav_bytes: bytes, out_path: Path) -> None:
 
 def _synth_shellshock_gemini_tts(text: str, out_path: Path) -> None:
     """PRIMARY: ShellShock AWS Gemini 2.5 Flash TTS."""
+    if not SHELLSHOCK_AWS_KEY:
+        raise RuntimeError("NINEROUTER_KEY or SHELLSHOCK_API_KEY is required")
+
     payload = json.dumps({
         "model": SHELLSHOCK_GEMINI_MODEL,
         "input": text,
