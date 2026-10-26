@@ -232,7 +232,8 @@
     "cacing-guinea-penyebaran-mengerikan",
     "human-heart-vs-electric-eel-heart",
     "fungi-spider-zombie",
-    "vampire-bat-saliva-horror"
+    "vampire-bat-saliva-horror",
+    "lancet-liver-fluke-ant-zombie"
   ],
   "published": [
     {
@@ -2590,8 +2591,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261026_110228",
+      "topic": "lancet-liver-fluke-ant-zombie",
+      "title": "Cacing Lancet yang Membuat Semut Jadi Zombie: Siklus Mengerikan di Alam Liar",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261026_110228_lancet-liver-fluke-ant-zombie/final.mp4",
+      "video_id": "k_XqKPLMJQQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 221,
-  "_voice_idx": 224
+  "_format_idx": 222,
+  "_voice_idx": 225
 }
