@@ -233,7 +233,8 @@
     "human-heart-vs-electric-eel-heart",
     "fungi-spider-zombie",
     "vampire-bat-saliva-horror",
-    "lancet-liver-fluke-ant-zombie"
+    "lancet-liver-fluke-ant-zombie",
+    "human-vs-octopus-brain"
   ],
   "published": [
     {
@@ -2601,8 +2602,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261026_230216",
+      "topic": "human-vs-octopus-brain",
+      "title": "Manusia vs Gurita: Pertarungan Otak Teraneh yang Bikin Merinding!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261026_230216_human-vs-octopus-brain/final.mp4",
+      "video_id": "el9HFjeqXYs",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 222,
-  "_voice_idx": 225
+  "_format_idx": 223,
+  "_voice_idx": 226
 }
