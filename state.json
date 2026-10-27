@@ -235,7 +235,8 @@
     "vampire-bat-saliva-horror",
     "lancet-liver-fluke-ant-zombie",
     "human-vs-octopus-brain",
-    "myth-busting-ophicordyceps-human"
+    "myth-busting-ophicordyceps-human",
+    "hymenoepimecis-spider-zombie"
   ],
   "published": [
     {
@@ -2623,8 +2624,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261027_230222",
+      "topic": "hymenoepimecis-spider-zombie",
+      "title": "Zombie Laba\u2011Laba: Bagaimana Wasp Hymenoepimecis Mengendalikan Jaringnya Secara Mengerikan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261027_230222_hymenoepimecis-spider-zombie/final.mp4",
+      "video_id": "kHePeCxIhSU",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 224,
-  "_voice_idx": 227
+  "_format_idx": 225,
+  "_voice_idx": 228
 }
