@@ -234,7 +234,8 @@
     "fungi-spider-zombie",
     "vampire-bat-saliva-horror",
     "lancet-liver-fluke-ant-zombie",
-    "human-vs-octopus-brain"
+    "human-vs-octopus-brain",
+    "myth-busting-ophicordyceps-human"
   ],
   "published": [
     {
@@ -2612,8 +2613,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261027_110241",
+      "topic": "myth-busting-ophicordyceps-human",
+      "title": "Myth BUSTING: Jamur Zombie Ant Tidak Bisa Mengendalikan Otak Manusia \u2013 Fakta Mengerikan!",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261027_110241_myth-busting-ophicordyceps-human/final.mp4",
+      "video_id": "upRzfdYRPB8",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 223,
-  "_voice_idx": 226
+  "_format_idx": 224,
+  "_voice_idx": 227
 }
