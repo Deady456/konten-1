@@ -237,7 +237,8 @@
     "human-vs-octopus-brain",
     "myth-busting-ophicordyceps-human",
     "hymenoepimecis-spider-zombie",
-    "zombie-ant-fungus-facts"
+    "zombie-ant-fungus-facts",
+    "pufferfish-vs-poison-dart-frog-toxin"
   ],
   "published": [
     {
@@ -2645,8 +2646,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261028_230225",
+      "topic": "pufferfish-vs-poison-dart-frog-toxin",
+      "title": "Pufferfish vs Katak Beracun: Racun Mana Lebih Mematikan Daripada Senjata Militer?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261028_230225_pufferfish-vs-poison-dart-frog-toxin/final.mp4",
+      "video_id": "hN-qDNP-9QQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 226,
-  "_voice_idx": 229
+  "_format_idx": 227,
+  "_voice_idx": 230
 }
