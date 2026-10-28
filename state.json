@@ -236,7 +236,8 @@
     "lancet-liver-fluke-ant-zombie",
     "human-vs-octopus-brain",
     "myth-busting-ophicordyceps-human",
-    "hymenoepimecis-spider-zombie"
+    "hymenoepimecis-spider-zombie",
+    "zombie-ant-fungus-facts"
   ],
   "published": [
     {
@@ -2634,8 +2635,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261028_110218",
+      "topic": "zombie-ant-fungus-facts",
+      "title": "Fakta Mengerikan: Bagaimana Jamur Zombie Mengendalikan Otak Semut di Hutan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261028_110218_zombie-ant-fungus-facts/final.mp4",
+      "video_id": "ThNP_bZMvs4",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 225,
-  "_voice_idx": 228
+  "_format_idx": 226,
+  "_voice_idx": 229
 }
