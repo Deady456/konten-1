@@ -239,7 +239,8 @@
     "hymenoepimecis-spider-zombie",
     "zombie-ant-fungus-facts",
     "pufferfish-vs-poison-dart-frog-toxin",
-    "hairy-frog-bone-breaking-horror"
+    "hairy-frog-bone-breaking-horror",
+    "tongue-eating-louse-fakta-horror"
   ],
   "published": [
     {
@@ -2667,8 +2668,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261029_230222",
+      "topic": "tongue-eating-louse-fakta-horror",
+      "title": "Louse Pengganti Lidah Ikan: Parasit Mengendalikan Mulut dan Membuatnya Hidup Tanpa Lidah",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261029_230222_tongue-eating-louse-fakta-horror/final.mp4",
+      "video_id": "uUPVo-1jwv8",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 228,
-  "_voice_idx": 231
+  "_format_idx": 229,
+  "_voice_idx": 232
 }
