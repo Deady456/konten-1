@@ -238,7 +238,8 @@
     "myth-busting-ophicordyceps-human",
     "hymenoepimecis-spider-zombie",
     "zombie-ant-fungus-facts",
-    "pufferfish-vs-poison-dart-frog-toxin"
+    "pufferfish-vs-poison-dart-frog-toxin",
+    "hairy-frog-bone-breaking-horror"
   ],
   "published": [
     {
@@ -2656,8 +2657,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261029_110204",
+      "topic": "hairy-frog-bone-breaking-horror",
+      "title": "MYTH BUSTING: Katak Berbulu Mematahkan Tulangnya \u2013 Fakta Mengerikan yang Terbukti",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261029_110204_hairy-frog-bone-breaking-horror/final.mp4",
+      "video_id": "w4i6RTgEOdM",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 227,
-  "_voice_idx": 230
+  "_format_idx": 228,
+  "_voice_idx": 231
 }
