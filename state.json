@@ -241,7 +241,8 @@
     "pufferfish-vs-poison-dart-frog-toxin",
     "hairy-frog-bone-breaking-horror",
     "tongue-eating-louse-fakta-horror",
-    "white-nose-syndrome-bats"
+    "white-nose-syndrome-bats",
+    "cone-snail-vs-giant-millipede"
   ],
   "published": [
     {
@@ -2689,8 +2690,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261030_230215",
+      "topic": "cone-snail-vs-giant-millipede",
+      "title": "Siput Berbisa vs Kelabang Raksasa: Senjata Mematikan yang Lebih Cepat daripada Racun Daratan",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261030_230215_cone-snail-vs-giant-millipede/final.mp4",
+      "video_id": "f10GrtggFcY",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 230,
-  "_voice_idx": 233
+  "_format_idx": 231,
+  "_voice_idx": 234
 }
