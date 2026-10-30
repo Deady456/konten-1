@@ -240,7 +240,8 @@
     "zombie-ant-fungus-facts",
     "pufferfish-vs-poison-dart-frog-toxin",
     "hairy-frog-bone-breaking-horror",
-    "tongue-eating-louse-fakta-horror"
+    "tongue-eating-louse-fakta-horror",
+    "white-nose-syndrome-bats"
   ],
   "published": [
     {
@@ -2678,8 +2679,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261030_110220",
+      "topic": "white-nose-syndrome-bats",
+      "title": "Misteri Jamur Pembunuh di Hutan Beku: Bagaimana 'White-Nose Syndrome' Mengubah Nasib Kelelawar",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261030_110220_white-nose-syndrome-bats/final.mp4",
+      "video_id": "lsHKGy4bEW4",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 229,
-  "_voice_idx": 232
+  "_format_idx": 230,
+  "_voice_idx": 233
 }
