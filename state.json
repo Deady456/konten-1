@@ -243,7 +243,8 @@
     "tongue-eating-louse-fakta-horror",
     "white-nose-syndrome-bats",
     "cone-snail-vs-giant-millipede",
-    "candiru-parasitic-horror"
+    "candiru-parasitic-horror",
+    "leucochloridium-paradoxum-snail-horror"
   ],
   "published": [
     {
@@ -2711,8 +2712,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261031_230321",
+      "topic": "leucochloridium-paradoxum-snail-horror",
+      "title": "Mata Siput Berdenyut Menyeramkan: Parasit Leucochloridium yang Mengubah Siput Jadi Lampu Puj...",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261031_230321_leucochloridium-paradoxum-snail-horror/final.mp4",
+      "video_id": "Z7vouRw3NqU",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 232,
-  "_voice_idx": 235
+  "_format_idx": 233,
+  "_voice_idx": 236
 }
