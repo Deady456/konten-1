@@ -242,7 +242,8 @@
     "hairy-frog-bone-breaking-horror",
     "tongue-eating-louse-fakta-horror",
     "white-nose-syndrome-bats",
-    "cone-snail-vs-giant-millipede"
+    "cone-snail-vs-giant-millipede",
+    "candiru-parasitic-horror"
   ],
   "published": [
     {
@@ -2700,8 +2701,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261031_110220",
+      "topic": "candiru-parasitic-horror",
+      "title": "Mitos Ikan Zombie Amazon: Fakta Mengejutkan Candiru yang Menembus Tubuh Manusia",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261031_110220_candiru-parasitic-horror/final.mp4",
+      "video_id": "gbacYGBuZCA",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 231,
-  "_voice_idx": 234
+  "_format_idx": 232,
+  "_voice_idx": 235
 }
