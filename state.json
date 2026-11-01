@@ -244,7 +244,8 @@
     "white-nose-syndrome-bats",
     "cone-snail-vs-giant-millipede",
     "candiru-parasitic-horror",
-    "leucochloridium-paradoxum-snail-horror"
+    "leucochloridium-paradoxum-snail-horror",
+    "tardigrade-keabadian-rasakan"
   ],
   "published": [
     {
@@ -2722,8 +2723,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261101_110210",
+      "topic": "tardigrade-keabadian-rasakan",
+      "title": "Keajaiban Tardigrade: Makhluk Mikroskopik yang Bisa Hidupkan Kembali Kematian",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261101_110210_tardigrade-keabadian-rasakan/final.mp4",
+      "video_id": "UmACoJSeIeE",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 233,
-  "_voice_idx": 236
+  "_format_idx": 234,
+  "_voice_idx": 237
 }
