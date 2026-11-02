@@ -246,7 +246,8 @@
     "candiru-parasitic-horror",
     "leucochloridium-paradoxum-snail-horror",
     "tardigrade-keabadian-rasakan",
-    "perbandingan-perut-manusia-dan-burung-nadar"
+    "perbandingan-perut-manusia-dan-burung-nadar",
+    "toxoplasma-parasite-myth-busting"
   ],
   "published": [
     {
@@ -2744,8 +2745,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261102_110220",
+      "topic": "toxoplasma-parasite-myth-busting",
+      "title": "MYTH BUSTING: Toxoplasma Gondii \u2013 Parasite yang Diklaim Membuat Manusia Jadi Zombie?",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261102_110220_toxoplasma-parasite-myth-busting/final.mp4",
+      "video_id": "fqjapfmWanE",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 235,
-  "_voice_idx": 238
+  "_format_idx": 236,
+  "_voice_idx": 239
 }
