@@ -247,7 +247,8 @@
     "leucochloridium-paradoxum-snail-horror",
     "tardigrade-keabadian-rasakan",
     "perbandingan-perut-manusia-dan-burung-nadar",
-    "toxoplasma-parasite-myth-busting"
+    "toxoplasma-parasite-myth-busting",
+    "electric-eel-shock-horror"
   ],
   "published": [
     {
@@ -2755,8 +2756,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261102_230226",
+      "topic": "electric-eel-shock-horror",
+      "title": "Kekuatan Listrik Alami Belut Elektrik: Ancaman Mematikan yang Membuat Kulit Anda Berkeringat",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261102_230226_electric-eel-shock-horror/final.mp4",
+      "video_id": "UT7HautYh9w",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 236,
-  "_voice_idx": 239
+  "_format_idx": 237,
+  "_voice_idx": 240
 }
