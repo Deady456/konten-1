@@ -248,7 +248,8 @@
     "tardigrade-keabadian-rasakan",
     "perbandingan-perut-manusia-dan-burung-nadar",
     "toxoplasma-parasite-myth-busting",
-    "electric-eel-shock-horror"
+    "electric-eel-shock-horror",
+    "glyptapanteles-wasp-caterpillar-zombie"
   ],
   "published": [
     {
@@ -2766,8 +2767,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261103_110212",
+      "topic": "glyptapanteles-wasp-caterpillar-zombie",
+      "title": "Zombie Ulatt: Bagaimana Tawon Glyptapanteles Mengubah Ulat Jadi Penjaga Hidup",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261103_110212_glyptapanteles-wasp-caterpillar-zombie/final.mp4",
+      "video_id": "qwgSdOTbiNY",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 237,
-  "_voice_idx": 240
+  "_format_idx": 238,
+  "_voice_idx": 241
 }
