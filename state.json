@@ -250,7 +250,8 @@
     "toxoplasma-parasite-myth-busting",
     "electric-eel-shock-horror",
     "glyptapanteles-wasp-caterpillar-zombie",
-    "mata-manusia-vs-udang-mantis-visual-horror"
+    "mata-manusia-vs-udang-mantis-visual-horror",
+    "shark-sterilizing-barnacle-anelasma"
   ],
   "published": [
     {
@@ -2788,8 +2789,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261104_230250",
+      "topic": "shark-sterilizing-barnacle-anelasma",
+      "title": "MYTH BUSTING: Hantu di Punggung Hiu? Barnacle Anelasma Membunuh Reproduksi Predator Laut",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261104_230250_shark-sterilizing-barnacle-anelasma/final.mp4",
+      "video_id": "PHQQ_KT4zcc",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 239,
-  "_voice_idx": 242
+  "_format_idx": 240,
+  "_voice_idx": 243
 }
