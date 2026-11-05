@@ -251,7 +251,8 @@
     "electric-eel-shock-horror",
     "glyptapanteles-wasp-caterpillar-zombie",
     "mata-manusia-vs-udang-mantis-visual-horror",
-    "shark-sterilizing-barnacle-anelasma"
+    "shark-sterilizing-barnacle-anelasma",
+    "cockroach-zombie-wasp-horror"
   ],
   "published": [
     {
@@ -2799,8 +2800,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261105_110224",
+      "topic": "cockroach-zombie-wasp-horror",
+      "title": "Wasp Zombie Mengendalikan Kecoanya: Rahasia Mengerikan Alam Liar",
+      "path": "/home/runner/work/konten-1/konten-1/output/20261105_110224_cockroach-zombie-wasp-horror/final.mp4",
+      "video_id": "8oadmxRbMdY",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 240,
-  "_voice_idx": 243
+  "_format_idx": 241,
+  "_voice_idx": 244
 }
